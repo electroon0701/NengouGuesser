@@ -1,0 +1,3548 @@
+[
+  {
+    "id": "q001",
+    "event": "ハンムラビ王の即位",
+    "era": "BCE",
+    "year": 1792,
+    "note": "",
+    "category": "世界史"
+  },
+  {
+    "id": "q002",
+    "event": "アメンホテプ４世の即位",
+    "era": "BCE",
+    "year": 1351,
+    "note": "",
+    "category": "世界史"
+  },
+  {
+    "id": "q003",
+    "event": "ダヴィデ王の即位",
+    "era": "BCE",
+    "year": 1003,
+    "note": "",
+    "category": "世界史"
+  },
+  {
+    "id": "q004",
+    "event": "アッシリアの滅亡",
+    "era": "BCE",
+    "year": 612,
+    "note": "",
+    "category": "世界史"
+  },
+  {
+    "id": "q005",
+    "event": "アケメネス朝の統一",
+    "era": "BCE",
+    "year": 525,
+    "note": "",
+    "category": "世界史"
+  },
+  {
+    "id": "q006",
+    "event": "マラトンの戦い",
+    "era": "BCE",
+    "year": 490,
+    "note": "",
+    "category": "世界史"
+  },
+  {
+    "id": "q007",
+    "event": "ペロポネソス戦争",
+    "era": "BCE",
+    "year": 431,
+    "note": "",
+    "category": "世界史"
+  },
+  {
+    "id": "q008",
+    "event": "イッソスの戦い",
+    "era": "BCE",
+    "year": 333,
+    "note": "",
+    "category": "世界史"
+  },
+  {
+    "id": "q009",
+    "event": "マウリヤ朝の成立",
+    "era": "BCE",
+    "year": 317,
+    "note": "",
+    "category": "世界史"
+  },
+  {
+    "id": "q010",
+    "event": "ポエニ戦争",
+    "era": "BCE",
+    "year": 264,
+    "note": "",
+    "category": "世界史"
+  },
+  {
+    "id": "q011",
+    "event": "パルティアの建国",
+    "era": "BCE",
+    "year": 248,
+    "note": "",
+    "category": "世界史"
+  },
+  {
+    "id": "q012",
+    "event": "秦の始皇帝",
+    "era": "BCE",
+    "year": 221,
+    "note": "",
+    "category": "世界史"
+  },
+  {
+    "id": "q013",
+    "event": "前漢の成立",
+    "era": "BCE",
+    "year": 202,
+    "note": "",
+    "category": "世界史"
+  },
+  {
+    "id": "q014",
+    "event": "前漢武帝の即位",
+    "era": "BCE",
+    "year": 141,
+    "note": "",
+    "category": "世界史"
+  },
+  {
+    "id": "q015",
+    "event": "カエサルの独裁",
+    "era": "BCE",
+    "year": 44,
+    "note": "",
+    "category": "世界史"
+  },
+  {
+    "id": "q016",
+    "event": "アクティウムの海戦",
+    "era": "BCE",
+    "year": 31,
+    "note": "",
+    "category": "世界史"
+  },
+  {
+    "id": "q017",
+    "event": "後漢の成立",
+    "era": "CE",
+    "year": 25,
+    "note": "",
+    "category": "世界史"
+  },
+  {
+    "id": "q018",
+    "event": "五賢帝時代の始まり",
+    "era": "CE",
+    "year": 96,
+    "note": "",
+    "category": "世界史"
+  },
+  {
+    "id": "q019",
+    "event": "帥升、生口献上",
+    "era": "CE",
+    "year": 107,
+    "note": "",
+    "category": "日本史"
+  },
+  {
+    "id": "q020",
+    "event": "カニシカ王の即位",
+    "era": "CE",
+    "year": 130,
+    "note": "",
+    "category": "世界史"
+  },
+  {
+    "id": "q021",
+    "event": "黄巾の乱",
+    "era": "CE",
+    "year": 184,
+    "note": "",
+    "category": "世界史"
+  },
+  {
+    "id": "q022",
+    "event": "チャンパーの独立",
+    "era": "CE",
+    "year": 192,
+    "note": "",
+    "category": "世界史"
+  },
+  {
+    "id": "q023",
+    "event": "ササン朝の成立",
+    "era": "CE",
+    "year": 224,
+    "note": "",
+    "category": "世界史"
+  },
+  {
+    "id": "q024",
+    "event": "軍人皇帝時代の始まり",
+    "era": "CE",
+    "year": 235,
+    "note": "",
+    "category": "世界史"
+  },
+  {
+    "id": "q025",
+    "event": "ミラノ勅令",
+    "era": "CE",
+    "year": 313,
+    "note": "",
+    "category": "世界史"
+  },
+  {
+    "id": "q026",
+    "event": "グプタ朝の成立",
+    "era": "CE",
+    "year": 320,
+    "note": "",
+    "category": "世界史"
+  },
+  {
+    "id": "q027",
+    "event": "ゲルマン人の大移動",
+    "era": "CE",
+    "year": 375,
+    "note": "",
+    "category": "世界史"
+  },
+  {
+    "id": "q028",
+    "event": "倭の朝鮮進出",
+    "era": "CE",
+    "year": 391,
+    "note": "",
+    "category": "世界史"
+  },
+  {
+    "id": "q029",
+    "event": "西ローマ帝国の滅亡",
+    "era": "CE",
+    "year": 476,
+    "note": "",
+    "category": "世界史"
+  },
+  {
+    "id": "q030",
+    "event": "倭王武、宋に上表文",
+    "era": "CE",
+    "year": 478,
+    "note": "",
+    "category": "日本史"
+  },
+  {
+    "id": "q031",
+    "event": "大伴金村、伽耶を割譲",
+    "era": "CE",
+    "year": 512,
+    "note": "",
+    "category": "日本史"
+  },
+  {
+    "id": "q032",
+    "event": "磐井の乱",
+    "era": "CE",
+    "year": 527,
+    "note": "",
+    "category": "日本史"
+  },
+  {
+    "id": "q033",
+    "event": "ユスティニアヌス帝即位",
+    "era": "CE",
+    "year": 527,
+    "note": "",
+    "category": "世界史"
+  },
+  {
+    "id": "q034",
+    "event": "突厥の成立",
+    "era": "CE",
+    "year": 552,
+    "note": "",
+    "category": "世界史"
+  },
+  {
+    "id": "q035",
+    "event": "隋の中国統一",
+    "era": "CE",
+    "year": 589,
+    "note": "",
+    "category": "世界史"
+  },
+  {
+    "id": "q036",
+    "event": "厩戸王、摂政就任",
+    "era": "CE",
+    "year": 593,
+    "note": "",
+    "category": "日本史"
+  },
+  {
+    "id": "q037",
+    "event": "唐の成立",
+    "era": "CE",
+    "year": 618,
+    "note": "",
+    "category": "世界史"
+  },
+  {
+    "id": "q038",
+    "event": "ヒジュラ",
+    "era": "CE",
+    "year": 622,
+    "note": "",
+    "category": "世界史"
+  },
+  {
+    "id": "q039",
+    "event": "ニハーヴァンドの戦い",
+    "era": "CE",
+    "year": 642,
+    "note": "",
+    "category": "世界史"
+  },
+  {
+    "id": "q040",
+    "event": "ウマイヤ朝の成立",
+    "era": "CE",
+    "year": 661,
+    "note": "",
+    "category": "世界史"
+  },
+  {
+    "id": "q041",
+    "event": "壬申の乱",
+    "era": "CE",
+    "year": 672,
+    "note": "",
+    "category": "日本史"
+  },
+  {
+    "id": "q042",
+    "event": "和同開珎の鋳造",
+    "era": "CE",
+    "year": 708,
+    "note": "",
+    "category": "日本史"
+  },
+  {
+    "id": "q043",
+    "event": "聖像禁止令",
+    "era": "CE",
+    "year": 726,
+    "note": "",
+    "category": "世界史"
+  },
+  {
+    "id": "q044",
+    "event": "長屋王の変",
+    "era": "CE",
+    "year": 729,
+    "note": "",
+    "category": "日本史"
+  },
+  {
+    "id": "q045",
+    "event": "トゥール・ポワティエ間",
+    "era": "CE",
+    "year": 732,
+    "note": "",
+    "category": "世界史"
+  },
+  {
+    "id": "q046",
+    "event": "藤原広嗣の乱",
+    "era": "CE",
+    "year": 740,
+    "note": "",
+    "category": "日本史"
+  },
+  {
+    "id": "q047",
+    "event": "ウイグルの成立",
+    "era": "CE",
+    "year": 744,
+    "note": "",
+    "category": "世界史"
+  },
+  {
+    "id": "q048",
+    "event": "アッバース朝の成立",
+    "era": "CE",
+    "year": 750,
+    "note": "",
+    "category": "世界史"
+  },
+  {
+    "id": "q049",
+    "event": "カロリング朝の成立",
+    "era": "CE",
+    "year": 751,
+    "note": "",
+    "category": "世界史"
+  },
+  {
+    "id": "q050",
+    "event": "安史の乱",
+    "era": "CE",
+    "year": 755,
+    "note": "",
+    "category": "世界史"
+  },
+  {
+    "id": "q051",
+    "event": "後ウマイヤ朝の成立",
+    "era": "CE",
+    "year": 756,
+    "note": "",
+    "category": "世界史"
+  },
+  {
+    "id": "q052",
+    "event": "橘奈良麻呂の乱",
+    "era": "CE",
+    "year": 757,
+    "note": "",
+    "category": "日本史"
+  },
+  {
+    "id": "q053",
+    "event": "恵美押勝の乱",
+    "era": "CE",
+    "year": 764,
+    "note": "",
+    "category": "日本史"
+  },
+  {
+    "id": "q054",
+    "event": "長岡京遷都",
+    "era": "CE",
+    "year": 784,
+    "note": "",
+    "category": "日本史"
+  },
+  {
+    "id": "q055",
+    "event": "胆沢城設置",
+    "era": "CE",
+    "year": 802,
+    "note": "",
+    "category": "日本史"
+  },
+  {
+    "id": "q056",
+    "event": "蔵人頭設置",
+    "era": "CE",
+    "year": 810,
+    "note": "",
+    "category": "日本史"
+  },
+  {
+    "id": "q057",
+    "event": "承和の変",
+    "era": "CE",
+    "year": 842,
+    "note": "",
+    "category": "日本史"
+  },
+  {
+    "id": "q058",
+    "event": "ヴェルダン条約",
+    "era": "CE",
+    "year": 843,
+    "note": "",
+    "category": "世界史"
+  },
+  {
+    "id": "q059",
+    "event": "藤原良房、摂政就任",
+    "era": "CE",
+    "year": 858,
+    "note": "",
+    "category": "日本史"
+  },
+  {
+    "id": "q060",
+    "event": "応天門の変",
+    "era": "CE",
+    "year": 866,
+    "note": "",
+    "category": "日本史"
+  },
+  {
+    "id": "q061",
+    "event": "藤原基経、関白就任",
+    "era": "CE",
+    "year": 884,
+    "note": "",
+    "category": "日本史"
+  },
+  {
+    "id": "q062",
+    "event": "延喜の荘園整理令",
+    "era": "CE",
+    "year": 902,
+    "note": "",
+    "category": "日本史"
+  },
+  {
+    "id": "q063",
+    "event": "唐の滅亡",
+    "era": "CE",
+    "year": 907,
+    "note": "",
+    "category": "世界史"
+  },
+  {
+    "id": "q064",
+    "event": "ファーティマ朝の成立",
+    "era": "CE",
+    "year": 909,
+    "note": "",
+    "category": "世界史"
+  },
+  {
+    "id": "q065",
+    "event": "ノルマンディー公国",
+    "era": "CE",
+    "year": 911,
+    "note": "",
+    "category": "世界史"
+  },
+  {
+    "id": "q066",
+    "event": "遼の建国",
+    "era": "CE",
+    "year": 916,
+    "note": "",
+    "category": "世界史"
+  },
+  {
+    "id": "q067",
+    "event": "カラハン朝の成立",
+    "era": "CE",
+    "year": 940,
+    "note": "",
+    "category": "世界史"
+  },
+  {
+    "id": "q068",
+    "event": "北宋の成立",
+    "era": "CE",
+    "year": 960,
+    "note": "",
+    "category": "世界史"
+  },
+  {
+    "id": "q069",
+    "event": "神聖ローマ帝国",
+    "era": "CE",
+    "year": 962,
+    "note": "",
+    "category": "世界史"
+  },
+  {
+    "id": "q070",
+    "event": "安和の変",
+    "era": "CE",
+    "year": 969,
+    "note": "",
+    "category": "日本史"
+  },
+  {
+    "id": "q071",
+    "event": "カペー朝の成立",
+    "era": "CE",
+    "year": 987,
+    "note": "",
+    "category": "世界史"
+  },
+  {
+    "id": "q072",
+    "event": "ウラディミル、正教改宗",
+    "era": "CE",
+    "year": 988,
+    "note": "",
+    "category": "世界史"
+  },
+  {
+    "id": "q073",
+    "event": "澶淵の盟",
+    "era": "CE",
+    "year": 1004,
+    "note": "",
+    "category": "世界史"
+  },
+  {
+    "id": "q074",
+    "event": "クヌートイギリス征服",
+    "era": "CE",
+    "year": 1016,
+    "note": "",
+    "category": "世界史"
+  },
+  {
+    "id": "q075",
+    "event": "藤原道長の摂政就任",
+    "era": "CE",
+    "year": 1016,
+    "note": "",
+    "category": "日本史"
+  },
+  {
+    "id": "q076",
+    "event": "刀伊の入寇",
+    "era": "CE",
+    "year": 1019,
+    "note": "",
+    "category": "日本史"
+  },
+  {
+    "id": "q077",
+    "event": "平忠常の乱",
+    "era": "CE",
+    "year": 1028,
+    "note": "",
+    "category": "日本史"
+  },
+  {
+    "id": "q078",
+    "event": "パガン朝の成立",
+    "era": "CE",
+    "year": 1044,
+    "note": "",
+    "category": "世界史"
+  },
+  {
+    "id": "q079",
+    "event": "キリスト教会の東西分裂",
+    "era": "CE",
+    "year": 1054,
+    "note": "",
+    "category": "世界史"
+  },
+  {
+    "id": "q080",
+    "event": "ムラービト朝の成立",
+    "era": "CE",
+    "year": 1056,
+    "note": "",
+    "category": "世界史"
+  },
+  {
+    "id": "q081",
+    "event": "ノルマン征服",
+    "era": "CE",
+    "year": 1066,
+    "note": "",
+    "category": "世界史"
+  },
+  {
+    "id": "q082",
+    "event": "延久の荘園整理令",
+    "era": "CE",
+    "year": 1069,
+    "note": "",
+    "category": "日本史"
+  },
+  {
+    "id": "q083",
+    "event": "王安石の改革",
+    "era": "CE",
+    "year": 1069,
+    "note": "",
+    "category": "世界史"
+  },
+  {
+    "id": "q084",
+    "event": "マンジケルトの戦い",
+    "era": "CE",
+    "year": 1071,
+    "note": "",
+    "category": "世界史"
+  },
+  {
+    "id": "q085",
+    "event": "カノッサの屈辱",
+    "era": "CE",
+    "year": 1077,
+    "note": "",
+    "category": "世界史"
+  },
+  {
+    "id": "q086",
+    "event": "白河上皇の院政開始",
+    "era": "CE",
+    "year": 1086,
+    "note": "",
+    "category": "日本史"
+  },
+  {
+    "id": "q087",
+    "event": "十字軍の開始",
+    "era": "CE",
+    "year": 1096,
+    "note": "",
+    "category": "世界史"
+  },
+  {
+    "id": "q088",
+    "event": "靖康の変",
+    "era": "CE",
+    "year": 1126,
+    "note": "",
+    "category": "世界史"
+  },
+  {
+    "id": "q089",
+    "event": "プランタジネット朝",
+    "era": "CE",
+    "year": 1154,
+    "note": "",
+    "category": "世界史"
+  },
+  {
+    "id": "q090",
+    "event": "平治の乱",
+    "era": "CE",
+    "year": 1159,
+    "note": "",
+    "category": "日本史"
+  },
+  {
+    "id": "q091",
+    "event": "平清盛、太政大臣へ",
+    "era": "CE",
+    "year": 1167,
+    "note": "",
+    "category": "日本史"
+  },
+  {
+    "id": "q092",
+    "event": "アイユーブ朝の成立",
+    "era": "CE",
+    "year": 1169,
+    "note": "",
+    "category": "世界史"
+  },
+  {
+    "id": "q093",
+    "event": "源頼朝の挙兵",
+    "era": "CE",
+    "year": 1180,
+    "note": "",
+    "category": "日本史"
+  },
+  {
+    "id": "q094",
+    "event": "チンギス＝ハンの即位",
+    "era": "CE",
+    "year": 1206,
+    "note": "",
+    "category": "世界史"
+  },
+  {
+    "id": "q095",
+    "event": "和田合戦",
+    "era": "CE",
+    "year": 1213,
+    "note": "",
+    "category": "日本史"
+  },
+  {
+    "id": "q096",
+    "event": "大憲章発布",
+    "era": "CE",
+    "year": 1215,
+    "note": "",
+    "category": "世界史"
+  },
+  {
+    "id": "q097",
+    "event": "御成敗（貞永）式目",
+    "era": "CE",
+    "year": 1232,
+    "note": "",
+    "category": "日本史"
+  },
+  {
+    "id": "q098",
+    "event": "ワールシュタットの戦い",
+    "era": "CE",
+    "year": 1241,
+    "note": "",
+    "category": "世界史"
+  },
+  {
+    "id": "q099",
+    "event": "宝治合戦",
+    "era": "CE",
+    "year": 1247,
+    "note": "",
+    "category": "日本史"
+  },
+  {
+    "id": "q100",
+    "event": "マムルーク朝の成立",
+    "era": "CE",
+    "year": 1250,
+    "note": "",
+    "category": "世界史"
+  },
+  {
+    "id": "q101",
+    "event": "イギリス議会の発展",
+    "era": "CE",
+    "year": 1265,
+    "note": "",
+    "category": "世界史"
+  },
+  {
+    "id": "q102",
+    "event": "元の建国",
+    "era": "CE",
+    "year": 1271,
+    "note": "",
+    "category": "世界史"
+  },
+  {
+    "id": "q103",
+    "event": "文永・弘安の役",
+    "era": "CE",
+    "year": 1274,
+    "note": "",
+    "category": "日本史"
+  },
+  {
+    "id": "q104",
+    "event": "霜月騒動",
+    "era": "CE",
+    "year": 1285,
+    "note": "",
+    "category": "日本史"
+  },
+  {
+    "id": "q105",
+    "event": "永仁の徳政令",
+    "era": "CE",
+    "year": 1297,
+    "note": "",
+    "category": "日本史"
+  },
+  {
+    "id": "q106",
+    "event": "オスマン帝国の成立",
+    "era": "CE",
+    "year": 1299,
+    "note": "",
+    "category": "世界史"
+  },
+  {
+    "id": "q107",
+    "event": "アナーニ事件",
+    "era": "CE",
+    "year": 1303,
+    "note": "",
+    "category": "世界史"
+  },
+  {
+    "id": "q108",
+    "event": "ヴィジャヤナガル王国",
+    "era": "CE",
+    "year": 1336,
+    "note": "",
+    "category": "世界史"
+  },
+  {
+    "id": "q109",
+    "event": "百年戦争始まる",
+    "era": "CE",
+    "year": 1339,
+    "note": "",
+    "category": "世界史"
+  },
+  {
+    "id": "q110",
+    "event": "アユタヤ朝の成立",
+    "era": "CE",
+    "year": 1351,
+    "note": "",
+    "category": "世界史"
+  },
+  {
+    "id": "q111",
+    "event": "半済令",
+    "era": "CE",
+    "year": 1352,
+    "note": "",
+    "category": "世界史"
+  },
+  {
+    "id": "q112",
+    "event": "金印勅書の発布",
+    "era": "CE",
+    "year": 1356,
+    "note": "",
+    "category": "世界史"
+  },
+  {
+    "id": "q113",
+    "event": "明の成立",
+    "era": "CE",
+    "year": 1368,
+    "note": "",
+    "category": "世界史"
+  },
+  {
+    "id": "q114",
+    "event": "ティムール朝の成立",
+    "era": "CE",
+    "year": 1370,
+    "note": "",
+    "category": "世界史"
+  },
+  {
+    "id": "q115",
+    "event": "明徳の乱",
+    "era": "CE",
+    "year": 1391,
+    "note": "",
+    "category": "日本史"
+  },
+  {
+    "id": "q116",
+    "event": "朝鮮王朝の成立",
+    "era": "CE",
+    "year": 1392,
+    "note": "",
+    "category": "世界史"
+  },
+  {
+    "id": "q117",
+    "event": "ニコポリスの戦い",
+    "era": "CE",
+    "year": 1396,
+    "note": "",
+    "category": "世界史"
+  },
+  {
+    "id": "q118",
+    "event": "カルマル同盟の結成",
+    "era": "CE",
+    "year": 1397,
+    "note": "",
+    "category": "世界史"
+  },
+  {
+    "id": "q119",
+    "event": "応永の乱",
+    "era": "CE",
+    "year": 1399,
+    "note": "",
+    "category": "日本史"
+  },
+  {
+    "id": "q120",
+    "event": "靖難の役",
+    "era": "CE",
+    "year": 1399,
+    "note": "",
+    "category": "世界史"
+  },
+  {
+    "id": "q121",
+    "event": "明との国交樹立",
+    "era": "CE",
+    "year": 1401,
+    "note": "",
+    "category": "世界史"
+  },
+  {
+    "id": "q122",
+    "event": "アンカラの戦い",
+    "era": "CE",
+    "year": 1402,
+    "note": "",
+    "category": "世界史"
+  },
+  {
+    "id": "q123",
+    "event": "コンスタンツ公会議",
+    "era": "CE",
+    "year": 1414,
+    "note": "",
+    "category": "世界史"
+  },
+  {
+    "id": "q124",
+    "event": "応永の外寇",
+    "era": "CE",
+    "year": 1419,
+    "note": "",
+    "category": "日本史"
+  },
+  {
+    "id": "q125",
+    "event": "正長の徳政一揆",
+    "era": "CE",
+    "year": 1428,
+    "note": "",
+    "category": "日本史"
+  },
+  {
+    "id": "q126",
+    "event": "尚巴志、琉球王国建国",
+    "era": "CE",
+    "year": 1429,
+    "note": "",
+    "category": "世界史"
+  },
+  {
+    "id": "q127",
+    "event": "永享の乱",
+    "era": "CE",
+    "year": 1438,
+    "note": "",
+    "category": "日本史"
+  },
+  {
+    "id": "q128",
+    "event": "嘉吉の変",
+    "era": "CE",
+    "year": 1441,
+    "note": "",
+    "category": "日本史"
+  },
+  {
+    "id": "q129",
+    "event": "土木の変",
+    "era": "CE",
+    "year": 1449,
+    "note": "",
+    "category": "世界史"
+  },
+  {
+    "id": "q130",
+    "event": "ビザンツ帝国の滅亡",
+    "era": "CE",
+    "year": 1453,
+    "note": "",
+    "category": "世界史"
+  },
+  {
+    "id": "q131",
+    "event": "コシャマインの蜂起",
+    "era": "CE",
+    "year": 1457,
+    "note": "",
+    "category": "世界史"
+  },
+  {
+    "id": "q132",
+    "event": "スペイン王国の成立",
+    "era": "CE",
+    "year": 1479,
+    "note": "",
+    "category": "世界史"
+  },
+  {
+    "id": "q133",
+    "event": "モスクワ大公国の独立",
+    "era": "CE",
+    "year": 1480,
+    "note": "",
+    "category": "世界史"
+  },
+  {
+    "id": "q134",
+    "event": "テューダー朝の成立",
+    "era": "CE",
+    "year": 1485,
+    "note": "",
+    "category": "世界史"
+  },
+  {
+    "id": "q135",
+    "event": "山城の国一揆",
+    "era": "CE",
+    "year": 1485,
+    "note": "",
+    "category": "日本史"
+  },
+  {
+    "id": "q136",
+    "event": "加賀の一向一揆",
+    "era": "CE",
+    "year": 1488,
+    "note": "",
+    "category": "日本史"
+  },
+  {
+    "id": "q137",
+    "event": "グラナダ陥落",
+    "era": "CE",
+    "year": 1492,
+    "note": "",
+    "category": "世界史"
+  },
+  {
+    "id": "q138",
+    "event": "イタリア戦争",
+    "era": "CE",
+    "year": 1494,
+    "note": "",
+    "category": "世界史"
+  },
+  {
+    "id": "q139",
+    "event": "サファヴィー朝の成立",
+    "era": "CE",
+    "year": 1501,
+    "note": "",
+    "category": "世界史"
+  },
+  {
+    "id": "q140",
+    "event": "九十五ヶ条の論題",
+    "era": "CE",
+    "year": 1517,
+    "note": "",
+    "category": "世界史"
+  },
+  {
+    "id": "q141",
+    "event": "アステカ王国の滅亡",
+    "era": "CE",
+    "year": 1521,
+    "note": "",
+    "category": "世界史"
+  },
+  {
+    "id": "q142",
+    "event": "寧波の乱",
+    "era": "CE",
+    "year": 1523,
+    "note": "",
+    "category": "日本史"
+  },
+  {
+    "id": "q143",
+    "event": "モハーチの戦い",
+    "era": "CE",
+    "year": 1526,
+    "note": "",
+    "category": "世界史"
+  },
+  {
+    "id": "q144",
+    "event": "ウィーン包囲",
+    "era": "CE",
+    "year": 1529,
+    "note": "",
+    "category": "世界史"
+  },
+  {
+    "id": "q145",
+    "event": "首長法の制定",
+    "era": "CE",
+    "year": 1534,
+    "note": "",
+    "category": "世界史"
+  },
+  {
+    "id": "q146",
+    "event": "プレウェザの海戦",
+    "era": "CE",
+    "year": 1538,
+    "note": "",
+    "category": "世界史"
+  },
+  {
+    "id": "q147",
+    "event": "鉄砲の伝来",
+    "era": "CE",
+    "year": 1543,
+    "note": "",
+    "category": "日本史"
+  },
+  {
+    "id": "q148",
+    "event": "トリエント公会議",
+    "era": "CE",
+    "year": 1545,
+    "note": "",
+    "category": "世界史"
+  },
+  {
+    "id": "q149",
+    "event": "ザビエルの来日",
+    "era": "CE",
+    "year": 1549,
+    "note": "",
+    "category": "日本史"
+  },
+  {
+    "id": "q150",
+    "event": "アウクスブルグの和議",
+    "era": "CE",
+    "year": 1555,
+    "note": "",
+    "category": "世界史"
+  },
+  {
+    "id": "q151",
+    "event": "カトー・カンブレジ条約",
+    "era": "CE",
+    "year": 1559,
+    "note": "",
+    "category": "世界史"
+  },
+  {
+    "id": "q152",
+    "event": "桶狭間の戦い",
+    "era": "CE",
+    "year": 1560,
+    "note": "",
+    "category": "日本史"
+  },
+  {
+    "id": "q153",
+    "event": "織田信長、上洛",
+    "era": "CE",
+    "year": 1568,
+    "note": "",
+    "category": "日本史"
+  },
+  {
+    "id": "q154",
+    "event": "室町幕府滅亡",
+    "era": "CE",
+    "year": 1573,
+    "note": "",
+    "category": "日本史"
+  },
+  {
+    "id": "q155",
+    "event": "長篠合戦",
+    "era": "CE",
+    "year": 1575,
+    "note": "",
+    "category": "日本史"
+  },
+  {
+    "id": "q156",
+    "event": "スペインのポルトガル征服",
+    "era": "CE",
+    "year": 1580,
+    "note": "",
+    "category": "世界史"
+  },
+  {
+    "id": "q157",
+    "event": "一条鞭法の施行",
+    "era": "CE",
+    "year": 1581,
+    "note": "",
+    "category": "世界史"
+  },
+  {
+    "id": "q158",
+    "event": "天正遣欧使節",
+    "era": "CE",
+    "year": 1582,
+    "note": "",
+    "category": "日本史"
+  },
+  {
+    "id": "q159",
+    "event": "本能寺の変",
+    "era": "CE",
+    "year": 1582,
+    "note": "",
+    "category": "日本史"
+  },
+  {
+    "id": "q160",
+    "event": "バテレン追放令",
+    "era": "CE",
+    "year": 1587,
+    "note": "",
+    "category": "日本史"
+  },
+  {
+    "id": "q161",
+    "event": "刀狩令",
+    "era": "CE",
+    "year": 1588,
+    "note": "",
+    "category": "日本史"
+  },
+  {
+    "id": "q162",
+    "event": "英、無敵艦隊を撃破",
+    "era": "CE",
+    "year": 1588,
+    "note": "",
+    "category": "世界史"
+  },
+  {
+    "id": "q163",
+    "event": "ブルボン朝の成立",
+    "era": "CE",
+    "year": 1589,
+    "note": "",
+    "category": "世界史"
+  },
+  {
+    "id": "q164",
+    "event": "壬辰・丁酉の倭乱",
+    "era": "CE",
+    "year": 1592,
+    "note": "",
+    "category": "世界史"
+  },
+  {
+    "id": "q165",
+    "event": "サン＝フェリペ号事件",
+    "era": "CE",
+    "year": 1596,
+    "note": "",
+    "category": "世界史"
+  },
+  {
+    "id": "q166",
+    "event": "ナントの王令",
+    "era": "CE",
+    "year": 1598,
+    "note": "",
+    "category": "世界史"
+  },
+  {
+    "id": "q167",
+    "event": "英の東印会社設立",
+    "era": "CE",
+    "year": 1600,
+    "note": "",
+    "category": "世界史"
+  },
+  {
+    "id": "q168",
+    "event": "関ヶ原の戦い",
+    "era": "CE",
+    "year": 1600,
+    "note": "",
+    "category": "日本史"
+  },
+  {
+    "id": "q169",
+    "event": "糸割符制度",
+    "era": "CE",
+    "year": 1604,
+    "note": "",
+    "category": "日本史"
+  },
+  {
+    "id": "q170",
+    "event": "ロマノフ朝の成立",
+    "era": "CE",
+    "year": 1613,
+    "note": "",
+    "category": "世界史"
+  },
+  {
+    "id": "q171",
+    "event": "大阪冬の陣",
+    "era": "CE",
+    "year": 1614,
+    "note": "",
+    "category": "日本史"
+  },
+  {
+    "id": "q172",
+    "event": "武家諸法度",
+    "era": "CE",
+    "year": 1615,
+    "note": "",
+    "category": "日本史"
+  },
+  {
+    "id": "q173",
+    "event": "ヌルハチ、後金建国",
+    "era": "CE",
+    "year": 1616,
+    "note": "",
+    "category": "世界史"
+  },
+  {
+    "id": "q174",
+    "event": "三十年戦争",
+    "era": "CE",
+    "year": 1618,
+    "note": "",
+    "category": "世界史"
+  },
+  {
+    "id": "q175",
+    "event": "アンボイナ事件",
+    "era": "CE",
+    "year": 1623,
+    "note": "",
+    "category": "世界史"
+  },
+  {
+    "id": "q176",
+    "event": "スペイン船来航禁止",
+    "era": "CE",
+    "year": 1624,
+    "note": "",
+    "category": "日本史"
+  },
+  {
+    "id": "q177",
+    "event": "紫衣事件",
+    "era": "CE",
+    "year": 1627,
+    "note": "",
+    "category": "日本史"
+  },
+  {
+    "id": "q178",
+    "event": "寛永十年鎖国令",
+    "era": "CE",
+    "year": 1633,
+    "note": "",
+    "category": "日本史"
+  },
+  {
+    "id": "q179",
+    "event": "寛永令（参勤交代）",
+    "era": "CE",
+    "year": 1635,
+    "note": "",
+    "category": "日本史"
+  },
+  {
+    "id": "q180",
+    "event": "ホンタイジ、清に改称",
+    "era": "CE",
+    "year": 1636,
+    "note": "",
+    "category": "世界史"
+  },
+  {
+    "id": "q181",
+    "event": "島原の乱",
+    "era": "CE",
+    "year": 1637,
+    "note": "",
+    "category": "日本史"
+  },
+  {
+    "id": "q182",
+    "event": "寛永十六年鎖国令",
+    "era": "CE",
+    "year": 1639,
+    "note": "",
+    "category": "日本史"
+  },
+  {
+    "id": "q183",
+    "event": "ピューリタン革命",
+    "era": "CE",
+    "year": 1640,
+    "note": "",
+    "category": "世界史"
+  },
+  {
+    "id": "q184",
+    "event": "鎖国完成",
+    "era": "CE",
+    "year": 1641,
+    "note": "",
+    "category": "日本史"
+  },
+  {
+    "id": "q185",
+    "event": "田畑永代売買禁止",
+    "era": "CE",
+    "year": 1643,
+    "note": "",
+    "category": "日本史"
+  },
+  {
+    "id": "q186",
+    "event": "明の滅亡",
+    "era": "CE",
+    "year": 1644,
+    "note": "",
+    "category": "世界史"
+  },
+  {
+    "id": "q187",
+    "event": "ウェストファリア条約",
+    "era": "CE",
+    "year": 1648,
+    "note": "",
+    "category": "世界史"
+  },
+  {
+    "id": "q188",
+    "event": "航海法の制定",
+    "era": "CE",
+    "year": 1651,
+    "note": "",
+    "category": "世界史"
+  },
+  {
+    "id": "q189",
+    "event": "慶安の変",
+    "era": "CE",
+    "year": 1651,
+    "note": "",
+    "category": "日本史"
+  },
+  {
+    "id": "q190",
+    "event": "明暦の大火",
+    "era": "CE",
+    "year": 1657,
+    "note": "",
+    "category": "日本史"
+  },
+  {
+    "id": "q191",
+    "event": "康熙帝の即位",
+    "era": "CE",
+    "year": 1661,
+    "note": "",
+    "category": "世界史"
+  },
+  {
+    "id": "q192",
+    "event": "シャクシャインの戦い",
+    "era": "CE",
+    "year": 1669,
+    "note": "",
+    "category": "世界史"
+  },
+  {
+    "id": "q193",
+    "event": "分地制限令",
+    "era": "CE",
+    "year": 1673,
+    "note": "",
+    "category": "日本史"
+  },
+  {
+    "id": "q194",
+    "event": "審査法の制定",
+    "era": "CE",
+    "year": 1673,
+    "note": "",
+    "category": "世界史"
+  },
+  {
+    "id": "q195",
+    "event": "生類憐れみの令",
+    "era": "CE",
+    "year": 1685,
+    "note": "",
+    "category": "日本史"
+  },
+  {
+    "id": "q196",
+    "event": "名誉革命",
+    "era": "CE",
+    "year": 1688,
+    "note": "",
+    "category": "世界史"
+  },
+  {
+    "id": "q197",
+    "event": "ネルチンスク条約",
+    "era": "CE",
+    "year": 1689,
+    "note": "",
+    "category": "世界史"
+  },
+  {
+    "id": "q198",
+    "event": "北方戦争始まる",
+    "era": "CE",
+    "year": 1700,
+    "note": "",
+    "category": "世界史"
+  },
+  {
+    "id": "q199",
+    "event": "スペイン継承戦争",
+    "era": "CE",
+    "year": 1701,
+    "note": "",
+    "category": "世界史"
+  },
+  {
+    "id": "q200",
+    "event": "ユトレヒト条約",
+    "era": "CE",
+    "year": 1713,
+    "note": "",
+    "category": "世界史"
+  },
+  {
+    "id": "q201",
+    "event": "ハノーヴァー朝の創始",
+    "era": "CE",
+    "year": 1714,
+    "note": "",
+    "category": "世界史"
+  },
+  {
+    "id": "q202",
+    "event": "海舶互市新例",
+    "era": "CE",
+    "year": 1715,
+    "note": "",
+    "category": "世界史"
+  },
+  {
+    "id": "q203",
+    "event": "享保の改革",
+    "era": "CE",
+    "year": 1716,
+    "note": "",
+    "category": "日本史"
+  },
+  {
+    "id": "q204",
+    "event": "オーストリア継承戦争",
+    "era": "CE",
+    "year": 1740,
+    "note": "",
+    "category": "世界史"
+  },
+  {
+    "id": "q205",
+    "event": "七年戦争",
+    "era": "CE",
+    "year": 1756,
+    "note": "",
+    "category": "世界史"
+  },
+  {
+    "id": "q206",
+    "event": "清、貿易港広州に制限",
+    "era": "CE",
+    "year": 1757,
+    "note": "",
+    "category": "世界史"
+  },
+  {
+    "id": "q207",
+    "event": "プラッシーの戦い",
+    "era": "CE",
+    "year": 1757,
+    "note": "",
+    "category": "世界史"
+  },
+  {
+    "id": "q208",
+    "event": "宝暦事件",
+    "era": "CE",
+    "year": 1758,
+    "note": "",
+    "category": "日本史"
+  },
+  {
+    "id": "q209",
+    "event": "パリ条約",
+    "era": "CE",
+    "year": 1763,
+    "note": "",
+    "category": "世界史"
+  },
+  {
+    "id": "q210",
+    "event": "印紙法",
+    "era": "CE",
+    "year": 1765,
+    "note": "",
+    "category": "世界史"
+  },
+  {
+    "id": "q211",
+    "event": "コンバウン朝の勝利",
+    "era": "CE",
+    "year": 1767,
+    "note": "",
+    "category": "世界史"
+  },
+  {
+    "id": "q212",
+    "event": "第一回ポーランド分割",
+    "era": "CE",
+    "year": 1772,
+    "note": "",
+    "category": "世界史"
+  },
+  {
+    "id": "q213",
+    "event": "田沼意次、老中就任",
+    "era": "CE",
+    "year": 1772,
+    "note": "",
+    "category": "日本史"
+  },
+  {
+    "id": "q214",
+    "event": "アメリカ独立宣言",
+    "era": "CE",
+    "year": 1776,
+    "note": "",
+    "category": "世界史"
+  },
+  {
+    "id": "q215",
+    "event": "ヨークタウンの戦い",
+    "era": "CE",
+    "year": 1781,
+    "note": "",
+    "category": "世界史"
+  },
+  {
+    "id": "q216",
+    "event": "パリ条約",
+    "era": "CE",
+    "year": 1783,
+    "note": "",
+    "category": "世界史"
+  },
+  {
+    "id": "q217",
+    "event": "浅間山の大噴火",
+    "era": "CE",
+    "year": 1783,
+    "note": "",
+    "category": "日本史"
+  },
+  {
+    "id": "q218",
+    "event": "寛政の改革",
+    "era": "CE",
+    "year": 1787,
+    "note": "",
+    "category": "日本史"
+  },
+  {
+    "id": "q219",
+    "event": "棄捐令",
+    "era": "CE",
+    "year": 1789,
+    "note": "",
+    "category": "日本史"
+  },
+  {
+    "id": "q220",
+    "event": "寛政異学の禁",
+    "era": "CE",
+    "year": 1790,
+    "note": "",
+    "category": "日本史"
+  },
+  {
+    "id": "q221",
+    "event": "ハイチ革命",
+    "era": "CE",
+    "year": 1791,
+    "note": "",
+    "category": "世界史"
+  },
+  {
+    "id": "q222",
+    "event": "ラクスマン、根室来航",
+    "era": "CE",
+    "year": 1792,
+    "note": "",
+    "category": "世界史"
+  },
+  {
+    "id": "q223",
+    "event": "テルミドールの反動",
+    "era": "CE",
+    "year": 1794,
+    "note": "",
+    "category": "世界史"
+  },
+  {
+    "id": "q224",
+    "event": "ナポレオン、エジプト遠征",
+    "era": "CE",
+    "year": 1798,
+    "note": "",
+    "category": "世界史"
+  },
+  {
+    "id": "q225",
+    "event": "近藤重蔵、蝦夷地探検",
+    "era": "CE",
+    "year": 1798,
+    "note": "",
+    "category": "日本史"
+  },
+  {
+    "id": "q226",
+    "event": "英のアイルランド併合",
+    "era": "CE",
+    "year": 1801,
+    "note": "",
+    "category": "世界史",
+    "month": 1,
+    "day": 1
+  },
+  {
+    "id": "q227",
+    "event": "アミアンの和約",
+    "era": "CE",
+    "year": 1802,
+    "note": "",
+    "category": "世界史",
+    "month": 3,
+    "day": 25
+  },
+  {
+    "id": "q228",
+    "event": "レザノフの長崎来航",
+    "era": "CE",
+    "year": 1804,
+    "note": "",
+    "category": "日本史",
+    "month": 9,
+    "day": 6
+  },
+  {
+    "id": "q229",
+    "event": "トラファルガーの海戦",
+    "era": "CE",
+    "year": 1805,
+    "note": "",
+    "category": "世界史",
+    "month": 10,
+    "day": 21
+  },
+  {
+    "id": "q230",
+    "event": "大陸封鎖令",
+    "era": "CE",
+    "year": 1806,
+    "note": "",
+    "category": "世界史",
+    "month": 11,
+    "day": 21
+  },
+  {
+    "id": "q231",
+    "event": "フェートン号事件",
+    "era": "CE",
+    "year": 1808,
+    "note": "",
+    "category": "日本史",
+    "month": 10,
+    "day": 4
+  },
+  {
+    "id": "q232",
+    "event": "ゴローウニン事件",
+    "era": "CE",
+    "year": 1811,
+    "note": "",
+    "category": "日本史",
+    "month": 7,
+    "day": 4
+  },
+  {
+    "id": "q233",
+    "event": "米英戦争、勃発",
+    "era": "CE",
+    "year": 1812,
+    "note": "",
+    "category": "世界史",
+    "month": 6,
+    "day": 18
+  },
+  {
+    "id": "q234",
+    "event": "ナポレオンのロシア遠征",
+    "era": "CE",
+    "year": 1812,
+    "note": "",
+    "category": "世界史",
+    "month": 6,
+    "day": 24
+  },
+  {
+    "id": "q235",
+    "event": "ライプツィヒの戦い",
+    "era": "CE",
+    "year": 1813,
+    "note": "",
+    "category": "世界史",
+    "month": 10,
+    "day": 16
+  },
+  {
+    "id": "q236",
+    "event": "ウィーン会議",
+    "era": "CE",
+    "year": 1814,
+    "note": "",
+    "category": "世界史",
+    "month": 11,
+    "day": 1
+  },
+  {
+    "id": "q237",
+    "event": "四国同盟",
+    "era": "CE",
+    "year": 1815,
+    "note": "",
+    "category": "世界史",
+    "month": 11,
+    "day": 20
+  },
+  {
+    "id": "q238",
+    "event": "ギリシア独立戦争",
+    "era": "CE",
+    "year": 1821,
+    "note": "",
+    "category": "世界史",
+    "month": 3,
+    "day": 25
+  },
+  {
+    "id": "q239",
+    "event": "メキシコ独立",
+    "era": "CE",
+    "year": 1821,
+    "note": "",
+    "category": "世界史",
+    "month": 9,
+    "day": 27
+  },
+  {
+    "id": "q240",
+    "event": "モンロー教書",
+    "era": "CE",
+    "year": 1823,
+    "note": "",
+    "category": "世界史",
+    "month": 12,
+    "day": 2
+  },
+  {
+    "id": "q241",
+    "event": "異国船打払令",
+    "era": "CE",
+    "year": 1825,
+    "note": "",
+    "category": "日本史",
+    "month": 2,
+    "day": 28
+  },
+  {
+    "id": "q242",
+    "event": "カトリック教徒解放令",
+    "era": "CE",
+    "year": 1829,
+    "note": "",
+    "category": "世界史",
+    "month": 4,
+    "day": 13
+  },
+  {
+    "id": "q243",
+    "event": "七月革命",
+    "era": "CE",
+    "year": 1830,
+    "note": "",
+    "category": "世界史",
+    "month": 7,
+    "day": 27
+  },
+  {
+    "id": "q244",
+    "event": "先住民強制移住法",
+    "era": "CE",
+    "year": 1830,
+    "note": "",
+    "category": "世界史",
+    "month": 5,
+    "day": 28
+  },
+  {
+    "id": "q245",
+    "event": "英の第一回選挙法改正",
+    "era": "CE",
+    "year": 1832,
+    "note": "",
+    "category": "世界史",
+    "month": 6,
+    "day": 7
+  },
+  {
+    "id": "q246",
+    "event": "ドイツ関税同盟",
+    "era": "CE",
+    "year": 1834,
+    "note": "",
+    "category": "世界史",
+    "month": 1,
+    "day": 1
+  },
+  {
+    "id": "q247",
+    "event": "大塩の乱",
+    "era": "CE",
+    "year": 1837,
+    "note": "",
+    "category": "日本史",
+    "month": 3,
+    "day": 25
+  },
+  {
+    "id": "q248",
+    "event": "モリソン号事件",
+    "era": "CE",
+    "year": 1837,
+    "note": "",
+    "category": "日本史",
+    "month": 7,
+    "day": 11
+  },
+  {
+    "id": "q249",
+    "event": "タンジマート",
+    "era": "CE",
+    "year": 1839,
+    "note": "",
+    "category": "世界史",
+    "month": 11,
+    "day": 3
+  },
+  {
+    "id": "q250",
+    "event": "蛮社の獄",
+    "era": "CE",
+    "year": 1839,
+    "note": "",
+    "category": "日本史",
+    "month": 5,
+    "day": 14
+  },
+  {
+    "id": "q251",
+    "event": "アヘン戦争",
+    "era": "CE",
+    "year": 1840,
+    "note": "",
+    "category": "世界史",
+    "month": 6,
+    "day": 21
+  },
+  {
+    "id": "q252",
+    "event": "天保の改革開始",
+    "era": "CE",
+    "year": 1841,
+    "note": "",
+    "category": "日本史",
+    "month": 5,
+    "day": 15
+  },
+  {
+    "id": "q253",
+    "event": "天保の薪水給与令",
+    "era": "CE",
+    "year": 1842,
+    "note": "",
+    "category": "日本史",
+    "month": 8,
+    "day": 28
+  },
+  {
+    "id": "q254",
+    "event": "オランダ国王開国勧告",
+    "era": "CE",
+    "year": 1844,
+    "note": "",
+    "category": "日本史",
+    "month": 2,
+    "day": 15
+  },
+  {
+    "id": "q255",
+    "event": "穀物法の廃止",
+    "era": "CE",
+    "year": 1846,
+    "note": "",
+    "category": "世界史",
+    "month": 6,
+    "day": 26
+  },
+  {
+    "id": "q256",
+    "event": "ビッドル来航",
+    "era": "CE",
+    "year": 1846,
+    "note": "",
+    "category": "日本史",
+    "month": 7,
+    "day": 20
+  },
+  {
+    "id": "q257",
+    "event": "諸国民の春",
+    "era": "CE",
+    "year": 1848,
+    "note": "",
+    "category": "世界史",
+    "month": 2,
+    "day": 22
+  },
+  {
+    "id": "q258",
+    "event": "ゴールドラッシュ",
+    "era": "CE",
+    "year": 1848,
+    "note": "",
+    "category": "世界史",
+    "month": 1,
+    "day": 24
+  },
+  {
+    "id": "q259",
+    "event": "太平天国の乱",
+    "era": "CE",
+    "year": 1851,
+    "note": "",
+    "category": "世界史",
+    "month": 1,
+    "day": 11
+  },
+  {
+    "id": "q260",
+    "event": "ナポレオン三世の即位",
+    "era": "CE",
+    "year": 1852,
+    "note": "",
+    "category": "世界史",
+    "month": 12,
+    "day": 2
+  },
+  {
+    "id": "q261",
+    "event": "クリミア戦争",
+    "era": "CE",
+    "year": 1853,
+    "note": "",
+    "category": "世界史",
+    "month": 10,
+    "day": 4
+  },
+  {
+    "id": "q262",
+    "event": "ペリー来航",
+    "era": "CE",
+    "year": 1853,
+    "note": "",
+    "category": "日本史",
+    "month": 7,
+    "day": 8
+  },
+  {
+    "id": "q263",
+    "event": "日米和親条約",
+    "era": "CE",
+    "year": 1854,
+    "note": "",
+    "category": "日本史",
+    "month": 3,
+    "day": 31
+  },
+  {
+    "id": "q264",
+    "event": "インド大反乱",
+    "era": "CE",
+    "year": 1857,
+    "note": "",
+    "category": "世界史",
+    "month": 5,
+    "day": 10
+  },
+  {
+    "id": "q265",
+    "event": "日米修好通商条約",
+    "era": "CE",
+    "year": 1858,
+    "note": "",
+    "category": "日本史",
+    "month": 7,
+    "day": 29
+  },
+  {
+    "id": "q266",
+    "event": "桜田門外の変",
+    "era": "CE",
+    "year": 1860,
+    "note": "",
+    "category": "日本史",
+    "month": 3,
+    "day": 24
+  },
+  {
+    "id": "q267",
+    "event": "五品江戸回送令",
+    "era": "CE",
+    "year": 1860,
+    "note": "",
+    "category": "日本史",
+    "month": 4,
+    "day": 19
+  },
+  {
+    "id": "q268",
+    "event": "アメリカ南北戦争",
+    "era": "CE",
+    "year": 1861,
+    "note": "",
+    "category": "世界史",
+    "month": 4,
+    "day": 12
+  },
+  {
+    "id": "q269",
+    "event": "ホームステッド法",
+    "era": "CE",
+    "year": 1862,
+    "note": "",
+    "category": "世界史",
+    "month": 5,
+    "day": 20
+  },
+  {
+    "id": "q270",
+    "event": "生麦事件",
+    "era": "CE",
+    "year": 1862,
+    "note": "",
+    "category": "日本史",
+    "month": 8,
+    "day": 21
+  },
+  {
+    "id": "q271",
+    "event": "八月十八日の政変",
+    "era": "CE",
+    "year": 1863,
+    "note": "",
+    "category": "日本史",
+    "month": 9,
+    "day": 30
+  },
+  {
+    "id": "q272",
+    "event": "薩長連合（同盟）",
+    "era": "CE",
+    "year": 1866,
+    "note": "",
+    "category": "日本史",
+    "month": 1,
+    "day": 21
+  },
+  {
+    "id": "q273",
+    "event": "普墺戦争",
+    "era": "CE",
+    "year": 1866,
+    "note": "",
+    "category": "世界史",
+    "month": 6,
+    "day": 14
+  },
+  {
+    "id": "q274",
+    "event": "大政奉還",
+    "era": "CE",
+    "year": 1867,
+    "note": "",
+    "category": "日本史",
+    "month": 11,
+    "day": 9
+  },
+  {
+    "id": "q275",
+    "event": "五箇条の御誓文",
+    "era": "CE",
+    "year": 1868,
+    "note": "",
+    "category": "日本史",
+    "month": 4,
+    "day": 6
+  },
+  {
+    "id": "q276",
+    "event": "版籍奉還",
+    "era": "CE",
+    "year": 1869,
+    "note": "",
+    "category": "日本史",
+    "month": 6,
+    "day": 17
+  },
+  {
+    "id": "q277",
+    "event": "大陸横断鉄道の完成",
+    "era": "CE",
+    "year": 1869,
+    "note": "",
+    "category": "世界史",
+    "month": 5,
+    "day": 10
+  },
+  {
+    "id": "q278",
+    "event": "普仏戦争",
+    "era": "CE",
+    "year": 1870,
+    "note": "",
+    "category": "世界史",
+    "month": 7,
+    "day": 19
+  },
+  {
+    "id": "q279",
+    "event": "パリ＝コミューン",
+    "era": "CE",
+    "year": 1871,
+    "note": "",
+    "category": "世界史",
+    "month": 3,
+    "day": 18
+  },
+  {
+    "id": "q280",
+    "event": "廃藩置県",
+    "era": "CE",
+    "year": 1871,
+    "note": "",
+    "category": "日本史",
+    "month": 8,
+    "day": 29
+  },
+  {
+    "id": "q281",
+    "event": "学制",
+    "era": "CE",
+    "year": 1872,
+    "note": "",
+    "category": "日本史",
+    "month": 9,
+    "day": 5
+  },
+  {
+    "id": "q282",
+    "event": "地租改正",
+    "era": "CE",
+    "year": 1873,
+    "note": "",
+    "category": "日本史",
+    "month": 7,
+    "day": 28
+  },
+  {
+    "id": "q283",
+    "event": "民撰議院設立の建白書",
+    "era": "CE",
+    "year": 1874,
+    "note": "",
+    "category": "日本史",
+    "month": 1,
+    "day": 17
+  },
+  {
+    "id": "q284",
+    "event": "樺太・千島交換条約",
+    "era": "CE",
+    "year": 1875,
+    "note": "",
+    "category": "日本史",
+    "month": 8,
+    "day": 22
+  },
+  {
+    "id": "q285",
+    "event": "日朝修好条規",
+    "era": "CE",
+    "year": 1876,
+    "note": "",
+    "category": "日本史",
+    "month": 2,
+    "day": 26
+  },
+  {
+    "id": "q286",
+    "event": "露土戦争",
+    "era": "CE",
+    "year": 1877,
+    "note": "",
+    "category": "世界史",
+    "month": 4,
+    "day": 24
+  },
+  {
+    "id": "q287",
+    "event": "西南戦争",
+    "era": "CE",
+    "year": 1877,
+    "note": "",
+    "category": "日本史",
+    "month": 2,
+    "day": 15
+  },
+  {
+    "id": "q288",
+    "event": "サン＝ステファノ条約",
+    "era": "CE",
+    "year": 1878,
+    "note": "",
+    "category": "世界史",
+    "month": 3,
+    "day": 3
+  },
+  {
+    "id": "q289",
+    "event": "明治十四年の政変",
+    "era": "CE",
+    "year": 1881,
+    "note": "",
+    "category": "日本史",
+    "month": 10,
+    "day": 12
+  },
+  {
+    "id": "q290",
+    "event": "三国同盟の成立",
+    "era": "CE",
+    "year": 1882,
+    "note": "",
+    "category": "世界史",
+    "month": 5,
+    "day": 20
+  },
+  {
+    "id": "q291",
+    "event": "日本銀行設立",
+    "era": "CE",
+    "year": 1882,
+    "note": "",
+    "category": "日本史",
+    "month": 6,
+    "day": 27
+  },
+  {
+    "id": "q292",
+    "event": "内閣制度設立",
+    "era": "CE",
+    "year": 1885,
+    "note": "",
+    "category": "日本史",
+    "month": 12,
+    "day": 22
+  },
+  {
+    "id": "q293",
+    "event": "ベルリン会議",
+    "era": "CE",
+    "year": 1884,
+    "note": "",
+    "category": "世界史",
+    "month": 11,
+    "day": 15
+  },
+  {
+    "id": "q294",
+    "event": "ヴィルヘルム２世即位",
+    "era": "CE",
+    "year": 1888,
+    "note": "",
+    "category": "世界史",
+    "month": 6,
+    "day": 15
+  },
+  {
+    "id": "q295",
+    "event": "大日本帝国憲法発布",
+    "era": "CE",
+    "year": 1889,
+    "note": "",
+    "category": "日本史",
+    "month": 2,
+    "day": 11
+  },
+  {
+    "id": "q296",
+    "event": "教育勅語",
+    "era": "CE",
+    "year": 1890,
+    "note": "",
+    "category": "日本史",
+    "month": 10,
+    "day": 30
+  },
+  {
+    "id": "q297",
+    "event": "日清戦争",
+    "era": "CE",
+    "year": 1894,
+    "note": "",
+    "category": "日本史",
+    "month": 7,
+    "day": 25
+  },
+  {
+    "id": "q298",
+    "event": "アドワの戦い",
+    "era": "CE",
+    "year": 1896,
+    "note": "",
+    "category": "世界史",
+    "month": 3,
+    "day": 1
+  },
+  {
+    "id": "q299",
+    "event": "労働組合期成会結成",
+    "era": "CE",
+    "year": 1897,
+    "note": "",
+    "category": "日本史",
+    "month": 7,
+    "day": 5
+  },
+  {
+    "id": "q300",
+    "event": "義和団事件",
+    "era": "CE",
+    "year": 1900,
+    "note": "",
+    "category": "世界史",
+    "month": 6,
+    "day": 20
+  },
+  {
+    "id": "q301",
+    "event": "治安警察法",
+    "era": "CE",
+    "year": 1900,
+    "note": "",
+    "category": "日本史",
+    "month": 3,
+    "day": 10
+  },
+  {
+    "id": "q302",
+    "event": "八幡製鉄所操業開始",
+    "era": "CE",
+    "year": 1901,
+    "note": "",
+    "category": "日本史",
+    "month": 2,
+    "day": 5
+  },
+  {
+    "id": "q303",
+    "event": "日英同盟",
+    "era": "CE",
+    "year": 1902,
+    "note": "",
+    "category": "世界史",
+    "month": 1,
+    "day": 30
+  },
+  {
+    "id": "q304",
+    "event": "日露戦争",
+    "era": "CE",
+    "year": 1904,
+    "note": "",
+    "category": "世界史",
+    "month": 2,
+    "day": 8
+  },
+  {
+    "id": "q305",
+    "event": "全インド・ムスリム連盟",
+    "era": "CE",
+    "year": 1906,
+    "note": "",
+    "category": "世界史",
+    "month": 12,
+    "day": 30
+  },
+  {
+    "id": "q306",
+    "event": "鉄道国有法",
+    "era": "CE",
+    "year": 1906,
+    "note": "",
+    "category": "世界史",
+    "month": 3,
+    "day": 31
+  },
+  {
+    "id": "q307",
+    "event": "ハーグ密使事件",
+    "era": "CE",
+    "year": 1907,
+    "note": "",
+    "category": "世界史",
+    "month": 6,
+    "day": 25
+  },
+  {
+    "id": "q308",
+    "event": "青年トルコ革命",
+    "era": "CE",
+    "year": 1908,
+    "note": "",
+    "category": "世界史",
+    "month": 7,
+    "day": 3
+  },
+  {
+    "id": "q309",
+    "event": "韓国併合",
+    "era": "CE",
+    "year": 1910,
+    "note": "",
+    "category": "日本史",
+    "month": 8,
+    "day": 29
+  },
+  {
+    "id": "q310",
+    "event": "関税自主権の回復",
+    "era": "CE",
+    "year": 1911,
+    "note": "",
+    "category": "日本史",
+    "month": 7,
+    "day": 16
+  },
+  {
+    "id": "q311",
+    "event": "辛亥革命",
+    "era": "CE",
+    "year": 1911,
+    "note": "",
+    "category": "世界史",
+    "month": 10,
+    "day": 10
+  },
+  {
+    "id": "q312",
+    "event": "第一次護憲運動",
+    "era": "CE",
+    "year": 1912,
+    "note": "",
+    "category": "日本史",
+    "month": 12,
+    "day": 21
+  },
+  {
+    "id": "q313",
+    "event": "バルカン同盟結成",
+    "era": "CE",
+    "year": 1912,
+    "note": "",
+    "category": "世界史",
+    "month": 3,
+    "day": 13
+  },
+  {
+    "id": "q314",
+    "event": "シーメンス事件",
+    "era": "CE",
+    "year": 1914,
+    "note": "",
+    "category": "世界史",
+    "month": 1,
+    "day": 23
+  },
+  {
+    "id": "q315",
+    "event": "第一次世界大戦",
+    "era": "CE",
+    "year": 1914,
+    "note": "",
+    "category": "世界史",
+    "month": 7,
+    "day": 28
+  },
+  {
+    "id": "q316",
+    "event": "二十一ヶ条の要求",
+    "era": "CE",
+    "year": 1915,
+    "note": "",
+    "category": "世界史",
+    "month": 1,
+    "day": 18
+  },
+  {
+    "id": "q317",
+    "event": "フセイン・マクマホン協定",
+    "era": "CE",
+    "year": 1915,
+    "note": "",
+    "category": "世界史",
+    "month": 7,
+    "day": 14
+  },
+  {
+    "id": "q318",
+    "event": "民本主義",
+    "era": "CE",
+    "year": 1916,
+    "note": "",
+    "category": "日本史"
+  },
+  {
+    "id": "q319",
+    "event": "米騒動",
+    "era": "CE",
+    "year": 1918,
+    "note": "",
+    "category": "日本史",
+    "month": 7,
+    "day": 23
+  },
+  {
+    "id": "q320",
+    "event": "ロシア革命",
+    "era": "CE",
+    "year": 1917,
+    "note": "",
+    "category": "世界史",
+    "month": 11,
+    "day": 7
+  },
+  {
+    "id": "q321",
+    "event": "ドイツ革命",
+    "era": "CE",
+    "year": 1918,
+    "note": "",
+    "category": "世界史",
+    "month": 11,
+    "day": 9
+  },
+  {
+    "id": "q322",
+    "event": "ヴェルサイユ条約",
+    "era": "CE",
+    "year": 1919,
+    "note": "",
+    "category": "世界史",
+    "month": 6,
+    "day": 28
+  },
+  {
+    "id": "q323",
+    "event": "戦後恐慌",
+    "era": "CE",
+    "year": 1920,
+    "note": "",
+    "category": "日本史",
+    "month": 3,
+    "day": 15
+  },
+  {
+    "id": "q324",
+    "event": "ワシントン会議",
+    "era": "CE",
+    "year": 1921,
+    "note": "",
+    "category": "世界史",
+    "month": 11,
+    "day": 12
+  },
+  {
+    "id": "q325",
+    "event": "日本農民組合設立",
+    "era": "CE",
+    "year": 1922,
+    "note": "",
+    "category": "日本史",
+    "month": 12,
+    "day": 9
+  },
+  {
+    "id": "q326",
+    "event": "ソ連邦の成立",
+    "era": "CE",
+    "year": 1922,
+    "note": "",
+    "category": "世界史",
+    "month": 12,
+    "day": 30
+  },
+  {
+    "id": "q327",
+    "event": "ローマ進軍",
+    "era": "CE",
+    "year": 1922,
+    "note": "",
+    "category": "世界史",
+    "month": 10,
+    "day": 27
+  },
+  {
+    "id": "q328",
+    "event": "ルール占領",
+    "era": "CE",
+    "year": 1923,
+    "note": "",
+    "category": "世界史",
+    "month": 1,
+    "day": 11
+  },
+  {
+    "id": "q329",
+    "event": "関東大震災",
+    "era": "CE",
+    "year": 1923,
+    "note": "",
+    "category": "日本史",
+    "month": 9,
+    "day": 1
+  },
+  {
+    "id": "q330",
+    "event": "第二次護憲運動",
+    "era": "CE",
+    "year": 1924,
+    "note": "",
+    "category": "日本史",
+    "month": 1,
+    "day": 18
+  },
+  {
+    "id": "q331",
+    "event": "ドーズ案・移民法",
+    "era": "CE",
+    "year": 1924,
+    "note": "",
+    "category": "世界史",
+    "month": 4,
+    "day": 9
+  },
+  {
+    "id": "q332",
+    "event": "広州国民政府成立",
+    "era": "CE",
+    "year": 1925,
+    "note": "",
+    "category": "世界史",
+    "month": 7,
+    "day": 1
+  },
+  {
+    "id": "q333",
+    "event": "ロカルノ条約",
+    "era": "CE",
+    "year": 1925,
+    "note": "",
+    "category": "世界史",
+    "month": 10,
+    "day": 16
+  },
+  {
+    "id": "q334",
+    "event": "ラジオ放送の開始",
+    "era": "CE",
+    "year": 1925,
+    "note": "",
+    "category": "日本史",
+    "month": 3,
+    "day": 22
+  },
+  {
+    "id": "q335",
+    "event": "治安維持法・普通選挙法",
+    "era": "CE",
+    "year": 1925,
+    "note": "",
+    "category": "日本史",
+    "month": 3,
+    "day": 29
+  },
+  {
+    "id": "q336",
+    "event": "上海クーデタ",
+    "era": "CE",
+    "year": 1927,
+    "note": "",
+    "category": "世界史",
+    "month": 4,
+    "day": 12
+  },
+  {
+    "id": "q337",
+    "event": "金融恐慌",
+    "era": "CE",
+    "year": 1927,
+    "note": "",
+    "category": "日本史",
+    "month": 3,
+    "day": 14
+  },
+  {
+    "id": "q338",
+    "event": "不戦条約",
+    "era": "CE",
+    "year": 1928,
+    "note": "",
+    "category": "世界史",
+    "month": 8,
+    "day": 27
+  },
+  {
+    "id": "q339",
+    "event": "世界恐慌の始まり",
+    "era": "CE",
+    "year": 1929,
+    "note": "",
+    "category": "世界史",
+    "month": 10,
+    "day": 24
+  },
+  {
+    "id": "q340",
+    "event": "金輸出解禁",
+    "era": "CE",
+    "year": 1930,
+    "note": "",
+    "category": "日本史",
+    "month": 1,
+    "day": 11
+  },
+  {
+    "id": "q341",
+    "event": "満州事変(柳条湖事件)",
+    "era": "CE",
+    "year": 1931,
+    "note": "",
+    "category": "世界史",
+    "month": 9,
+    "day": 18
+  },
+  {
+    "id": "q342",
+    "event": "中ソ共和国臨時政府成立",
+    "era": "CE",
+    "year": 1931,
+    "note": "",
+    "category": "世界史",
+    "month": 11,
+    "day": 7
+  },
+  {
+    "id": "q343",
+    "event": "５・１５事件",
+    "era": "CE",
+    "year": 1932,
+    "note": "",
+    "category": "日本史",
+    "month": 5,
+    "day": 15
+  },
+  {
+    "id": "q344",
+    "event": "ナチ党、政権掌握",
+    "era": "CE",
+    "year": 1933,
+    "note": "",
+    "category": "世界史",
+    "month": 1,
+    "day": 30
+  },
+  {
+    "id": "q345",
+    "event": "国際連盟脱退",
+    "era": "CE",
+    "year": 1933,
+    "note": "",
+    "category": "日本史",
+    "month": 3,
+    "day": 27
+  },
+  {
+    "id": "q346",
+    "event": "ドイツの再軍備宣言",
+    "era": "CE",
+    "year": 1935,
+    "note": "",
+    "category": "世界史",
+    "month": 3,
+    "day": 16
+  },
+  {
+    "id": "q347",
+    "event": "２・２６事件",
+    "era": "CE",
+    "year": 1936,
+    "note": "",
+    "category": "日本史",
+    "month": 2,
+    "day": 26
+  },
+  {
+    "id": "q348",
+    "event": "日中戦争(盧溝橋事件)",
+    "era": "CE",
+    "year": 1937,
+    "note": "",
+    "category": "日本史",
+    "month": 7,
+    "day": 7
+  },
+  {
+    "id": "q349",
+    "event": "国家総動員法",
+    "era": "CE",
+    "year": 1938,
+    "note": "",
+    "category": "日本史",
+    "month": 4,
+    "day": 1
+  },
+  {
+    "id": "q350",
+    "event": "国民徴用令",
+    "era": "CE",
+    "year": 1939,
+    "note": "",
+    "category": "世界史",
+    "month": 7,
+    "day": 8
+  },
+  {
+    "id": "q351",
+    "event": "独ソ不可侵条約",
+    "era": "CE",
+    "year": 1939,
+    "note": "",
+    "category": "世界史",
+    "month": 8,
+    "day": 23
+  },
+  {
+    "id": "q352",
+    "event": "第二次世界大戦",
+    "era": "CE",
+    "year": 1939,
+    "note": "",
+    "category": "日本史",
+    "month": 9,
+    "day": 1
+  },
+  {
+    "id": "q353",
+    "event": "大政翼賛会",
+    "era": "CE",
+    "year": 1940,
+    "note": "",
+    "category": "世界史",
+    "month": 10,
+    "day": 12
+  },
+  {
+    "id": "q354",
+    "event": "太平洋戦争",
+    "era": "CE",
+    "year": 1941,
+    "note": "",
+    "category": "日本史",
+    "month": 12,
+    "day": 8
+  },
+  {
+    "id": "q355",
+    "event": "ミッドウェー海戦",
+    "era": "CE",
+    "year": 1942,
+    "note": "",
+    "category": "日本史",
+    "month": 6,
+    "day": 4
+  },
+  {
+    "id": "q356",
+    "event": "ノルマンディー上陸作戦",
+    "era": "CE",
+    "year": 1944,
+    "note": "",
+    "category": "世界史",
+    "month": 6,
+    "day": 6
+  },
+  {
+    "id": "q357",
+    "event": "サンフランシスコ会議",
+    "era": "CE",
+    "year": 1945,
+    "note": "",
+    "category": "世界史",
+    "month": 4,
+    "day": 25
+  },
+  {
+    "id": "q358",
+    "event": "ブレトン・ウッズ体制",
+    "era": "CE",
+    "year": 1944,
+    "note": "",
+    "category": "世界史",
+    "month": 7,
+    "day": 22
+  },
+  {
+    "id": "q359",
+    "event": "ベトナム民主共和国",
+    "era": "CE",
+    "year": 1945,
+    "note": "",
+    "category": "世界史",
+    "month": 9,
+    "day": 2
+  },
+  {
+    "id": "q360",
+    "event": "日本国憲法公布",
+    "era": "CE",
+    "year": 1946,
+    "note": "",
+    "category": "日本史",
+    "month": 11,
+    "day": 3
+  },
+  {
+    "id": "q361",
+    "event": "トルーマン＝ドクトリン",
+    "era": "CE",
+    "year": 1947,
+    "note": "",
+    "category": "世界史",
+    "month": 3,
+    "day": 12
+  },
+  {
+    "id": "q362",
+    "event": "教育基本法",
+    "era": "CE",
+    "year": 1947,
+    "note": "",
+    "category": "日本史",
+    "month": 3,
+    "day": 31
+  },
+  {
+    "id": "q363",
+    "event": "インド・パキスタン独立",
+    "era": "CE",
+    "year": 1947,
+    "note": "",
+    "category": "世界史",
+    "month": 8,
+    "day": 15
+  },
+  {
+    "id": "q364",
+    "event": "ビルマ・スリランカ独立",
+    "era": "CE",
+    "year": 1948,
+    "note": "",
+    "category": "世界史",
+    "month": 1,
+    "day": 4
+  },
+  {
+    "id": "q365",
+    "event": "経済安定九原則",
+    "era": "CE",
+    "year": 1948,
+    "note": "",
+    "category": "日本史",
+    "month": 12,
+    "day": 18
+  },
+  {
+    "id": "q366",
+    "event": "北大西洋条約機構",
+    "era": "CE",
+    "year": 1949,
+    "note": "",
+    "category": "世界史",
+    "month": 4,
+    "day": 4
+  },
+  {
+    "id": "q367",
+    "event": "朝鮮戦争",
+    "era": "CE",
+    "year": 1950,
+    "note": "",
+    "category": "世界史",
+    "month": 6,
+    "day": 25
+  },
+  {
+    "id": "q368",
+    "event": "サンフランシスコ平和条約",
+    "era": "CE",
+    "year": 1951,
+    "note": "",
+    "category": "世界史",
+    "month": 9,
+    "day": 8
+  },
+  {
+    "id": "q369",
+    "event": "イラン、石油国有化宣言",
+    "era": "CE",
+    "year": 1951,
+    "note": "",
+    "category": "世界史",
+    "month": 3,
+    "day": 15
+  },
+  {
+    "id": "q370",
+    "event": "石炭鉄鋼共同体(ECSC)",
+    "era": "CE",
+    "year": 1952,
+    "note": "",
+    "category": "世界史",
+    "month": 7,
+    "day": 23
+  },
+  {
+    "id": "q371",
+    "event": "テレビ放送開始",
+    "era": "CE",
+    "year": 1953,
+    "note": "",
+    "category": "日本史",
+    "month": 2,
+    "day": 1
+  },
+  {
+    "id": "q372",
+    "event": "神武景気",
+    "era": "CE",
+    "year": 1955,
+    "note": "",
+    "category": "日本史"
+  },
+  {
+    "id": "q373",
+    "event": "アジア・アフリカ会議",
+    "era": "CE",
+    "year": 1955,
+    "note": "",
+    "category": "世界史",
+    "month": 4,
+    "day": 18
+  },
+  {
+    "id": "q374",
+    "event": "日ソ共同宣言",
+    "era": "CE",
+    "year": 1956,
+    "note": "",
+    "category": "日本史",
+    "month": 10,
+    "day": 19
+  },
+  {
+    "id": "q375",
+    "event": "スターリン批判",
+    "era": "CE",
+    "year": 1956,
+    "note": "",
+    "category": "世界史",
+    "month": 2,
+    "day": 25
+  },
+  {
+    "id": "q376",
+    "event": "ガーナ独立",
+    "era": "CE",
+    "year": 1957,
+    "note": "",
+    "category": "世界史",
+    "month": 3,
+    "day": 6
+  },
+  {
+    "id": "q377",
+    "event": "キューバ革命",
+    "era": "CE",
+    "year": 1959,
+    "note": "",
+    "category": "世界史",
+    "month": 1,
+    "day": 1
+  },
+  {
+    "id": "q378",
+    "event": "新安保条約",
+    "era": "CE",
+    "year": 1960,
+    "note": "",
+    "category": "日本史",
+    "month": 1,
+    "day": 19
+  },
+  {
+    "id": "q379",
+    "event": "キューバ危機",
+    "era": "CE",
+    "year": 1962,
+    "note": "",
+    "category": "世界史",
+    "month": 10,
+    "day": 16
+  },
+  {
+    "id": "q380",
+    "event": "アフリカ統一機構",
+    "era": "CE",
+    "year": 1963,
+    "note": "",
+    "category": "世界史",
+    "month": 5,
+    "day": 25
+  },
+  {
+    "id": "q381",
+    "event": "公民権法",
+    "era": "CE",
+    "year": 1964,
+    "note": "",
+    "category": "世界史",
+    "month": 7,
+    "day": 2
+  },
+  {
+    "id": "q382",
+    "event": "OECD加盟",
+    "era": "CE",
+    "year": 1964,
+    "note": "",
+    "category": "日本史",
+    "month": 4,
+    "day": 28
+  },
+  {
+    "id": "q383",
+    "event": "日韓基本条約",
+    "era": "CE",
+    "year": 1965,
+    "note": "",
+    "category": "日本史",
+    "month": 6,
+    "day": 22
+  },
+  {
+    "id": "q384",
+    "event": "公害対策基本法",
+    "era": "CE",
+    "year": 1967,
+    "note": "",
+    "category": "日本史",
+    "month": 8,
+    "day": 3
+  },
+  {
+    "id": "q385",
+    "event": "プラハの春",
+    "era": "CE",
+    "year": 1968,
+    "note": "",
+    "category": "世界史",
+    "month": 1,
+    "day": 5
+  },
+  {
+    "id": "q386",
+    "event": "ドル＝ショック",
+    "era": "CE",
+    "year": 1971,
+    "note": "",
+    "category": "世界史",
+    "month": 8,
+    "day": 15
+  },
+  {
+    "id": "q387",
+    "event": "日中共同声明",
+    "era": "CE",
+    "year": 1972,
+    "note": "",
+    "category": "日本史",
+    "month": 9,
+    "day": 29
+  },
+  {
+    "id": "q388",
+    "event": "ベトナム和平協定",
+    "era": "CE",
+    "year": 1973,
+    "note": "",
+    "category": "世界史",
+    "month": 1,
+    "day": 27
+  },
+  {
+    "id": "q389",
+    "event": "鄧小平の改革開放",
+    "era": "CE",
+    "year": 1978,
+    "note": "",
+    "category": "世界史",
+    "month": 12,
+    "day": 18
+  },
+  {
+    "id": "q390",
+    "event": "日中平和友好条約",
+    "era": "CE",
+    "year": 1978,
+    "note": "",
+    "category": "日本史",
+    "month": 8,
+    "day": 12
+  },
+  {
+    "id": "q391",
+    "event": "ソ連のアフガン侵攻",
+    "era": "CE",
+    "year": 1979,
+    "note": "",
+    "category": "世界史",
+    "month": 12,
+    "day": 24
+  },
+  {
+    "id": "q392",
+    "event": "イラン革命",
+    "era": "CE",
+    "year": 1979,
+    "note": "",
+    "category": "世界史",
+    "month": 2,
+    "day": 11
+  },
+  {
+    "id": "q393",
+    "event": "フォークランド戦争",
+    "era": "CE",
+    "year": 1982,
+    "note": "",
+    "category": "世界史",
+    "month": 4,
+    "day": 2
+  },
+  {
+    "id": "q394",
+    "event": "ゴルバチョフ書記長就任",
+    "era": "CE",
+    "year": 1985,
+    "note": "",
+    "category": "世界史",
+    "month": 3,
+    "day": 11
+  },
+  {
+    "id": "q395",
+    "event": "マルタ会談",
+    "era": "CE",
+    "year": 1989,
+    "note": "",
+    "category": "世界史",
+    "month": 12,
+    "day": 2
+  },
+  {
+    "id": "q396",
+    "event": "消費税導入",
+    "era": "CE",
+    "year": 1989,
+    "note": "",
+    "category": "日本史",
+    "month": 4,
+    "day": 1
+  },
+  {
+    "id": "q397",
+    "event": "ソ連崩壊、CIS誕生",
+    "era": "CE",
+    "year": 1991,
+    "note": "",
+    "category": "世界史",
+    "month": 12,
+    "day": 26
+  },
+  {
+    "id": "q398",
+    "event": "オスロ合意",
+    "era": "CE",
+    "year": 1993,
+    "note": "",
+    "category": "世界史",
+    "month": 9,
+    "day": 13
+  },
+  {
+    "id": "q399",
+    "event": "細川内閣成立",
+    "era": "CE",
+    "year": 1993,
+    "note": "",
+    "category": "日本史",
+    "month": 8,
+    "day": 9
+  },
+  {
+    "id": "q400",
+    "event": "京都会議",
+    "era": "CE",
+    "year": 1997,
+    "note": "",
+    "category": "日本史",
+    "month": 12,
+    "day": 1
+  }
+]
