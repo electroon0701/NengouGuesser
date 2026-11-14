@@ -2,11 +2,10 @@
 (function (root) {
   "use strict";
   const TIERS = Object.freeze({
-    beginner: Object.freeze({
-      label: "初学者", memoryRate: 0.29, memoryNoise: 0.24,
-      hedgeRate: 0.34, bluffRate: 0.055, callRate: 0.48,
-      reactionMinMs: 1700, reactionMaxMs: 5100
-    })
+    beginner: Object.freeze({label:"初学者",memoryRate:.29,memoryNoise:.24,hedgeRate:.34,bluffRate:.055,callRate:.48,reactionMinMs:1700,reactionMaxMs:5100}),
+    exam_candidate: Object.freeze({label:"受験生",memoryRate:.42,memoryNoise:.2,hedgeRate:.26,bluffRate:.075,callRate:.53,reactionMinMs:1400,reactionMaxMs:4400}),
+    major: Object.freeze({label:"専攻生",memoryRate:.56,memoryNoise:.17,hedgeRate:.2,bluffRate:.1,callRate:.58,reactionMinMs:1200,reactionMaxMs:3900}),
+    historian: Object.freeze({label:"歴史学者",memoryRate:.68,memoryNoise:.14,hedgeRate:.16,bluffRate:.12,callRate:.61,reactionMinMs:1100,reactionMaxMs:3700})
   });
   const clamp = (n, lo, hi) => Math.max(lo, Math.min(hi, n));
   const rand = (rng, lo, hi) => lo + rng() * (hi - lo);
