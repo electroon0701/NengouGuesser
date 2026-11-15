@@ -1,0 +1,45 @@
+Chronos Studio update — 2026-11-15
+===================================
+
+Scope
+-----
+- story/studio/story-world-studio.html
+- story/studio/story-character-studio.html
+- story/studio/story-scenario-studio.html
+- story/studio/studio-common.js
+- index.html
+- docs/story/シナリオ作成マニュアル.md
+
+Image import
+------------
+- All Studio image path fields now include a real button that opens the native file picker.
+- A shared delegated click handler is used so dynamically re-rendered controls continue to work.
+- PNG, JPEG, WebP, AVIF and GIF are supported; each file is limited to 8 MB.
+- Imported images are stored as data URLs in the relevant JSON record. Existing relative paths remain supported.
+- Draft storage tries localStorage first and falls back to IndexedDB when the browser quota is exceeded.
+- The game world map renderer now accepts embedded data URLs for world and regional maps, and reads per-era map images from metadata.eraMaps.
+
+Character / CPU association
+----------------------------
+- Character Studio has a dedicated CPU-profile connection panel and shows the connected profile name and ID.
+- Battle-event CPU options in Scenario Studio indicate which character records are connected to each CPU profile.
+
+Expression portraits
+--------------------
+- Characters support portraitExpressions keys: happy, sad, angry, surprised, neutral, troubled, smug.
+- Scenario dialogue lines store an expression key. In visual-novel mode, the Studio preview selects the matching image for the active speaker.
+- Preview updates to the last edited dialogue line.
+- Fallback order: expression portrait, cast-specific portrait override, standard character portrait.
+- Compiled scenario JSON carries the character expression map and each dialogue line's expression key.
+
+Compatibility / limitations
+----------------------------
+- Existing story-characters.json records are normalized with empty expression slots; old portrait fields remain intact.
+- Existing manual relative image paths continue to work.
+- The main game currently does not execute story scenario dialogue. Expression selection is integrated into the Scenario Studio preview and exported authoring data, not yet into in-game playback.
+- City-pin rendering in the main game is also not part of this change.
+
+Checks
+------
+- JavaScript syntax checks passed for index.html, all three Studio inline scripts, and studio-common.js.
+- A Chromium/Playwright run was attempted but the environment blocked both local HTTP and file URLs (`ERR_BLOCKED_BY_ADMINISTRATOR`), so native file-picker interaction and visual layout could not be end-to-end browser-tested here.

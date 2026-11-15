@@ -1,0 +1,25 @@
+Chronos / NengouGuesser update — 2026-11-15 (v7)
+=================================================
+
+1. Story Mode transition
+- Transition length changed from about 1.42s to 2.55s.
+- Online screen moves upward and fades progressively; Story Mode rises from below and fades in.
+- Removed scale shrinking from the transition keyframes to avoid the previous squeezed/compressed look.
+- Depth overlay duration aligned to the longer transition.
+- Reduced-motion preference remains respected.
+
+2. story-world-studio.html regional stage map labels
+- Stage preview uses a 100x100 SVG viewBox rendered in a 250px box. The shared 15-unit label size was therefore rendered much too large.
+- Scoped #previewPins labels to 4 SVG units and reduced outline/marker stroke widths. World-map labels remain unchanged.
+
+3. Image importing in World & Stage Studio
+- Added “画像を選択” for world map and regional map image.
+- Selected image is embedded as a data:image/... URL in the world JSON/draft; this avoids requiring the user to manually copy a file path into the project.
+- Existing relative-path images remain supported.
+- Embedded image is shown as “（埋め込み画像）” in the path input to avoid displaying a long base64 string.
+- File type is limited to PNG/JPEG/WebP/AVIF/GIF; max size 2MB to protect localStorage capacity.
+- JSON export/import preserves embedded image strings.
+
+Checks
+- JavaScript syntax checked with Node.js (`node --check`) for index.html and story-world-studio.html.
+- A visual browser test was not performed in this environment. Please test the transition and image selection in a browser after extracting the ZIP.

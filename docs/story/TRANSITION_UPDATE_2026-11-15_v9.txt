@@ -1,0 +1,30 @@
+Chronos / 年号Guesser 更新メモ
+更新日: 2026-11-15
+
+変更内容:
+- ルーム作成画面（オンライン画面）からストーリーモードタイトルへの遷移を全面刷新。
+- オンライン画面を先に縮退・消失させ、その後に異界の門（暗転・青白い光輪・CHRONOS / BEYOND THE CHRONICLE）を展開。
+- 門が画面を覆っている間にオンライン画面を hidden にし、ストーリーモード画面を独立して表示。
+- 門の消失に合わせてストーリータイトルを別世界から現れるように表示。オンライン画面とストーリー画面が同時に重なって見える演出を廃止。
+- ストーリーモードからオンラインへ戻る際、オンライン画面の hidden 状態を解除する処理を追加。
+- prefers-reduced-motion を尊重し、動きを抑える設定では即時切替。
+
+主なCSS:
+- .depth-wash.gate-active / @keyframes gateOpen / gateCurtain / gateTitle
+- @keyframes roomCollapse
+- @keyframes storyFromOtherSide / heroReveal
+
+主なJS:
+- switchToStoryMode()
+  0.82秒でオンライン画面を退場させ、門の背後でストーリー画面へ切り替え。約3.5秒で遷移状態を解除。
+- switchToOnlineMode()
+  オンライン画面の hidden を解除して復帰。
+
+未変更:
+- ゲームロジック、Firebase設定、問題データ、ストーリー進行データ。
+
+検証:
+- index.html 内のインラインJavaScriptを抽出し node --check で構文確認。
+- story/data/story-world.json をJSONとして検証。
+- ZIPアーカイブの整合性を検証。
+- 実ブラウザでの視覚確認（特にiPhone Safari / Android Chrome）は未実施。
