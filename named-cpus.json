@@ -5,25 +5,61 @@
       "id": "oda_nobunaga",
       "name": "織田信長",
       "level": "exam_candidate",
-      "personality": {"memory": 0.43, "intuition": 0.62, "aggression": 0.82, "caution": 0.28, "curiosity": 0.66, "thrift": 0.3, "variability": 0.58}
+      "personality": {
+        "memory": 0.43,
+        "intuition": 0.62,
+        "aggression": 0.82,
+        "caution": 0.28,
+        "curiosity": 0.66,
+        "thrift": 0.3,
+        "variability": 0.58,
+        "shopping": 0.74
+      }
     },
     {
       "id": "cleopatra",
       "name": "クレオパトラ",
       "level": "major",
-      "personality": {"memory": 0.59, "intuition": 0.76, "aggression": 0.55, "caution": 0.58, "curiosity": 0.74, "thrift": 0.54, "variability": 0.42}
+      "personality": {
+        "memory": 0.59,
+        "intuition": 0.76,
+        "aggression": 0.55,
+        "caution": 0.58,
+        "curiosity": 0.74,
+        "thrift": 0.54,
+        "variability": 0.42,
+        "shopping": 0.56
+      }
     },
     {
       "id": "sima_qian",
       "name": "司馬遷",
       "level": "historian",
-      "personality": {"memory": 0.72, "intuition": 0.82, "aggression": 0.34, "caution": 0.78, "curiosity": 0.62, "thrift": 0.76, "variability": 0.28}
+      "personality": {
+        "memory": 0.72,
+        "intuition": 0.82,
+        "aggression": 0.34,
+        "caution": 0.78,
+        "curiosity": 0.62,
+        "thrift": 0.76,
+        "variability": 0.28,
+        "shopping": 0.32
+      }
     },
     {
       "id": "joan_of_arc",
       "name": "ジャンヌ・ダルク",
       "level": "beginner",
-      "personality": {"memory": 0.33, "intuition": 0.48, "aggression": 0.75, "caution": 0.32, "curiosity": 0.68, "thrift": 0.32, "variability": 0.68}
+      "personality": {
+        "memory": 0.33,
+        "intuition": 0.48,
+        "aggression": 0.75,
+        "caution": 0.32,
+        "curiosity": 0.68,
+        "thrift": 0.32,
+        "variability": 0.68,
+        "shopping": 0.68
+      }
     }
   ]
 }
