@@ -1,0 +1,75 @@
+{
+  "format": "chronos-story-world",
+  "schemaVersion": 1,
+  "metadata": {
+    "title": "CHRONOS Story World",
+    "version": 1,
+    "mapStyle": "ancient"
+  },
+  "regions": [
+    {
+      "id": "egypt",
+      "name": "エジプト",
+      "era": "古代",
+      "map": { "x": 52, "y": 56 },
+      "unlockedAtStart": false,
+      "unlock": { "operator": "all", "conditions": [] },
+      "stages": []
+    },
+    {
+      "id": "mesopotamia",
+      "name": "メソポタミア",
+      "era": "古代",
+      "map": { "x": 58, "y": 49 },
+      "unlockedAtStart": true,
+      "unlock": { "operator": "all", "conditions": [] },
+      "stages": [
+        { "id": "mesopotamia_ur", "name": "ウル", "map": { "x": 27, "y": 79 }, "order": 1, "scenarioId": "mesopotamia_ur", "unlockedAtStart": true, "hidden": false, "unlock": { "operator": "all", "conditions": [] } },
+        { "id": "mesopotamia_uruk", "name": "ウルク", "map": { "x": 34, "y": 70 }, "order": 2, "scenarioId": "mesopotamia_uruk", "unlockedAtStart": false, "hidden": false, "unlock": { "operator": "all", "conditions": [{ "type": "stage_completed", "targetId": "mesopotamia_ur" }] } },
+        { "id": "mesopotamia_akkad", "name": "アッカド", "map": { "x": 47, "y": 53 }, "order": 3, "scenarioId": "mesopotamia_akkad", "unlockedAtStart": false, "hidden": false, "unlock": { "operator": "all", "conditions": [{ "type": "stage_completed", "targetId": "mesopotamia_uruk" }] } },
+        { "id": "mesopotamia_babylon", "name": "バビロン", "map": { "x": 56, "y": 63 }, "order": 4, "scenarioId": "mesopotamia_babylon", "unlockedAtStart": false, "hidden": false, "unlock": { "operator": "all", "conditions": [{ "type": "stage_completed", "targetId": "mesopotamia_akkad" }] } },
+        { "id": "mesopotamia_nineveh", "name": "ニネヴェ", "map": { "x": 67, "y": 31 }, "order": 5, "scenarioId": "mesopotamia_nineveh", "unlockedAtStart": false, "hidden": false, "unlock": { "operator": "all", "conditions": [{ "type": "stage_completed", "targetId": "mesopotamia_babylon" }] } },
+        { "id": "mesopotamia_hidden_tablet", "name": "秘められた粘土板", "map": { "x": 81, "y": 43 }, "order": 6, "scenarioId": "mesopotamia_hidden_tablet", "unlockedAtStart": false, "hidden": true, "unlock": { "operator": "all", "conditions": [{ "type": "achievement_earned", "targetId": "achievement_mesopotamia_complete" }] } }
+      ]
+    },
+    {
+      "id": "greece",
+      "name": "ギリシャ",
+      "era": "古代",
+      "map": { "x": 47, "y": 46 },
+      "unlockedAtStart": false,
+      "unlock": { "operator": "all", "conditions": [] },
+      "stages": []
+    },
+    {
+      "id": "rome",
+      "name": "ローマ",
+      "era": "古代",
+      "map": { "x": 42, "y": 47 },
+      "unlockedAtStart": false,
+      "unlock": { "operator": "all", "conditions": [] },
+      "stages": []
+    },
+    {
+      "id": "china",
+      "name": "中国",
+      "era": "古代",
+      "map": { "x": 77, "y": 51 },
+      "unlockedAtStart": false,
+      "unlock": { "operator": "all", "conditions": [] },
+      "stages": []
+    },
+    {
+      "id": "japan",
+      "name": "日本",
+      "era": "古代",
+      "map": { "x": 86, "y": 55 },
+      "unlockedAtStart": false,
+      "unlock": { "operator": "all", "conditions": [] },
+      "stages": []
+    }
+  ],
+  "achievements": [
+    { "id": "achievement_mesopotamia_complete", "name": "二つの川の記録", "description": "メソポタミアの主要ステージをすべて完了する。" }
+  ]
+}
