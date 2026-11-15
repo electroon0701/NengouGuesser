@@ -31,7 +31,7 @@
     return Object.freeze({
       level, personality:traits,
       thinkDelay: () => Math.round(rand(rng, profile.reactionMinMs, profile.reactionMaxMs) * (.8 + traits.variability*.45)),
-      answer(question, minYear = -1999, maxYear = 9999) {
+      answer(question, minYear = -1999, maxYear = new Date().getFullYear()) {
         const truth = Number(question?.year);
         if (!Number.isFinite(truth)) return Math.round(rand(rng, minYear, maxYear));
         const effects=question?.cpuEffects||{},scale = difficultyScale(question), tierIndex=scale<.86?0:scale<1.1?1:scale<1.32?2:scale<1.52?3:4;
@@ -48,7 +48,7 @@
         if(hint&&Number.isFinite(Number(hint.start))&&Number.isFinite(Number(hint.end))){const low=Math.min(Number(hint.start),Number(hint.end)),high=Math.max(Number(hint.start),Number(hint.end));estimate=clamp(estimate,low,high);if(rng()<.3)estimate=rand(rng,low,high)}
         return Math.round(clamp(estimate, minYear, maxYear));
       },
-      reviseAnswer(previous, question, minYear=-1999, maxYear=9999) {
+      reviseAnswer(previous, question, minYear=-1999, maxYear=new Date().getFullYear()) {
         const old=Number(previous),fresh=this.answer(question,minYear,maxYear);
         if(!Number.isFinite(old))return fresh;
         const confidence=.18+traits.curiosity*.22+(1-traits.variability)*.08;
