@@ -1,0 +1,18 @@
+{
+  "format": "chronos-story-program",
+  "schemaVersion": 3,
+  "metadata": {
+    "id": "chronos_story_program",
+    "title": "CHRONOS Story Program",
+    "version": 1,
+    "updatedAt": "2026-11-15T00:00:00.000Z"
+  },
+  "world": {
+    "regions": [],
+    "specialAreas": []
+  },
+  "characters": [],
+  "cpuProfiles": [],
+  "scenarios": [],
+  "achievements": []
+}
