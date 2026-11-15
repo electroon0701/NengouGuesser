@@ -1,0 +1,299 @@
+{
+  "format": "chronos-story-world",
+  "schemaVersion": 1,
+  "metadata": {
+    "title": "CHRONOS Story World",
+    "version": 1,
+    "mapStyle": "ancient",
+    "worldMapImage": "story/assets/ancient-world-map.jpeg",
+    "eras": [
+      "古代",
+      "中世",
+      "近世",
+      "近代",
+      "最近世",
+      "現代"
+    ],
+    "voidMap": {
+      "name": "廻間",
+      "style": "absolute-dark",
+      "description": "時代の境界にある未記録の地図"
+    },
+    "specialStages": [
+      {
+        "id": "shinden",
+        "name": "幣殿",
+        "asset": "story/assets/shinden.jpg",
+        "type": "hub-stage"
+      }
+    ],
+    "eraMaps": {
+      "古代": {
+        "image": "story/assets/ancient-world-map.jpeg"
+      },
+      "中世": {
+        "image": ""
+      },
+      "近世": {
+        "image": ""
+      },
+      "近代": {
+        "image": ""
+      },
+      "最近世": {
+        "image": ""
+      },
+      "現代": {
+        "image": ""
+      }
+    },
+    "specialAreas": [
+      {
+        "id": "void",
+        "name": "廻間",
+        "type": "void-map",
+        "style": "absolute-dark",
+        "mapImage": "",
+        "description": "時代の境界にある未記録の地図",
+        "stages": []
+      },
+      {
+        "id": "shinden",
+        "name": "幣殿",
+        "type": "hub-stage",
+        "style": "sanctuary",
+        "mapImage": "story/assets/shinden.jpg",
+        "description": "全時代をつなぐ拠点",
+        "stages": []
+      }
+    ]
+  },
+  "regions": [
+    {
+      "id": "egypt",
+      "name": "エジプト",
+      "era": "古代",
+      "map": {
+        "x": 59,
+        "y": 36
+      },
+      "unlockedAtStart": false,
+      "unlock": {
+        "operator": "all",
+        "conditions": []
+      },
+      "stages": [],
+      "mapImage": ""
+    },
+    {
+      "id": "mesopotamia",
+      "name": "メソポタミア",
+      "era": "古代",
+      "map": {
+        "x": 62,
+        "y": 32
+      },
+      "unlockedAtStart": true,
+      "unlock": {
+        "operator": "all",
+        "conditions": []
+      },
+      "stages": [
+        {
+          "id": "mesopotamia_ur",
+          "name": "ウル",
+          "map": {
+            "x": 27,
+            "y": 79
+          },
+          "order": 1,
+          "scenarioId": "mesopotamia_ur",
+          "unlockedAtStart": true,
+          "hidden": false,
+          "unlock": {
+            "operator": "all",
+            "conditions": []
+          }
+        },
+        {
+          "id": "mesopotamia_uruk",
+          "name": "ウルク",
+          "map": {
+            "x": 34,
+            "y": 70
+          },
+          "order": 2,
+          "scenarioId": "mesopotamia_uruk",
+          "unlockedAtStart": false,
+          "hidden": false,
+          "unlock": {
+            "operator": "all",
+            "conditions": [
+              {
+                "type": "stage_completed",
+                "targetId": "mesopotamia_ur"
+              }
+            ]
+          }
+        },
+        {
+          "id": "mesopotamia_akkad",
+          "name": "アッカド",
+          "map": {
+            "x": 47,
+            "y": 53
+          },
+          "order": 3,
+          "scenarioId": "mesopotamia_akkad",
+          "unlockedAtStart": false,
+          "hidden": false,
+          "unlock": {
+            "operator": "all",
+            "conditions": [
+              {
+                "type": "stage_completed",
+                "targetId": "mesopotamia_uruk"
+              }
+            ]
+          }
+        },
+        {
+          "id": "mesopotamia_babylon",
+          "name": "バビロン",
+          "map": {
+            "x": 56,
+            "y": 63
+          },
+          "order": 4,
+          "scenarioId": "mesopotamia_babylon",
+          "unlockedAtStart": false,
+          "hidden": false,
+          "unlock": {
+            "operator": "all",
+            "conditions": [
+              {
+                "type": "stage_completed",
+                "targetId": "mesopotamia_akkad"
+              }
+            ]
+          }
+        },
+        {
+          "id": "mesopotamia_nineveh",
+          "name": "ニネヴェ",
+          "map": {
+            "x": 67,
+            "y": 31
+          },
+          "order": 5,
+          "scenarioId": "mesopotamia_nineveh",
+          "unlockedAtStart": false,
+          "hidden": false,
+          "unlock": {
+            "operator": "all",
+            "conditions": [
+              {
+                "type": "stage_completed",
+                "targetId": "mesopotamia_babylon"
+              }
+            ]
+          }
+        },
+        {
+          "id": "mesopotamia_hidden_tablet",
+          "name": "秘められた粘土板",
+          "map": {
+            "x": 81,
+            "y": 43
+          },
+          "order": 6,
+          "scenarioId": "mesopotamia_hidden_tablet",
+          "unlockedAtStart": false,
+          "hidden": true,
+          "unlock": {
+            "operator": "all",
+            "conditions": [
+              {
+                "type": "achievement_earned",
+                "targetId": "achievement_mesopotamia_complete"
+              }
+            ]
+          }
+        }
+      ],
+      "mapImage": ""
+    },
+    {
+      "id": "greece",
+      "name": "ギリシャ",
+      "era": "古代",
+      "map": {
+        "x": 56,
+        "y": 29
+      },
+      "unlockedAtStart": false,
+      "unlock": {
+        "operator": "all",
+        "conditions": []
+      },
+      "stages": [],
+      "mapImage": ""
+    },
+    {
+      "id": "rome",
+      "name": "ローマ",
+      "era": "古代",
+      "map": {
+        "x": 53,
+        "y": 27
+      },
+      "unlockedAtStart": false,
+      "unlock": {
+        "operator": "all",
+        "conditions": []
+      },
+      "stages": [],
+      "mapImage": ""
+    },
+    {
+      "id": "china",
+      "name": "中国",
+      "era": "古代",
+      "map": {
+        "x": 79,
+        "y": 31
+      },
+      "unlockedAtStart": false,
+      "unlock": {
+        "operator": "all",
+        "conditions": []
+      },
+      "stages": [],
+      "mapImage": ""
+    },
+    {
+      "id": "japan",
+      "name": "日本",
+      "era": "古代",
+      "map": {
+        "x": 88,
+        "y": 30
+      },
+      "unlockedAtStart": false,
+      "unlock": {
+        "operator": "all",
+        "conditions": []
+      },
+      "stages": [],
+      "mapImage": ""
+    }
+  ],
+  "achievements": [
+    {
+      "id": "achievement_mesopotamia_complete",
+      "name": "二つの川の記録",
+      "description": "メソポタミアの主要ステージをすべて完了する。"
+    }
+  ],
+  "cities": []
+}
