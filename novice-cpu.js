@@ -9,6 +9,8 @@
   });
   const PERSONALITY_DEFAULTS = Object.freeze({memory:.5,intuition:.5,aggression:.43,caution:.55,curiosity:.52,thrift:.56,variability:.44,shopping:.48,strategy:.5});
   const clamp = (n, lo, hi) => Math.max(lo, Math.min(hi, n));
+  const PERIOD_BANDS = Object.freeze({"古代":[-1700,1100],"中世":[900,1550],"近世":[1350,1850],"最近世":[1750,1960],"現代史":[1900,new Date().getFullYear()]});
+  function periodBounds(question,minYear,maxYear){const band=PERIOD_BANDS[String(question?.period||"")];if(!band)return [minYear,maxYear];const lo=Math.max(minYear,band[0]),hi=Math.min(maxYear,band[1]);return lo<=hi?[lo,hi]:[minYear,maxYear]}
   const rand = (rng, lo, hi) => lo + rng() * (hi - lo);
   const normal = rng => (rand(rng, 0, 1) + rand(rng, 0, 1) + rand(rng, 0, 1) - 1.5) * 1.633;
   const normalizePersonality = value => Object.fromEntries(Object.entries(PERSONALITY_DEFAULTS).map(([key,fallback]) => [key,clamp(Number.isFinite(Number(value?.[key]))?Number(value[key]):fallback,0,1)]));
@@ -32,13 +34,14 @@
       level, personality:traits,
       thinkDelay: () => Math.round(rand(rng, profile.reactionMinMs, profile.reactionMaxMs) * (.8 + traits.variability*.45)),
       answer(question, minYear = -1999, maxYear = new Date().getFullYear()) {
+        const [periodMin,periodMax]=periodBounds(question,minYear,maxYear);
         const truth = Number(question?.year);
-        if (!Number.isFinite(truth)) return Math.round(rand(rng, minYear, maxYear));
+        if (!Number.isFinite(truth)) return Math.round(rand(rng, periodMin, periodMax));
         const effects=question?.cpuEffects||{},scale = difficultyScale(question), tierIndex=scale<.86?0:scale<1.1?1:scale<1.32?2:scale<1.52?3:4;
         const mastery=profile.mastery[tierIndex],blindStrength=clamp(Number(effects.blindStrength??(effects.blind ? .35 : 0)),0,.85),oilStrength=clamp(Number(effects.oilStrength??(effects.oil ? .35 : 0)),0,.85),impairment=clamp(blindStrength*.95+oilStrength*.8,0,.84),recognition=mastery*(.72+traits.memory*.28)*(1-impairment);
         const recognizes=rng()<clamp(recognition,.005,.98);
         const exactChance = recognizes ? clamp((.42+mastery*.22)*(1-impairment*.92),.06,.65) : clamp(.006+impairment*.065,.006,.08);
-        if (rng() < exactChance) return Math.round(clamp(truth, minYear, maxYear));
+        if (rng() < exactChance) return Math.round(clamp(truth, periodMin, periodMax));
         let width = (recognizes ? 100+profile.memoryNoise*180 : 500- (profile.mastery[0]+profile.mastery[1]+profile.mastery[2])*48) * scale * (1.12-traits.intuition*.4) * (1+traits.variability*.45) * (1+impairment*3.1);
         if(effects.radar)width*=.72;
         if(effects.century)width*=.84;
@@ -46,13 +49,14 @@
         if (rng() < profile.hedgeRate*(.75+traits.variability*.65)) estimate = estimate * (0.84 + rng() * 0.32);
         const hint=effects.radarRange||effects.centuryRange;
         if(hint&&Number.isFinite(Number(hint.start))&&Number.isFinite(Number(hint.end))){const low=Math.min(Number(hint.start),Number(hint.end)),high=Math.max(Number(hint.start),Number(hint.end));estimate=clamp(estimate,low,high);if(rng()<.3)estimate=rand(rng,low,high)}
-        return Math.round(clamp(estimate, minYear, maxYear));
+        return Math.round(clamp(estimate, periodMin, periodMax));
       },
       reviseAnswer(previous, question, minYear=-1999, maxYear=new Date().getFullYear()) {
+        const [periodMin,periodMax]=periodBounds(question,minYear,maxYear);
         const old=Number(previous),fresh=this.answer(question,minYear,maxYear);
         if(!Number.isFinite(old))return fresh;
         const confidence=.18+traits.curiosity*.22+(1-traits.variability)*.08;
-        return Math.round(clamp(old+(fresh-old)*confidence+normal(rng)*(1-traits.intuition)*18,minYear,maxYear));
+        return Math.round(clamp(old+(fresh-old)*confidence+normal(rng)*(1-traits.intuition)*18,periodMin,periodMax));
       },
       answerDate(question, guessedYear) {
         const months=Number(question?.month),days=Number(question?.day);
