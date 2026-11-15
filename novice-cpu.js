@@ -3,8 +3,8 @@
   "use strict";
   const TIERS = Object.freeze({
     beginner: Object.freeze({label:"初学者",mastery:[.42,.20,.09,.035,.015],memoryNoise:.20,hedgeRate:.28,bluffRate:.055,callRate:.48,reactionMinMs:450,reactionMaxMs:1250}),
-    exam_candidate: Object.freeze({label:"受験生",mastery:[.72,.48,.27,.15,.08],memoryNoise:.15,hedgeRate:.22,bluffRate:.075,callRate:.53,reactionMinMs:450,reactionMaxMs:1250}),
-    major: Object.freeze({label:"専攻生",mastery:[.88,.76,.52,.31,.19],memoryNoise:.115,hedgeRate:.17,bluffRate:.1,callRate:.58,reactionMinMs:450,reactionMaxMs:1250}),
+    exam_candidate: Object.freeze({label:"受験生",mastery:[.82,.60,.38,.22,.12],memoryNoise:.15,hedgeRate:.22,bluffRate:.075,callRate:.53,reactionMinMs:450,reactionMaxMs:1250}),
+    major: Object.freeze({label:"専攻生",mastery:[.92,.84,.66,.46,.31],memoryNoise:.115,hedgeRate:.17,bluffRate:.1,callRate:.58,reactionMinMs:450,reactionMaxMs:1250}),
     historian: Object.freeze({label:"歴史学者",mastery:[.95,.90,.78,.55,.38],memoryNoise:.085,hedgeRate:.13,bluffRate:.12,callRate:.61,reactionMinMs:450,reactionMaxMs:1250})
   });
   const PERSONALITY_DEFAULTS = Object.freeze({memory:.5,intuition:.5,aggression:.43,caution:.55,curiosity:.52,thrift:.56,variability:.44,shopping:.48,strategy:.5});
