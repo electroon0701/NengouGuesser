@@ -1,0 +1,199 @@
+{
+  "format": "chronos-story-home",
+  "schemaVersion": 1,
+  "metadata": {
+    "title": "幣殿ホーム設定",
+    "updatedAt": "2026-11-16T00:00:00.000Z"
+  },
+  "homeCharacterId": "oda_nobunaga",
+  "comments": {
+    "world": "時を越え、まだ見ぬ記録を探しに行こう。",
+    "shop": "必要なものがあれば、ここで整えていくといい。",
+    "people": "出会いは、いずれ歴史の証言になる。",
+    "achievements": "歩みを重ねた証は、ここに刻まれている。",
+    "account": "旅の記録は大切に保管しておこう。"
+  },
+  "shopProducts": [
+    {
+      "id": "item_radar",
+      "type": "item",
+      "targetId": "radar",
+      "title": "レーダー",
+      "price": 8,
+      "description": "戦闘中に使用できるアイテム。",
+      "enabled": true
+    },
+    {
+      "id": "item_tailwind",
+      "type": "item",
+      "targetId": "tailwind",
+      "title": "追い風札",
+      "price": 10,
+      "description": "戦闘中に使用できるアイテム。",
+      "enabled": true
+    },
+    {
+      "id": "item_oracle",
+      "type": "item",
+      "targetId": "oracle",
+      "title": "時の神託",
+      "price": 16,
+      "description": "戦闘中に使用できるアイテム。",
+      "enabled": true
+    },
+    {
+      "id": "item_century",
+      "type": "item",
+      "targetId": "century",
+      "title": "世紀の灯",
+      "price": 8,
+      "description": "戦闘中に使用できるアイテム。",
+      "enabled": true
+    },
+    {
+      "id": "item_goblin_blind",
+      "type": "item",
+      "targetId": "goblin_blind",
+      "title": "小鬼の目隠し",
+      "price": 10,
+      "description": "戦闘中に使用できるアイテム。",
+      "enabled": true
+    },
+    {
+      "id": "item_demon_blind",
+      "type": "item",
+      "targetId": "demon_blind",
+      "title": "悪魔の目隠し",
+      "price": 18,
+      "description": "戦闘中に使用できるアイテム。",
+      "enabled": true
+    },
+    {
+      "id": "item_oil_bottle",
+      "type": "item",
+      "targetId": "oil_bottle",
+      "title": "油瓶",
+      "price": 9,
+      "description": "戦闘中に使用できるアイテム。",
+      "enabled": true
+    },
+    {
+      "id": "item_super_oil_bottle",
+      "type": "item",
+      "targetId": "super_oil_bottle",
+      "title": "超・油瓶",
+      "price": 18,
+      "description": "戦闘中に使用できるアイテム。",
+      "enabled": true
+    },
+    {
+      "id": "item_grudge_charm",
+      "type": "item",
+      "targetId": "grudge_charm",
+      "title": "怨念の呪符",
+      "price": 11,
+      "description": "戦闘中に使用できるアイテム。",
+      "enabled": true
+    },
+    {
+      "id": "item_malevolence_charm",
+      "type": "item",
+      "targetId": "malevolence_charm",
+      "title": "惡念の呪符",
+      "price": 18,
+      "description": "戦闘中に使用できるアイテム。",
+      "enabled": true
+    },
+    {
+      "id": "item_onigiri",
+      "type": "item",
+      "targetId": "onigiri",
+      "title": "おにぎにぎ",
+      "price": 9,
+      "description": "戦闘中に使用できるアイテム。",
+      "enabled": true
+    },
+    {
+      "id": "item_berserker_blind",
+      "type": "item",
+      "targetId": "berserker_blind",
+      "title": "狂戦士の目隠し",
+      "price": 14,
+      "description": "戦闘中に使用できるアイテム。",
+      "enabled": true
+    },
+    {
+      "id": "item_egoma_oil",
+      "type": "item",
+      "targetId": "egoma_oil",
+      "title": "えごま油瓶",
+      "price": 11,
+      "description": "戦闘中に使用できるアイテム。",
+      "enabled": true
+    },
+    {
+      "id": "item_self_binding",
+      "type": "item",
+      "targetId": "self_binding",
+      "title": "自縄自縛",
+      "price": 14,
+      "description": "戦闘中に使用できるアイテム。",
+      "enabled": true
+    },
+    {
+      "id": "item_insight",
+      "type": "item",
+      "targetId": "insight",
+      "title": "鑑識眼",
+      "price": 12,
+      "description": "戦闘中に使用できるアイテム。",
+      "enabled": true
+    },
+    {
+      "id": "item_omniscience",
+      "type": "item",
+      "targetId": "omniscience",
+      "title": "千里眼",
+      "price": 18,
+      "description": "戦闘中に使用できるアイテム。",
+      "enabled": true
+    },
+    {
+      "id": "item_edict",
+      "type": "item",
+      "targetId": "edict",
+      "title": "文明の利器",
+      "price": 16,
+      "description": "戦闘中に使用できるアイテム。",
+      "enabled": true
+    },
+    {
+      "id": "item_disguise",
+      "type": "item",
+      "targetId": "disguise",
+      "title": "隠れ蓑",
+      "price": 10,
+      "description": "戦闘中に使用できるアイテム。",
+      "enabled": true
+    },
+    {
+      "id": "item_time_leap",
+      "type": "item",
+      "targetId": "time_leap",
+      "title": "タイムリープ",
+      "price": 14,
+      "description": "戦闘中に使用できるアイテム。",
+      "enabled": true
+    },
+    {
+      "id": "unlock_egypt",
+      "type": "region",
+      "targetId": "egypt",
+      "title": "エジプト地域の記録解放",
+      "price": 18,
+      "description": "古代エジプトの地域地図とステージを解放します。",
+      "enabled": true
+    }
+  ],
+  "stageRewards": {}
+}
