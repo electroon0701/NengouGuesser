@@ -1,0 +1,1944 @@
+{
+  "format": "chronos-story-program",
+  "schemaVersion": 3,
+  "metadata": {
+    "id": "story_draft_d76090b62d20",
+    "title": "story-program",
+    "version": 1,
+    "updatedAt": "2026-11-18T14:41:37.082Z",
+    "storyOpeningEventId": "scenario_fa79f7ca68c8::event_635fc391c657"
+  },
+  "world": {
+    "regions": [
+      {
+        "id": "egypt",
+        "name": "エジプト",
+        "era": "古代",
+        "map": {
+          "x": 55,
+          "y": 49
+        },
+        "unlockedAtStart": true,
+        "unlock": {
+          "operator": "all",
+          "conditions": []
+        },
+        "stages": [
+          {
+            "id": "stage_41e4823894",
+            "name": "ヒエラコンポリス",
+            "map": {
+              "x": 10,
+              "y": 50
+            },
+            "order": 1,
+            "scenarioId": "stage_41e4823894",
+            "unlockedAtStart": true,
+            "hidden": false,
+            "unlock": {
+              "operator": "all",
+              "conditions": []
+            }
+          },
+          {
+            "id": "stage_2cf5cf9356",
+            "name": "\tメンフィス",
+            "map": {
+              "x": 20,
+              "y": 50
+            },
+            "order": 2,
+            "scenarioId": "stage_2cf5cf9356",
+            "unlockedAtStart": false,
+            "hidden": false,
+            "unlock": {
+              "operator": "all",
+              "conditions": [
+                {
+                  "type": "stage_completed",
+                  "targetId": "stage_41e4823894"
+                }
+              ]
+            }
+          },
+          {
+            "id": "stage_2b0f7772cf",
+            "name": "テーベ",
+            "map": {
+              "x": 30,
+              "y": 50
+            },
+            "order": 3,
+            "scenarioId": "stage_2b0f7772cf",
+            "unlockedAtStart": false,
+            "hidden": false,
+            "unlock": {
+              "operator": "all",
+              "conditions": [
+                {
+                  "type": "stage_completed",
+                  "targetId": "stage_2cf5cf9356"
+                }
+              ]
+            }
+          },
+          {
+            "id": "stage_f27eb2b255",
+            "name": "アマルナ",
+            "map": {
+              "x": 40,
+              "y": 50
+            },
+            "order": 4,
+            "scenarioId": "stage_f27eb2b255",
+            "unlockedAtStart": false,
+            "hidden": false,
+            "unlock": {
+              "operator": "all",
+              "conditions": [
+                {
+                  "type": "stage_completed",
+                  "targetId": "stage_2b0f7772cf"
+                }
+              ]
+            }
+          },
+          {
+            "id": "stage_bf8bf854a9",
+            "name": "アレクサンドリア",
+            "map": {
+              "x": 50,
+              "y": 50
+            },
+            "order": 5,
+            "scenarioId": "stage_bf8bf854a9",
+            "unlockedAtStart": false,
+            "hidden": false,
+            "unlock": {
+              "operator": "all",
+              "conditions": [
+                {
+                  "type": "stage_completed",
+                  "targetId": "stage_f27eb2b255"
+                }
+              ]
+            }
+          },
+          {
+            "id": "stage_357a617884",
+            "name": "茫漠たるピラミッド",
+            "map": {
+              "x": 60,
+              "y": 50
+            },
+            "order": 6,
+            "scenarioId": "stage_357a617884",
+            "unlockedAtStart": false,
+            "hidden": true,
+            "unlock": {
+              "operator": "all",
+              "conditions": [
+                {
+                  "type": "stage_completed",
+                  "targetId": "stage_bf8bf854a9"
+                }
+              ]
+            }
+          }
+        ],
+        "mapImage": ""
+      },
+      {
+        "id": "mesopotamia",
+        "name": "メソポタミア",
+        "era": "古代",
+        "map": {
+          "x": 62,
+          "y": 32
+        },
+        "unlockedAtStart": true,
+        "unlock": {
+          "operator": "all",
+          "conditions": []
+        },
+        "stages": [
+          {
+            "id": "mesopotamia_ur",
+            "name": "ウル",
+            "map": {
+              "x": 63,
+              "y": 79
+            },
+            "order": 1,
+            "scenarioId": "mesopotamia_ur",
+            "unlockedAtStart": true,
+            "hidden": false,
+            "unlock": {
+              "operator": "all",
+              "conditions": []
+            }
+          },
+          {
+            "id": "mesopotamia_uruk",
+            "name": "ウルク",
+            "map": {
+              "x": 58,
+              "y": 72
+            },
+            "order": 2,
+            "scenarioId": "mesopotamia_uruk",
+            "unlockedAtStart": false,
+            "hidden": false,
+            "unlock": {
+              "operator": "all",
+              "conditions": [
+                {
+                  "type": "stage_completed",
+                  "targetId": "mesopotamia_ur"
+                }
+              ]
+            }
+          },
+          {
+            "id": "mesopotamia_akkad",
+            "name": "アッシュル",
+            "map": {
+              "x": 55,
+              "y": 53
+            },
+            "order": 4,
+            "scenarioId": "mesopotamia_akkad",
+            "unlockedAtStart": false,
+            "hidden": false,
+            "unlock": {
+              "operator": "all",
+              "conditions": [
+                {
+                  "type": "stage_completed",
+                  "targetId": "mesopotamia_uruk"
+                }
+              ]
+            }
+          },
+          {
+            "id": "mesopotamia_babylon",
+            "name": "バビロン",
+            "map": {
+              "x": 56,
+              "y": 63
+            },
+            "order": 3,
+            "scenarioId": "mesopotamia_babylon",
+            "unlockedAtStart": false,
+            "hidden": false,
+            "unlock": {
+              "operator": "all",
+              "conditions": [
+                {
+                  "type": "stage_completed",
+                  "targetId": "mesopotamia_akkad"
+                }
+              ]
+            }
+          },
+          {
+            "id": "mesopotamia_nineveh",
+            "name": "ニネヴェ",
+            "map": {
+              "x": 62,
+              "y": 38
+            },
+            "order": 5,
+            "scenarioId": "mesopotamia_nineveh",
+            "unlockedAtStart": false,
+            "hidden": false,
+            "unlock": {
+              "operator": "all",
+              "conditions": [
+                {
+                  "type": "stage_completed",
+                  "targetId": "mesopotamia_babylon"
+                }
+              ]
+            }
+          },
+          {
+            "id": "mesopotamia_hidden_tablet",
+            "name": "秘められた粘土板",
+            "map": {
+              "x": 30,
+              "y": 20
+            },
+            "order": 6,
+            "scenarioId": "mesopotamia_hidden_tablet",
+            "unlockedAtStart": false,
+            "hidden": true,
+            "unlock": {
+              "operator": "all",
+              "conditions": [
+                {
+                  "type": "achievement_earned",
+                  "targetId": "achievement_mesopotamia_complete"
+                }
+              ]
+            }
+          }
+        ],
+        "mapImage": "story/assets/area_meso.PNG"
+      },
+      {
+        "id": "greece",
+        "name": "ギリシャ",
+        "era": "古代",
+        "map": {
+          "x": 56,
+          "y": 29
+        },
+        "unlockedAtStart": false,
+        "unlock": {
+          "operator": "all",
+          "conditions": []
+        },
+        "stages": [
+          {
+            "id": "stage_3c88c59fc0",
+            "name": "クノッソス",
+            "map": {
+              "x": 10,
+              "y": 50
+            },
+            "order": 1,
+            "scenarioId": "stage_3c88c59fc0",
+            "unlockedAtStart": true,
+            "hidden": false,
+            "unlock": {
+              "operator": "all",
+              "conditions": []
+            }
+          },
+          {
+            "id": "stage_105b62e5f5",
+            "name": "スパルタ",
+            "map": {
+              "x": 20,
+              "y": 50
+            },
+            "order": 2,
+            "scenarioId": "stage_105b62e5f5",
+            "unlockedAtStart": false,
+            "hidden": false,
+            "unlock": {
+              "operator": "all",
+              "conditions": []
+            }
+          },
+          {
+            "id": "stage_63fd57c526",
+            "name": "コリントス",
+            "map": {
+              "x": 30,
+              "y": 50
+            },
+            "order": 3,
+            "scenarioId": "stage_63fd57c526",
+            "unlockedAtStart": false,
+            "hidden": false,
+            "unlock": {
+              "operator": "all",
+              "conditions": []
+            }
+          },
+          {
+            "id": "stage_1dbdfbc774",
+            "name": "アテネ",
+            "map": {
+              "x": 40,
+              "y": 50
+            },
+            "order": 4,
+            "scenarioId": "stage_1dbdfbc774",
+            "unlockedAtStart": false,
+            "hidden": false,
+            "unlock": {
+              "operator": "all",
+              "conditions": []
+            }
+          },
+          {
+            "id": "stage_5b93734ce2",
+            "name": "テーベ",
+            "map": {
+              "x": 50,
+              "y": 50
+            },
+            "order": 5,
+            "scenarioId": "stage_5b93734ce2",
+            "unlockedAtStart": false,
+            "hidden": false,
+            "unlock": {
+              "operator": "all",
+              "conditions": []
+            }
+          }
+        ],
+        "mapImage": ""
+      },
+      {
+        "id": "rome",
+        "name": "ローマ",
+        "era": "古代",
+        "map": {
+          "x": 53,
+          "y": 27
+        },
+        "unlockedAtStart": false,
+        "unlock": {
+          "operator": "all",
+          "conditions": []
+        },
+        "stages": [
+          {
+            "id": "stage_c3052db802",
+            "name": "ローマ",
+            "map": {
+              "x": 10,
+              "y": 50
+            },
+            "order": 1,
+            "scenarioId": "stage_c3052db802",
+            "unlockedAtStart": true,
+            "hidden": false,
+            "unlock": {
+              "operator": "all",
+              "conditions": []
+            }
+          },
+          {
+            "id": "stage_8b826b3f95",
+            "name": "カルタゴ",
+            "map": {
+              "x": 20,
+              "y": 50
+            },
+            "order": 2,
+            "scenarioId": "stage_8b826b3f95",
+            "unlockedAtStart": false,
+            "hidden": false,
+            "unlock": {
+              "operator": "all",
+              "conditions": [
+                {
+                  "type": "stage_completed",
+                  "targetId": "stage_c3052db802"
+                }
+              ]
+            }
+          },
+          {
+            "id": "stage_b56bfdea3a",
+            "name": "ボンペイ",
+            "map": {
+              "x": 30,
+              "y": 50
+            },
+            "order": 3,
+            "scenarioId": "stage_b56bfdea3a",
+            "unlockedAtStart": false,
+            "hidden": false,
+            "unlock": {
+              "operator": "all",
+              "conditions": []
+            }
+          },
+          {
+            "id": "stage_af2e7506ca",
+            "name": "ミラノ",
+            "map": {
+              "x": 40,
+              "y": 50
+            },
+            "order": 4,
+            "scenarioId": "stage_af2e7506ca",
+            "unlockedAtStart": false,
+            "hidden": false,
+            "unlock": {
+              "operator": "all",
+              "conditions": [
+                {
+                  "type": "stage_completed",
+                  "targetId": "stage_b56bfdea3a"
+                }
+              ]
+            }
+          },
+          {
+            "id": "stage_4d34b6032c",
+            "name": "コンスタンティノープル",
+            "map": {
+              "x": 50,
+              "y": 50
+            },
+            "order": 5,
+            "scenarioId": "stage_4d34b6032c",
+            "unlockedAtStart": false,
+            "hidden": false,
+            "unlock": {
+              "operator": "all",
+              "conditions": [
+                {
+                  "type": "stage_completed",
+                  "targetId": "stage_af2e7506ca"
+                }
+              ]
+            }
+          },
+          {
+            "id": "stage_c75e5c0fe4",
+            "name": "鮮烈のコロシアム",
+            "map": {
+              "x": 50,
+              "y": 50
+            },
+            "order": 6,
+            "scenarioId": "stage_c75e5c0fe4",
+            "unlockedAtStart": false,
+            "hidden": true,
+            "unlock": {
+              "operator": "all",
+              "conditions": [
+                {
+                  "type": "stage_completed",
+                  "targetId": "stage_4d34b6032c"
+                }
+              ]
+            }
+          }
+        ],
+        "mapImage": ""
+      },
+      {
+        "id": "china",
+        "name": "中国",
+        "era": "古代",
+        "map": {
+          "x": 79,
+          "y": 31
+        },
+        "unlockedAtStart": false,
+        "unlock": {
+          "operator": "all",
+          "conditions": []
+        },
+        "stages": [
+          {
+            "id": "stage_0410d1c033",
+            "name": "二里頭",
+            "map": {
+              "x": 50,
+              "y": 50
+            },
+            "order": 1,
+            "scenarioId": "stage_0410d1c033",
+            "unlockedAtStart": true,
+            "hidden": false,
+            "unlock": {
+              "operator": "all",
+              "conditions": []
+            }
+          },
+          {
+            "id": "stage_ed5962858b",
+            "name": "殷墟",
+            "map": {
+              "x": 50,
+              "y": 50
+            },
+            "order": 2,
+            "scenarioId": "stage_ed5962858b",
+            "unlockedAtStart": false,
+            "hidden": false,
+            "unlock": {
+              "operator": "all",
+              "conditions": [
+                {
+                  "type": "stage_completed",
+                  "targetId": "stage_0410d1c033"
+                }
+              ]
+            }
+          },
+          {
+            "id": "stage_63ac436514",
+            "name": "洛陽",
+            "map": {
+              "x": 50,
+              "y": 50
+            },
+            "order": 3,
+            "scenarioId": "stage_63ac436514",
+            "unlockedAtStart": false,
+            "hidden": false,
+            "unlock": {
+              "operator": "all",
+              "conditions": [
+                {
+                  "type": "stage_completed",
+                  "targetId": "stage_ed5962858b"
+                }
+              ]
+            }
+          },
+          {
+            "id": "stage_f4c33a6053",
+            "name": "咸陽",
+            "map": {
+              "x": 50,
+              "y": 50
+            },
+            "order": 4,
+            "scenarioId": "stage_f4c33a6053",
+            "unlockedAtStart": false,
+            "hidden": false,
+            "unlock": {
+              "operator": "all",
+              "conditions": [
+                {
+                  "type": "stage_completed",
+                  "targetId": "stage_63ac436514"
+                }
+              ]
+            }
+          },
+          {
+            "id": "stage_3d96520d24",
+            "name": "長安",
+            "map": {
+              "x": 50,
+              "y": 50
+            },
+            "order": 5,
+            "scenarioId": "stage_3d96520d24",
+            "unlockedAtStart": false,
+            "hidden": false,
+            "unlock": {
+              "operator": "all",
+              "conditions": [
+                {
+                  "type": "stage_completed",
+                  "targetId": "stage_f4c33a6053"
+                }
+              ]
+            }
+          },
+          {
+            "id": "stage_a620780ec9",
+            "name": "建康",
+            "map": {
+              "x": 50,
+              "y": 50
+            },
+            "order": 6,
+            "scenarioId": "stage_a620780ec9",
+            "unlockedAtStart": false,
+            "hidden": false,
+            "unlock": {
+              "operator": "all",
+              "conditions": [
+                {
+                  "type": "stage_completed",
+                  "targetId": "stage_3d96520d24"
+                }
+              ]
+            }
+          },
+          {
+            "id": "stage_3263da616e",
+            "name": "成都",
+            "map": {
+              "x": 50,
+              "y": 50
+            },
+            "order": 7,
+            "scenarioId": "stage_3263da616e",
+            "unlockedAtStart": false,
+            "hidden": false,
+            "unlock": {
+              "operator": "all",
+              "conditions": [
+                {
+                  "type": "stage_completed",
+                  "targetId": "stage_a620780ec9"
+                }
+              ]
+            }
+          },
+          {
+            "id": "stage_270c3e91b6",
+            "name": "大同",
+            "map": {
+              "x": 50,
+              "y": 50
+            },
+            "order": 8,
+            "scenarioId": "stage_270c3e91b6",
+            "unlockedAtStart": false,
+            "hidden": false,
+            "unlock": {
+              "operator": "all",
+              "conditions": [
+                {
+                  "type": "stage_completed",
+                  "targetId": "stage_3263da616e"
+                }
+              ]
+            }
+          }
+        ],
+        "mapImage": ""
+      },
+      {
+        "id": "japan",
+        "name": "日本",
+        "era": "古代",
+        "map": {
+          "x": 88,
+          "y": 30
+        },
+        "unlockedAtStart": false,
+        "unlock": {
+          "operator": "all",
+          "conditions": []
+        },
+        "stages": [],
+        "mapImage": ""
+      },
+      {
+        "id": "region_1194b3d593",
+        "name": "西ヨーロッパ",
+        "era": "中世",
+        "map": {
+          "x": 46,
+          "y": 30
+        },
+        "unlockedAtStart": false,
+        "unlock": {
+          "operator": "all",
+          "conditions": []
+        },
+        "stages": [],
+        "mapImage": ""
+      },
+      {
+        "id": "region_7b41d26a12",
+        "name": "東ヨーロッパ",
+        "era": "中世",
+        "map": {
+          "x": 50,
+          "y": 25
+        },
+        "unlockedAtStart": false,
+        "unlock": {
+          "operator": "all",
+          "conditions": []
+        },
+        "stages": [],
+        "mapImage": ""
+      },
+      {
+        "id": "region_589a28c2b8",
+        "name": "イスラーム",
+        "era": "中世",
+        "map": {
+          "x": 55,
+          "y": 43
+        },
+        "unlockedAtStart": false,
+        "unlock": {
+          "operator": "all",
+          "conditions": []
+        },
+        "stages": [],
+        "mapImage": ""
+      },
+      {
+        "id": "region_e1c8351d48",
+        "name": "中国",
+        "era": "中世",
+        "map": {
+          "x": 80,
+          "y": 43
+        },
+        "unlockedAtStart": false,
+        "unlock": {
+          "operator": "all",
+          "conditions": []
+        },
+        "stages": [],
+        "mapImage": ""
+      },
+      {
+        "id": "region_90323eb889",
+        "name": "日本",
+        "era": "中世",
+        "map": {
+          "x": 87,
+          "y": 36
+        },
+        "unlockedAtStart": false,
+        "unlock": {
+          "operator": "all",
+          "conditions": []
+        },
+        "stages": [],
+        "mapImage": ""
+      },
+      {
+        "id": "region_9f6f5d190f",
+        "name": "東南アジア",
+        "era": "中世",
+        "map": {
+          "x": 85,
+          "y": 63
+        },
+        "unlockedAtStart": false,
+        "unlock": {
+          "operator": "all",
+          "conditions": []
+        },
+        "stages": [],
+        "mapImage": ""
+      }
+    ],
+    "specialAreas": [
+      {
+        "id": "void",
+        "name": "廻間",
+        "type": "void-map",
+        "style": "absolute-dark",
+        "mapImage": "",
+        "description": "時代の境界にある未記録の地図",
+        "stages": []
+      },
+      {
+        "id": "shinden",
+        "name": "幣殿",
+        "type": "hub-stage",
+        "style": "sanctuary",
+        "mapImage": "story/assets/shinden.jpg",
+        "description": "全時代をつなぐ拠点",
+        "stages": [
+          {
+            "id": "special_stage_4ada50c8dd",
+            "name": "チュートリアル",
+            "scenarioId": "special_stage_4ada50c8dd",
+            "order": 1,
+            "map": {
+              "x": 50,
+              "y": 50
+            },
+            "unlockedAtStart": true,
+            "hidden": false,
+            "unlock": {
+              "operator": "all",
+              "conditions": []
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "characters": [
+    {
+      "id": "story_npc_742d037a13",
+      "name": "『唯我独尊』",
+      "cpuProfileId": "yuigadokusonn",
+      "role": "サポーター",
+      "chatIcon": "story/assets/yuiga_icon.PNG",
+      "portrait": "story/assets/yuiga_basic.png",
+      "portraitExpressions": {
+        "happy": "story/assets/yuiga_mesugaki.png",
+        "sad": "",
+        "angry": "",
+        "surprised": "story/assets/yuiga_surprise.png",
+        "neutral": "story/assets/yuiga_basic.png",
+        "troubled": "story/assets/yuiga_trouble.png",
+        "smug": "story/assets/yuiga_niya.png"
+      },
+      "defaultBackground": "",
+      "eventTags": [],
+      "availableAtStart": true,
+      "unlock": {
+        "operator": "all",
+        "conditions": []
+      },
+      "notes": "",
+      "battleItems": [
+        "radar",
+        "tailwind",
+        "oracle",
+        "century",
+        "goblin_blind",
+        "demon_blind",
+        "oil_bottle",
+        "super_oil_bottle",
+        "grudge_charm",
+        "malevolence_charm",
+        "onigiri",
+        "berserker_blind",
+        "egoma_oil",
+        "self_binding",
+        "insight",
+        "omniscience",
+        "edict",
+        "disguise",
+        "time_leap"
+      ],
+      "battleSkill": 100
+    },
+    {
+      "id": "story_npc_fd795e9d4c",
+      "name": "構成員",
+      "cpuProfileId": "akutou_1",
+      "role": "Lv.1",
+      "chatIcon": "",
+      "portrait": "story/assets/kousei-m.png",
+      "portraitExpressions": {
+        "happy": "",
+        "sad": "",
+        "angry": "",
+        "surprised": "",
+        "neutral": "",
+        "troubled": "",
+        "smug": ""
+      },
+      "defaultBackground": "",
+      "eventTags": [],
+      "availableAtStart": true,
+      "unlock": {
+        "operator": "all",
+        "conditions": []
+      },
+      "notes": "",
+      "battleItems": [],
+      "battleSkill": 51
+    },
+    {
+      "id": "story_npc_c7ffb278a6",
+      "name": "構成員",
+      "cpuProfileId": "akutou_2",
+      "role": "Lv.2",
+      "chatIcon": "",
+      "portrait": "story/assets/kousei-w.png",
+      "portraitExpressions": {
+        "happy": "",
+        "sad": "",
+        "angry": "",
+        "surprised": "",
+        "neutral": "",
+        "troubled": "",
+        "smug": ""
+      },
+      "defaultBackground": "",
+      "eventTags": [],
+      "availableAtStart": true,
+      "unlock": {
+        "operator": "all",
+        "conditions": []
+      },
+      "notes": "",
+      "battleItems": [
+        "oil_bottle"
+      ],
+      "battleSkill": 62
+    },
+    {
+      "id": "story_npc_260255b08f",
+      "name": "構成員",
+      "cpuProfileId": "akutou-3",
+      "role": "Lv.3",
+      "chatIcon": "",
+      "portrait": "story/assets/kousei-m.png",
+      "portraitExpressions": {
+        "happy": "",
+        "sad": "",
+        "angry": "",
+        "surprised": "",
+        "neutral": "",
+        "troubled": "",
+        "smug": ""
+      },
+      "defaultBackground": "",
+      "eventTags": [],
+      "availableAtStart": true,
+      "unlock": {
+        "operator": "all",
+        "conditions": []
+      },
+      "notes": "",
+      "battleItems": [
+        "oil_bottle"
+      ],
+      "battleSkill": 70
+    },
+    {
+      "id": "story_npc_133d22e3f8",
+      "name": "構成員",
+      "cpuProfileId": "akutou-4",
+      "role": "Lv.4",
+      "chatIcon": "",
+      "portrait": "story/assets/kousei-w.png",
+      "portraitExpressions": {
+        "happy": "",
+        "sad": "",
+        "angry": "",
+        "surprised": "",
+        "neutral": "",
+        "troubled": "",
+        "smug": ""
+      },
+      "defaultBackground": "",
+      "eventTags": [],
+      "availableAtStart": true,
+      "unlock": {
+        "operator": "all",
+        "conditions": []
+      },
+      "notes": "",
+      "battleItems": [
+        "tailwind",
+        "oracle",
+        "century",
+        "goblin_blind",
+        "demon_blind",
+        "oil_bottle",
+        "super_oil_bottle"
+      ],
+      "battleSkill": 83
+    },
+    {
+      "id": "story_npc_6c66a0a833",
+      "name": "新しい人物",
+      "cpuProfileId": "",
+      "role": "ストーリーNPC",
+      "chatIcon": "",
+      "portrait": "",
+      "portraitExpressions": {
+        "happy": "",
+        "sad": "",
+        "angry": "",
+        "surprised": "",
+        "neutral": "",
+        "troubled": "",
+        "smug": ""
+      },
+      "defaultBackground": "",
+      "eventTags": [],
+      "availableAtStart": true,
+      "unlock": {
+        "operator": "all",
+        "conditions": []
+      },
+      "notes": "",
+      "battleItems": []
+    }
+  ],
+  "cpuProfiles": [
+    {
+      "id": "yuigadokusonn",
+      "name": "唯我独尊",
+      "level": "beginner",
+      "skill": 50,
+      "battleItems": [],
+      "personality": {
+        "memory": 0.5,
+        "intuition": 0.5,
+        "aggression": 0.43,
+        "caution": 0.55,
+        "curiosity": 0.52,
+        "thrift": 0.56,
+        "variability": 0.44,
+        "shopping": 0.48,
+        "strategy": 0.5
+      }
+    },
+    {
+      "id": "akutou_1",
+      "name": "悪党",
+      "level": "beginner",
+      "skill": 50,
+      "battleItems": [],
+      "personality": {
+        "memory": 0.5,
+        "intuition": 0.5,
+        "aggression": 0.43,
+        "caution": 0.55,
+        "curiosity": 0.52,
+        "thrift": 0.56,
+        "variability": 0.44,
+        "shopping": 0.48,
+        "strategy": 0.5
+      }
+    },
+    {
+      "id": "akutou_2",
+      "name": "悪党",
+      "level": "exam_candidate",
+      "skill": 50,
+      "battleItems": [],
+      "personality": {
+        "memory": 0.93,
+        "intuition": 0.65,
+        "aggression": 0.82,
+        "caution": 0.28,
+        "curiosity": 0.52,
+        "thrift": 0.09,
+        "variability": 0.44,
+        "shopping": 0.64,
+        "strategy": 0.5
+      }
+    },
+    {
+      "id": "akutou-3",
+      "name": "悪党",
+      "level": "major",
+      "skill": 50,
+      "battleItems": [],
+      "personality": {
+        "memory": 0.7,
+        "intuition": 0.71,
+        "aggression": 0.43,
+        "caution": 0.37,
+        "curiosity": 0.73,
+        "thrift": 0.26,
+        "variability": 0.44,
+        "shopping": 0.48,
+        "strategy": 0.5
+      }
+    },
+    {
+      "id": "akutou-4",
+      "name": "悪党",
+      "level": "historian",
+      "skill": 50,
+      "battleItems": [],
+      "personality": {
+        "memory": 0.79,
+        "intuition": 0.8,
+        "aggression": 0.43,
+        "caution": 0.77,
+        "curiosity": 0.7,
+        "thrift": 0.74,
+        "variability": 0.32,
+        "shopping": 0.48,
+        "strategy": 0.5
+      }
+    }
+  ],
+  "scenarios": [
+    {
+      "id": "scenario_fa79f7ca68c8",
+      "title": "チュートリアル",
+      "regionId": "",
+      "stageId": "special_stage_4ada50c8dd",
+      "era": "時代をまたぐ",
+      "order": 1,
+      "description": "ようこそ、「この世界」へ。",
+      "sequence": [
+        {
+          "id": "event_635fc391c657",
+          "type": "dialogue",
+          "title": "『没入』",
+          "mode": "visual_novel",
+          "required": true,
+          "backgroundPath": "story/assets/camp.png",
+          "cast": [
+            {
+              "characterId": "story_npc_742d037a13",
+              "slot": "center",
+              "portraitPath": "",
+              "entranceAnimation": "fade",
+              "exitAnimation": "fade",
+              "expression": ""
+            }
+          ],
+          "lines": [
+            {
+              "speakerId": "",
+              "text": "暖炉に火が灯っている。\n",
+              "animation": "none",
+              "expression": "neutral",
+              "choices": [
+                {
+                  "id": "choice_be0088a67b80",
+                  "label": "",
+                  "responseSpeakerId": "",
+                  "responseText": "",
+                  "nextLineIndex": ""
+                }
+              ],
+              "castActions": {}
+            },
+            {
+              "speakerId": "",
+              "text": "その煌々とした灯りが、その赤く染められた――北欧風の室内を照らしていた。",
+              "animation": "none",
+              "expression": "neutral",
+              "choices": [
+                {
+                  "id": "choice_265ee73ea0ba",
+                  "label": "",
+                  "responseSpeakerId": "",
+                  "responseText": "",
+                  "nextLineIndex": ""
+                }
+              ]
+            },
+            {
+              "speakerId": "",
+              "text": "周囲を、少し見回す。すると。",
+              "animation": "none",
+              "expression": "neutral",
+              "choices": []
+            },
+            {
+              "speakerId": "story_npc_742d037a13",
+              "text": "............。",
+              "animation": "none",
+              "expression": "neutral",
+              "castActions": {
+                "story_npc_742d037a13": {
+                  "position": "enter"
+                }
+              },
+              "choices": []
+            },
+            {
+              "speakerId": "",
+              "text": "『其奴』は、そこにいた。",
+              "animation": "none",
+              "expression": "neutral",
+              "choices": []
+            },
+            {
+              "speakerId": "story_npc_742d037a13",
+              "text": "...ふむ。来たか。",
+              "animation": "none",
+              "expression": "neutral",
+              "choices": []
+            },
+            {
+              "speakerId": "",
+              "text": "彼女は、部屋の中にいる私を見ると、酒瓶を口から離した。",
+              "animation": "none",
+              "expression": "neutral",
+              "choices": []
+            },
+            {
+              "speakerId": "story_npc_742d037a13",
+              "text": "...気分はどうだ？",
+              "animation": "none",
+              "expression": "neutral",
+              "choices": [
+                {
+                  "id": "choice_13d232dd304c",
+                  "label": "「すこぶる良いです。」",
+                  "responseSpeakerId": "story_npc_742d037a13",
+                  "responseText": "...本当にか？",
+                  "nextLineIndex": ""
+                },
+                {
+                  "id": "choice_ff6ddb35ac31",
+                  "label": "「最悪です。」",
+                  "responseSpeakerId": "story_npc_742d037a13",
+                  "responseText": "...本当にか？",
+                  "nextLineIndex": ""
+                }
+              ]
+            },
+            {
+              "speakerId": "",
+              "text": "自分の返答に、彼女は疑問げな視線を私に向けた。",
+              "animation": "none",
+              "expression": "neutral",
+              "choices": []
+            },
+            {
+              "speakerId": "",
+              "text": "しかしまあいい、と言った風に肩をすくめると、彼女は目を細めて問うた。",
+              "animation": "none",
+              "expression": "neutral",
+              "choices": []
+            },
+            {
+              "speakerId": "story_npc_742d037a13",
+              "text": "...お前、『名前』は？",
+              "animation": "none",
+              "expression": "neutral",
+              "choices": []
+            },
+            {
+              "speakerId": "",
+              "text": "正直に告げる。",
+              "animation": "none",
+              "expression": "neutral",
+              "choices": []
+            },
+            {
+              "speakerId": "story_npc_742d037a13",
+              "text": "...{{player}}か。そうか。",
+              "animation": "none",
+              "expression": "troubled",
+              "choices": []
+            },
+            {
+              "speakerId": "",
+              "text": "彼女はすると、少し空中に目線を離す。何か考えているようだ。",
+              "animation": "none",
+              "expression": "neutral",
+              "choices": []
+            },
+            {
+              "speakerId": "",
+              "text": "そしてから、彼女は小さくため息をつくと、くるっと首を回した。",
+              "animation": "none",
+              "expression": "neutral",
+              "choices": []
+            },
+            {
+              "speakerId": "story_npc_742d037a13",
+              "text": "...記憶は...当然、飛んでいるよな。お前、私がわかるか？",
+              "animation": "none",
+              "expression": "neutral",
+              "choices": [
+                {
+                  "id": "choice_150528e16a5b",
+                  "label": "「わかります。」",
+                  "responseSpeakerId": "story_npc_742d037a13",
+                  "responseText": "嘘つけ。",
+                  "nextLineIndex": ""
+                },
+                {
+                  "id": "choice_65d8385f6daf",
+                  "label": "「わかりません。」",
+                  "responseSpeakerId": "story_npc_742d037a13",
+                  "responseText": "正直でよろしい。",
+                  "nextLineIndex": ""
+                }
+              ]
+            },
+            {
+              "speakerId": "story_npc_742d037a13",
+              "text": "...説明は...後でしよう。動きながらの方が良いし...",
+              "animation": "none",
+              "expression": "neutral",
+              "choices": []
+            },
+            {
+              "speakerId": "story_npc_742d037a13",
+              "text": "...何より、長いチュートリアルよりクソだるいものもないだろう。",
+              "animation": "none",
+              "expression": "smug",
+              "choices": []
+            },
+            {
+              "speakerId": "story_npc_742d037a13",
+              "text": "「世界地図」を開き...メソポタミアを選べ。「ウル」が解放されているはずだ。",
+              "animation": "none",
+              "expression": "neutral",
+              "choices": []
+            },
+            {
+              "speakerId": "story_npc_742d037a13",
+              "text": "じゃあな。それくらいはできると思ってるぞ。",
+              "animation": "none",
+              "expression": "neutral",
+              "choices": []
+            },
+            {
+              "speakerId": "",
+              "text": "彼女はそういうと、その部屋をスタスタと立ち去っていった。",
+              "animation": "none",
+              "expression": "neutral",
+              "castActions": {
+                "story_npc_742d037a13": {
+                  "position": "exit"
+                }
+              },
+              "choices": []
+            },
+            {
+              "speakerId": "",
+              "text": "――その部屋には、ツンと鼻をつくアルコールの匂いだけが残った。",
+              "animation": "none",
+              "expression": "neutral",
+              "choices": []
+            }
+          ],
+          "media": {
+            "type": "image",
+            "src": "",
+            "caption": ""
+          },
+          "speakerFocusMode": "dim"
+        }
+      ],
+      "nextScenarioIds": [
+        "scenario_3d83c5defcba"
+      ],
+      "rewardEdone": 0,
+      "rewardUnlockRegionIds": [
+        "mesopotamia"
+      ],
+      "rewardUnlockStageIds": [
+        "mesopotamia_ur"
+      ],
+      "rewardCharacterIds": [
+        "story_npc_742d037a13"
+      ],
+      "rewardAchievementIds": [
+        "achievement_ab136a63c9c0"
+      ],
+      "bossStage": false,
+      "areaId": "shinden"
+    },
+    {
+      "id": "scenario_3d83c5defcba",
+      "title": "この世界とは。",
+      "regionId": "mesopotamia",
+      "areaId": "",
+      "stageId": "mesopotamia_ur",
+      "era": "古代",
+      "order": 2,
+      "description": "",
+      "sequence": [
+        {
+          "id": "event_6fb2585f3029",
+          "type": "dialogue",
+          "title": "",
+          "mode": "visual_novel",
+          "required": true,
+          "backgroundPath": "story/assets/mesomeso.png",
+          "cast": [
+            {
+              "characterId": "story_npc_742d037a13",
+              "slot": "center",
+              "portraitPath": "",
+              "entranceAnimation": "fade",
+              "exitAnimation": "fade",
+              "expression": ""
+            },
+            {
+              "characterId": "story_npc_fd795e9d4c",
+              "slot": "right",
+              "portraitPath": "",
+              "entranceAnimation": "fade",
+              "exitAnimation": "fade",
+              "expression": ""
+            }
+          ],
+          "lines": [
+            {
+              "speakerId": "",
+              "text": "彼女は、そこにいた。",
+              "animation": "none",
+              "expression": "neutral",
+              "choices": []
+            },
+            {
+              "speakerId": "story_npc_742d037a13",
+              "text": "...おや。流石にそれくらいの能はあったか。",
+              "animation": "none",
+              "expression": "smug",
+              "castActions": {
+                "story_npc_742d037a13": {
+                  "position": "enter"
+                }
+              },
+              "choices": []
+            },
+            {
+              "speakerId": "story_npc_742d037a13",
+              "text": "いやいや、失礼。別に侮辱するつもりはない。",
+              "animation": "none",
+              "expression": "neutral",
+              "choices": []
+            },
+            {
+              "speakerId": "story_npc_742d037a13",
+              "text": "さて...。まずは説明を――",
+              "animation": "none",
+              "expression": "neutral",
+              "choices": []
+            },
+            {
+              "speakerId": "",
+              "text": "彼女が、そう言いかけた途端。",
+              "animation": "none",
+              "expression": "neutral",
+              "choices": []
+            },
+            {
+              "speakerId": "story_npc_fd795e9d4c",
+              "text": "貴様ら！！",
+              "animation": "none",
+              "expression": "neutral",
+              "choices": []
+            },
+            {
+              "speakerId": "",
+              "text": "鋭い一声が、彼女らを突き刺した。",
+              "animation": "none",
+              "expression": "neutral",
+              "choices": []
+            },
+            {
+              "speakerId": "",
+              "text": "すると、いつ現れたのか――一人の男性が、こちらを牽制しているのが見えた。",
+              "animation": "none",
+              "expression": "neutral",
+              "choices": []
+            },
+            {
+              "speakerId": "story_npc_fd795e9d4c",
+              "text": "貴様ら、ウチの職員じゃないな。...拘束する。",
+              "animation": "none",
+              "expression": "neutral",
+              "castActions": {
+                "story_npc_742d037a13": {
+                  "position": "left"
+                },
+                "story_npc_fd795e9d4c": {
+                  "position": "enter"
+                }
+              },
+              "choices": []
+            },
+            {
+              "speakerId": "story_npc_742d037a13",
+              "text": "...全く、真面目なこと甚だしいな。",
+              "animation": "none",
+              "expression": "neutral",
+              "choices": []
+            },
+            {
+              "speakerId": "story_npc_fd795e9d4c",
+              "text": "黙れ。即刻降伏せよ。手を頭の後ろに当てて――",
+              "animation": "none",
+              "expression": "neutral",
+              "choices": []
+            },
+            {
+              "speakerId": "story_npc_742d037a13",
+              "text": "コッテコテの展開だな。...まあ嫌いじゃないが。",
+              "animation": "none",
+              "expression": "smug",
+              "choices": []
+            },
+            {
+              "speakerId": "story_npc_fd795e9d4c",
+              "text": "降伏せよ！！",
+              "animation": "none",
+              "expression": "neutral",
+              "choices": []
+            },
+            {
+              "speakerId": "story_npc_742d037a13",
+              "text": "さ、君。腕の見せ所だぜ。",
+              "animation": "none",
+              "expression": "smug",
+              "choices": []
+            }
+          ],
+          "media": {
+            "type": "image",
+            "src": "",
+            "caption": ""
+          },
+          "speakerFocusMode": "dim"
+        },
+        {
+          "id": "event_88c5784b09ee",
+          "type": "battle",
+          "title": "最初の戦闘",
+          "battleMode": "standard",
+          "questionCount": 5,
+          "durationSeconds": 60,
+          "questionFilters": {
+            "categories": [
+              "ALL"
+            ],
+            "levels": [
+              "ALL"
+            ],
+            "periods": [
+              "古代"
+            ],
+            "regions": [
+              "メソポタミア"
+            ]
+          },
+          "questionIds": [
+            "Q0002",
+            "Q0027",
+            "Q0028",
+            "Q0030",
+            "Q0033",
+            "Q0042",
+            "Q0043",
+            "Q0047",
+            "Q0050",
+            "Q0051",
+            "Q0063",
+            "Q0125",
+            "Q2794",
+            "Q2796"
+          ],
+          "enemyIds": [
+            "akutou_1"
+          ],
+          "preInteractionEventId": "event_6fb2585f3029",
+          "postInteractionEventId": "event_6128b0b7b4b1",
+          "defeatEventId": "",
+          "battleBackgroundPath": "story/assets//mesomeso.png",
+          "opponentLines": [],
+          "requiredCharacterIds": [
+            "story_npc_742d037a13"
+          ]
+        },
+        {
+          "id": "event_6128b0b7b4b1",
+          "type": "dialogue",
+          "title": "戦闘後の交流",
+          "mode": "visual_novel",
+          "required": true,
+          "backgroundPath": "story/assets//mesomeso.png",
+          "cast": [
+            {
+              "characterId": "story_npc_742d037a13",
+              "slot": "left",
+              "portraitPath": "",
+              "entranceAnimation": "fade",
+              "exitAnimation": "fade",
+              "expression": ""
+            },
+            {
+              "characterId": "story_npc_fd795e9d4c",
+              "slot": "right",
+              "portraitPath": "",
+              "entranceAnimation": "fade",
+              "exitAnimation": "fade",
+              "expression": ""
+            }
+          ],
+          "lines": [
+            {
+              "speakerId": "story_npc_fd795e9d4c",
+              "text": "クソ...一時退避する！！",
+              "animation": "none",
+              "expression": "neutral",
+              "choices": []
+            },
+            {
+              "speakerId": "",
+              "text": "その騒がしいやつは、そう誰が聞いているわけでもないのに叫んで、グリッチとともに消えていった。",
+              "animation": "none",
+              "expression": "neutral",
+              "castActions": {
+                "story_npc_fd795e9d4c": {
+                  "position": "exit"
+                }
+              },
+              "choices": []
+            },
+            {
+              "speakerId": "",
+              "text": "そう。『消えていった』。",
+              "animation": "none",
+              "expression": "neutral",
+              "castActions": {
+                "story_npc_742d037a13": {
+                  "position": "center"
+                }
+              },
+              "choices": []
+            },
+            {
+              "speakerId": "story_npc_742d037a13",
+              "text": "ふむ。下級構成員で良かったな。",
+              "animation": "none",
+              "expression": "neutral",
+              "choices": [
+                {
+                  "id": "choice_4f8128466d5b",
+                  "label": "「構成員？」",
+                  "responseSpeakerId": "story_npc_742d037a13",
+                  "responseText": "...まぁ、歴史を改変して甘い汁を吸おうとする連中のことだ。",
+                  "nextLineIndex": ""
+                }
+              ]
+            },
+            {
+              "speakerId": "story_npc_742d037a13",
+              "text": "ちなみに言うと、『編輯』は歴史を「確認」する行為だ。",
+              "animation": "none",
+              "expression": "neutral",
+              "choices": []
+            },
+            {
+              "speakerId": "story_npc_742d037a13",
+              "text": "あいつらは何度も歴史に侵入している。...だから「正史」を出されると、彼らの存在は因果律的に消し飛ぶんだ。だからその前にあいつはどっかいったわけだ。",
+              "animation": "none",
+              "expression": "neutral",
+              "choices": []
+            },
+            {
+              "speakerId": "story_npc_742d037a13",
+              "text": "...まぁ、詳しいことはわからなくていい。とにかく、ああ言う奴らをお前は懲らしめられる、と言うことだ。",
+              "animation": "none",
+              "expression": "smug",
+              "choices": []
+            },
+            {
+              "speakerId": "story_npc_742d037a13",
+              "text": "とまあ、こんな調子だ。各地域にいるああいう奴らを一掃する――これが君の役割だ。",
+              "animation": "none",
+              "expression": "neutral",
+              "choices": []
+            },
+            {
+              "speakerId": "story_npc_742d037a13",
+              "text": "期待してるぜ。",
+              "animation": "none",
+              "expression": "smug",
+              "choices": []
+            },
+            {
+              "speakerId": "",
+              "text": "彼女はそういうと、彼女もまた――かき消えるように霧消した。",
+              "animation": "none",
+              "expression": "neutral",
+              "choices": []
+            }
+          ],
+          "media": {
+            "type": "image",
+            "src": "",
+            "caption": ""
+          },
+          "speakerFocusMode": "dim"
+        }
+      ],
+      "nextScenarioIds": [
+        "scenario_776ff49f71c1"
+      ],
+      "rewardEdone": 4,
+      "rewardUnlockRegionIds": [
+        "mesopotamia"
+      ],
+      "rewardUnlockStageIds": [
+        "mesopotamia_uruk"
+      ],
+      "rewardCharacterIds": [],
+      "rewardAchievementIds": [
+        "achievement_6aef14fab33d"
+      ],
+      "bossStage": false
+    },
+    {
+      "id": "scenario_776ff49f71c1",
+      "title": "戦闘。",
+      "regionId": "mesopotamia",
+      "areaId": "",
+      "stageId": "mesopotamia_uruk",
+      "era": "古代",
+      "order": 3,
+      "description": "",
+      "sequence": [
+        {
+          "id": "event_5d15b46fc540",
+          "type": "dialogue",
+          "title": "連絡。",
+          "mode": "chat",
+          "required": true,
+          "backgroundPath": "",
+          "cast": [],
+          "lines": [
+            {
+              "speakerId": "story_npc_742d037a13",
+              "text": "やあ、元気にやってるかな。",
+              "animation": "none",
+              "expression": "neutral",
+              "choices": []
+            },
+            {
+              "speakerId": "",
+              "text": "彼女は来ないのかと問うた。",
+              "animation": "none",
+              "expression": "neutral",
+              "choices": []
+            },
+            {
+              "speakerId": "story_npc_742d037a13",
+              "text": "私は君が思う以上に重役なのだよ、下手に外には出られない。",
+              "animation": "none",
+              "expression": "neutral",
+              "choices": []
+            },
+            {
+              "speakerId": "",
+              "text": "ビビってるのかと問うた。",
+              "animation": "none",
+              "expression": "neutral",
+              "choices": []
+            },
+            {
+              "speakerId": "story_npc_742d037a13",
+              "text": "...今すぐにお前を消してもいいんだからな。",
+              "animation": "none",
+              "expression": "neutral",
+              "choices": []
+            },
+            {
+              "speakerId": "story_npc_742d037a13",
+              "text": "とにかく、続行してくれ。",
+              "animation": "none",
+              "expression": "neutral",
+              "choices": []
+            },
+            {
+              "speakerId": "story_npc_742d037a13",
+              "text": "今は時間が――",
+              "animation": "none",
+              "expression": "neutral",
+              "choices": []
+            },
+            {
+              "speakerId": "story_npc_742d037a13",
+              "text": "...いや、なんでもない。まあ君のペースで頑張ってくれたまえ。",
+              "animation": "none",
+              "expression": "neutral",
+              "choices": []
+            }
+          ],
+          "media": {
+            "type": "image",
+            "src": "",
+            "caption": ""
+          }
+        },
+        {
+          "id": "event_e477230fb61e",
+          "type": "battle",
+          "title": "戦闘",
+          "battleMode": "standard",
+          "questionCount": 5,
+          "durationSeconds": 60,
+          "questionFilters": {
+            "categories": [
+              "ALL"
+            ],
+            "levels": [
+              "ALL"
+            ],
+            "periods": [
+              "ALL"
+            ],
+            "regions": [
+              "メソポタミア"
+            ]
+          },
+          "questionIds": [
+            "Q0002",
+            "Q0027",
+            "Q0028",
+            "Q0030",
+            "Q0033",
+            "Q0042",
+            "Q0043",
+            "Q0047",
+            "Q0050",
+            "Q0051",
+            "Q0063",
+            "Q0125",
+            "Q2219",
+            "Q2251",
+            "Q2794",
+            "Q2796"
+          ],
+          "enemyIds": [
+            "akutou_1"
+          ],
+          "preInteractionEventId": "event_5d15b46fc540",
+          "postInteractionEventId": "event_e9c37dbb8f17",
+          "defeatEventId": "",
+          "battleBackgroundPath": "story/assets/mesomeso.png",
+          "opponentLines": [],
+          "requiredCharacterIds": [
+            "story_npc_742d037a13"
+          ]
+        },
+        {
+          "id": "event_e9c37dbb8f17",
+          "type": "dialogue",
+          "title": "戦闘後の交流",
+          "mode": "chat",
+          "required": true,
+          "backgroundPath": "",
+          "cast": [],
+          "lines": [
+            {
+              "speakerId": "story_npc_742d037a13",
+              "text": "ふむ。...やはり『編輯』能力は高いな。こんなに粉砕できるとは。",
+              "animation": "none",
+              "expression": "neutral",
+              "choices": []
+            },
+            {
+              "speakerId": "story_npc_742d037a13",
+              "text": "その調子で頼むぞ。",
+              "animation": "none",
+              "expression": "neutral",
+              "choices": []
+            }
+          ],
+          "media": {
+            "type": "image",
+            "src": "",
+            "caption": ""
+          }
+        }
+      ],
+      "nextScenarioIds": [],
+      "rewardEdone": 5,
+      "rewardUnlockRegionIds": [
+        "mesopotamia"
+      ],
+      "rewardUnlockStageIds": [
+        "mesopotamia_akkad"
+      ],
+      "rewardCharacterIds": [],
+      "rewardAchievementIds": [],
+      "bossStage": false
+    }
+  ],
+  "achievements": [
+    {
+      "id": "achievement_ab136a63c9c0",
+      "title": "『お気に入り』。",
+      "description": "唯我独尊に出会った。",
+      "trigger": {
+        "type": "scenario_complete",
+        "targetId": "scenario_fa79f7ca68c8"
+      }
+    },
+    {
+      "id": "achievement_6aef14fab33d",
+      "title": "初めての戦闘。",
+      "description": "初めての戦闘をこなした。",
+      "trigger": {
+        "type": "scenario_complete",
+        "targetId": "scenario_fa79f7ca68c8"
+      }
+    }
+  ]
+}

@@ -1,0 +1,204 @@
+{
+  "format": "chronos-story-characters",
+  "schemaVersion": 1,
+  "metadata": {
+    "title": "CHRONOS Story Characters",
+    "version": 1,
+    "updatedAt": "2026-11-18T13:48:47.156Z"
+  },
+  "characters": [
+    {
+      "id": "story_npc_742d037a13",
+      "name": "『唯我独尊』",
+      "cpuProfileId": "yuigadokusonn",
+      "role": "サポーター",
+      "chatIcon": "story/assets/yuiga_icon.PNG",
+      "portrait": "story/assets/yuiga_basic.png",
+      "portraitExpressions": {
+        "happy": "story/assets/yuiga_mesugaki.png",
+        "sad": "",
+        "angry": "",
+        "surprised": "story/assets/yuiga_surprise.png",
+        "neutral": "story/assets/yuiga_basic.png",
+        "troubled": "story/assets/yuiga_trouble.png",
+        "smug": "story/assets/yuiga_niya.png"
+      },
+      "defaultBackground": "",
+      "eventTags": [],
+      "availableAtStart": true,
+      "unlock": {
+        "operator": "all",
+        "conditions": []
+      },
+      "notes": "",
+      "battleItems": [
+        "radar",
+        "tailwind",
+        "oracle",
+        "century",
+        "goblin_blind",
+        "demon_blind",
+        "oil_bottle",
+        "super_oil_bottle",
+        "grudge_charm",
+        "malevolence_charm",
+        "onigiri",
+        "berserker_blind",
+        "egoma_oil",
+        "self_binding",
+        "insight",
+        "omniscience",
+        "edict",
+        "disguise",
+        "time_leap"
+      ],
+      "battleSkill": 100
+    },
+    {
+      "id": "story_npc_fd795e9d4c",
+      "name": "構成員",
+      "cpuProfileId": "akutou_1",
+      "role": "Lv.1",
+      "chatIcon": "",
+      "portrait": "story/assets/kousei-m.png",
+      "portraitExpressions": {
+        "happy": "",
+        "sad": "",
+        "angry": "",
+        "surprised": "",
+        "neutral": "",
+        "troubled": "",
+        "smug": ""
+      },
+      "defaultBackground": "",
+      "eventTags": [],
+      "availableAtStart": true,
+      "unlock": {
+        "operator": "all",
+        "conditions": []
+      },
+      "notes": "",
+      "battleItems": [],
+      "battleSkill": 51
+    },
+    {
+      "id": "story_npc_c7ffb278a6",
+      "name": "構成員",
+      "cpuProfileId": "akutou_2",
+      "role": "Lv.2",
+      "chatIcon": "",
+      "portrait": "story/assets/kousei-w.png",
+      "portraitExpressions": {
+        "happy": "",
+        "sad": "",
+        "angry": "",
+        "surprised": "",
+        "neutral": "",
+        "troubled": "",
+        "smug": ""
+      },
+      "defaultBackground": "",
+      "eventTags": [],
+      "availableAtStart": true,
+      "unlock": {
+        "operator": "all",
+        "conditions": []
+      },
+      "notes": "",
+      "battleItems": [
+        "oil_bottle"
+      ],
+      "battleSkill": 62
+    },
+    {
+      "id": "story_npc_260255b08f",
+      "name": "構成員",
+      "cpuProfileId": "akutou-3",
+      "role": "Lv.3",
+      "chatIcon": "",
+      "portrait": "story/assets/kousei-m.png",
+      "portraitExpressions": {
+        "happy": "",
+        "sad": "",
+        "angry": "",
+        "surprised": "",
+        "neutral": "",
+        "troubled": "",
+        "smug": ""
+      },
+      "defaultBackground": "",
+      "eventTags": [],
+      "availableAtStart": true,
+      "unlock": {
+        "operator": "all",
+        "conditions": []
+      },
+      "notes": "",
+      "battleItems": [
+        "oil_bottle"
+      ],
+      "battleSkill": 70
+    },
+    {
+      "id": "story_npc_133d22e3f8",
+      "name": "構成員",
+      "cpuProfileId": "akutou-4",
+      "role": "Lv.4",
+      "chatIcon": "",
+      "portrait": "story/assets/kousei-w.png",
+      "portraitExpressions": {
+        "happy": "",
+        "sad": "",
+        "angry": "",
+        "surprised": "",
+        "neutral": "",
+        "troubled": "",
+        "smug": ""
+      },
+      "defaultBackground": "",
+      "eventTags": [],
+      "availableAtStart": true,
+      "unlock": {
+        "operator": "all",
+        "conditions": []
+      },
+      "notes": "",
+      "battleItems": [
+        "tailwind",
+        "oracle",
+        "century",
+        "goblin_blind",
+        "demon_blind",
+        "oil_bottle",
+        "super_oil_bottle"
+      ],
+      "battleSkill": 83
+    },
+    {
+      "id": "story_npc_6c66a0a833",
+      "name": "新しい人物",
+      "cpuProfileId": "",
+      "role": "ストーリーNPC",
+      "chatIcon": "",
+      "portrait": "",
+      "portraitExpressions": {
+        "happy": "",
+        "sad": "",
+        "angry": "",
+        "surprised": "",
+        "neutral": "",
+        "troubled": "",
+        "smug": ""
+      },
+      "defaultBackground": "",
+      "eventTags": [],
+      "availableAtStart": true,
+      "unlock": {
+        "operator": "all",
+        "conditions": []
+      },
+      "notes": "",
+      "battleItems": []
+    }
+  ]
+}
