@@ -1,0 +1,583 @@
+{
+  "format": "chronos-story-characters",
+  "schemaVersion": 1,
+  "metadata": {
+    "title": "CHRONOS Story Characters",
+    "version": 1,
+    "updatedAt": "2026-11-23T13:52:42.506Z"
+  },
+  "characters": [
+    {
+      "id": "story_npc_742d037a13",
+      "name": "『唯我独尊』",
+      "cpuProfileId": "yuigadokusonn",
+      "role": "サポーター",
+      "chatIcon": "story/assets/yuiga_icon.PNG",
+      "portrait": "story/assets/yuiga_basic.png",
+      "portraitExpressions": {
+        "happy": "story/assets/yuiga_mesugaki.png",
+        "sad": "",
+        "angry": "",
+        "surprised": "story/assets/yuiga_surprise.png",
+        "neutral": "story/assets/yuiga_basic.png",
+        "troubled": "story/assets/yuiga_trouble.png",
+        "smug": "story/assets/yuiga_niya.png"
+      },
+      "defaultBackground": "",
+      "eventTags": [],
+      "availableAtStart": true,
+      "unlock": {
+        "operator": "all",
+        "conditions": []
+      },
+      "notes": "",
+      "battleItems": [
+        "radar",
+        "tailwind",
+        "oracle",
+        "century",
+        "goblin_blind",
+        "demon_blind",
+        "oil_bottle",
+        "super_oil_bottle",
+        "grudge_charm",
+        "malevolence_charm",
+        "onigiri",
+        "berserker_blind",
+        "egoma_oil",
+        "self_binding",
+        "insight",
+        "omniscience",
+        "edict",
+        "disguise",
+        "time_leap"
+      ],
+      "battleSkill": 100,
+      "cpuGrowth": [],
+      "profile": {
+        "gender": "",
+        "age": "",
+        "heightCm": "",
+        "weightKg": "",
+        "birthday": "",
+        "likes": [],
+        "dislikes": [],
+        "dream": "",
+        "details": []
+      }
+    },
+    {
+      "id": "story_npc_fd795e9d4c",
+      "name": "構成員",
+      "cpuProfileId": "akutou_1",
+      "role": "Lv.1",
+      "chatIcon": "",
+      "portrait": "story/assets/kousei_m.png",
+      "portraitExpressions": {
+        "happy": "story/assets/kousei_m.png",
+        "sad": "",
+        "angry": "",
+        "surprised": "",
+        "neutral": "",
+        "troubled": "",
+        "smug": ""
+      },
+      "defaultBackground": "",
+      "eventTags": [],
+      "availableAtStart": true,
+      "unlock": {
+        "operator": "all",
+        "conditions": []
+      },
+      "notes": "",
+      "battleItems": [],
+      "battleSkill": 51,
+      "cpuGrowth": [],
+      "profile": {
+        "gender": "",
+        "age": "",
+        "heightCm": "",
+        "weightKg": "",
+        "birthday": "",
+        "likes": [],
+        "dislikes": [],
+        "dream": "",
+        "details": []
+      }
+    },
+    {
+      "id": "story_npc_c7ffb278a6",
+      "name": "構成員",
+      "cpuProfileId": "akutou_2",
+      "role": "Lv.2",
+      "chatIcon": "",
+      "portrait": "story/assets/kousei_w.png",
+      "portraitExpressions": {
+        "happy": "",
+        "sad": "",
+        "angry": "",
+        "surprised": "",
+        "neutral": "",
+        "troubled": "",
+        "smug": ""
+      },
+      "defaultBackground": "",
+      "eventTags": [],
+      "availableAtStart": true,
+      "unlock": {
+        "operator": "all",
+        "conditions": []
+      },
+      "notes": "",
+      "battleItems": [
+        "oil_bottle"
+      ],
+      "battleSkill": 62,
+      "cpuGrowth": [],
+      "profile": {
+        "gender": "",
+        "age": "",
+        "heightCm": "",
+        "weightKg": "",
+        "birthday": "",
+        "likes": [],
+        "dislikes": [],
+        "dream": "",
+        "details": []
+      }
+    },
+    {
+      "id": "story_npc_260255b08f",
+      "name": "構成員",
+      "cpuProfileId": "akutou-3",
+      "role": "Lv.3",
+      "chatIcon": "",
+      "portrait": "story/assets/kousei_m.png",
+      "portraitExpressions": {
+        "happy": "",
+        "sad": "",
+        "angry": "",
+        "surprised": "",
+        "neutral": "",
+        "troubled": "",
+        "smug": ""
+      },
+      "defaultBackground": "",
+      "eventTags": [],
+      "availableAtStart": true,
+      "unlock": {
+        "operator": "all",
+        "conditions": []
+      },
+      "notes": "",
+      "battleItems": [
+        "oil_bottle"
+      ],
+      "battleSkill": 70,
+      "cpuGrowth": [],
+      "profile": {
+        "gender": "",
+        "age": "",
+        "heightCm": "",
+        "weightKg": "",
+        "birthday": "",
+        "likes": [],
+        "dislikes": [],
+        "dream": "",
+        "details": []
+      }
+    },
+    {
+      "id": "story_npc_133d22e3f8",
+      "name": "構成員",
+      "cpuProfileId": "akutou-4",
+      "role": "Lv.4",
+      "chatIcon": "",
+      "portrait": "story/assets/kousei_w.png",
+      "portraitExpressions": {
+        "happy": "",
+        "sad": "",
+        "angry": "",
+        "surprised": "",
+        "neutral": "",
+        "troubled": "",
+        "smug": ""
+      },
+      "defaultBackground": "",
+      "eventTags": [],
+      "availableAtStart": true,
+      "unlock": {
+        "operator": "all",
+        "conditions": []
+      },
+      "notes": "",
+      "battleItems": [
+        "tailwind",
+        "oracle",
+        "century",
+        "goblin_blind",
+        "demon_blind",
+        "oil_bottle",
+        "super_oil_bottle"
+      ],
+      "battleSkill": 83,
+      "cpuGrowth": [],
+      "profile": {
+        "gender": "",
+        "age": "",
+        "heightCm": "",
+        "weightKg": "",
+        "birthday": "",
+        "likes": [],
+        "dislikes": [],
+        "dream": "",
+        "details": []
+      }
+    },
+    {
+      "id": "story_npc_6c66a0a833",
+      "name": "老人",
+      "cpuProfileId": "old_man",
+      "role": "ストーリーNPC",
+      "chatIcon": "",
+      "portrait": "story/assets/old.png",
+      "portraitExpressions": {
+        "happy": "",
+        "sad": "",
+        "angry": "",
+        "surprised": "",
+        "neutral": "",
+        "troubled": "",
+        "smug": "",
+        "恐怖": "story/assets/old_kowa.png"
+      },
+      "defaultBackground": "",
+      "eventTags": [],
+      "availableAtStart": true,
+      "unlock": {
+        "operator": "all",
+        "conditions": []
+      },
+      "notes": "",
+      "battleItems": [
+        "radar",
+        "tailwind",
+        "oracle",
+        "century",
+        "goblin_blind",
+        "demon_blind",
+        "oil_bottle",
+        "super_oil_bottle",
+        "grudge_charm",
+        "malevolence_charm",
+        "onigiri",
+        "berserker_blind",
+        "egoma_oil",
+        "self_binding"
+      ],
+      "cpuGrowth": [],
+      "battleSkill": 8,
+      "profile": {
+        "gender": "",
+        "age": "",
+        "heightCm": "",
+        "weightKg": "",
+        "birthday": "",
+        "likes": [],
+        "dislikes": [],
+        "dream": "",
+        "details": []
+      }
+    },
+    {
+      "id": "story_npc_e388e457aa",
+      "name": "改発 璃",
+      "cpuProfileId": "Kaihatsu",
+      "role": "",
+      "chatIcon": "",
+      "portrait": "story/assets/kaihatu_basic.PNG",
+      "portraitExpressions": {
+        "happy": "story/assets/kaihatu_ure.PNG",
+        "sad": "story/assets/kaihatu_kana.PNG",
+        "angry": "story/assets/kaihatu_ira.PNG",
+        "surprised": "story/assets/kaihatu_odo.PNG",
+        "neutral": "story/assets/kaihatu_basic.PNG",
+        "troubled": "story/assets/kaihatu_koma.PNG",
+        "smug": ""
+      },
+      "defaultBackground": "",
+      "eventTags": [],
+      "availableAtStart": true,
+      "unlock": {
+        "operator": "all",
+        "conditions": []
+      },
+      "notes": "",
+      "battleItems": [],
+      "cpuGrowth": [],
+      "profile": {
+        "gender": "",
+        "age": "",
+        "heightCm": "",
+        "weightKg": "",
+        "birthday": "",
+        "likes": [],
+        "dislikes": [],
+        "dream": "",
+        "details": []
+      }
+    },
+    {
+      "id": "story_npc_87608b9c41",
+      "name": "匂坂 壯一朗",
+      "cpuProfileId": "new_cpu_2",
+      "role": "ストーリーNPC",
+      "chatIcon": "",
+      "portrait": "story/assets/saki_basic.png",
+      "portraitExpressions": {
+        "happy": "story/assets/saki_ure.png",
+        "sad": "",
+        "angry": "",
+        "surprised": "",
+        "neutral": "story/assets/saki_basic.png",
+        "troubled": "story/assets/saki_koma.png",
+        "smug": ""
+      },
+      "defaultBackground": "",
+      "eventTags": [],
+      "availableAtStart": true,
+      "unlock": {
+        "operator": "all",
+        "conditions": []
+      },
+      "notes": "",
+      "battleItems": [],
+      "battleSkill": 30,
+      "cpuGrowth": [],
+      "profile": {
+        "gender": "",
+        "age": "",
+        "heightCm": "",
+        "weightKg": "",
+        "birthday": "",
+        "likes": [],
+        "dislikes": [],
+        "dream": "",
+        "details": []
+      }
+    },
+    {
+      "id": "story_npc_dcf961c5e4",
+      "name": "職員",
+      "cpuProfileId": "",
+      "role": "Mob",
+      "chatIcon": "",
+      "portrait": "story/assets/syokuin-w.PNG",
+      "portraitExpressions": {
+        "happy": "",
+        "sad": "",
+        "angry": "",
+        "surprised": "",
+        "neutral": "story/assets/syokuin-w.PNG",
+        "troubled": "",
+        "smug": ""
+      },
+      "defaultBackground": "",
+      "eventTags": [],
+      "availableAtStart": true,
+      "unlock": {
+        "operator": "all",
+        "conditions": []
+      },
+      "notes": "",
+      "battleItems": [],
+      "cpuGrowth": [],
+      "profile": {
+        "gender": "",
+        "age": "",
+        "heightCm": "",
+        "weightKg": "",
+        "birthday": "",
+        "likes": [],
+        "dislikes": [],
+        "dream": "",
+        "details": []
+      }
+    },
+    {
+      "id": "story_npc_11a141be8a",
+      "name": "雲道 聖恋",
+      "cpuProfileId": "",
+      "role": "ストーリーNPC",
+      "chatIcon": "",
+      "portrait": "story/assets/kumomiti.png",
+      "portraitExpressions": {
+        "happy": "",
+        "sad": "",
+        "angry": "",
+        "surprised": "",
+        "neutral": "",
+        "troubled": "",
+        "smug": ""
+      },
+      "defaultBackground": "",
+      "eventTags": [],
+      "availableAtStart": true,
+      "unlock": {
+        "operator": "all",
+        "conditions": []
+      },
+      "notes": "",
+      "battleItems": [],
+      "cpuGrowth": [],
+      "profile": {
+        "gender": "",
+        "age": "",
+        "heightCm": "",
+        "weightKg": "",
+        "birthday": "",
+        "likes": [],
+        "dislikes": [],
+        "dream": "",
+        "details": []
+      }
+    },
+    {
+      "id": "story_npc_590202ffbe",
+      "name": "二ツ橋  英憲",
+      "cpuProfileId": "new_cpu_1",
+      "role": "ストーリーNPC",
+      "chatIcon": "",
+      "portrait": "story/assets/hutatsu_basic.png",
+      "portraitExpressions": {
+        "happy": "",
+        "sad": "",
+        "angry": "",
+        "surprised": "",
+        "neutral": "story/assets/hutatsu_basic.png",
+        "troubled": "",
+        "smug": "",
+        "不満": "story/assets/hutatsu_human.png"
+      },
+      "defaultBackground": "",
+      "eventTags": [],
+      "availableAtStart": true,
+      "unlock": {
+        "operator": "all",
+        "conditions": []
+      },
+      "notes": "",
+      "battleItems": [],
+      "cpuGrowth": [],
+      "profile": {
+        "gender": "",
+        "age": "",
+        "heightCm": "",
+        "weightKg": "",
+        "birthday": "",
+        "likes": [],
+        "dislikes": [],
+        "dream": "",
+        "details": []
+      },
+      "battleSkill": 90
+    },
+    {
+      "id": "story_npc_0b5cb8e8b7",
+      "name": "『齟齬』",
+      "cpuProfileId": "new_cpu_3",
+      "role": "ストーリーNPC",
+      "chatIcon": "",
+      "portrait": "story/assets/sogo1.png",
+      "portraitExpressions": {
+        "happy": "",
+        "sad": "",
+        "angry": "",
+        "surprised": "",
+        "neutral": "",
+        "troubled": "",
+        "smug": ""
+      },
+      "defaultBackground": "",
+      "eventTags": [],
+      "availableAtStart": true,
+      "unlock": {
+        "operator": "all",
+        "conditions": []
+      },
+      "notes": "",
+      "battleItems": [],
+      "cpuGrowth": [],
+      "profile": {
+        "gender": "",
+        "age": "",
+        "heightCm": "",
+        "weightKg": "",
+        "birthday": "",
+        "likes": [],
+        "dislikes": [],
+        "dream": "",
+        "details": []
+      }
+    },
+    {
+      "id": "story_npc_1c419c7cfd",
+      "name": "飯酒盃 永",
+      "cpuProfileId": "isahai",
+      "role": "「大尾」代表。",
+      "chatIcon": "",
+      "portrait": "story/assets/isahai.png",
+      "portraitExpressions": {
+        "happy": "",
+        "sad": "",
+        "angry": "",
+        "surprised": "",
+        "neutral": "",
+        "troubled": "",
+        "smug": ""
+      },
+      "defaultBackground": "",
+      "eventTags": [],
+      "availableAtStart": true,
+      "unlock": {
+        "operator": "all",
+        "conditions": []
+      },
+      "notes": "",
+      "profile": {
+        "gender": "",
+        "age": "",
+        "heightCm": "",
+        "weightKg": "",
+        "birthday": "",
+        "likes": [],
+        "dislikes": [],
+        "dream": "",
+        "details": []
+      },
+      "battleItems": [
+        "radar",
+        "tailwind",
+        "oracle",
+        "century",
+        "goblin_blind",
+        "demon_blind",
+        "oil_bottle",
+        "super_oil_bottle",
+        "grudge_charm",
+        "malevolence_charm",
+        "onigiri",
+        "berserker_blind",
+        "egoma_oil",
+        "self_binding",
+        "insight",
+        "omniscience",
+        "edict",
+        "disguise",
+        "time_leap"
+      ],
+      "cpuGrowth": [],
+      "battleSkill": 74
+    }
+  ]
+}
