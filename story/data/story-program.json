@@ -151,7 +151,7 @@
             }
           }
         ],
-        "mapImage": "story/assets/area_egy.PNG"
+        "mapImage": "story/assets/maps/area_egy.png"
       },
       {
         "id": "mesopotamia",
@@ -310,7 +310,7 @@
             }
           }
         ],
-        "mapImage": "story/assets/area_meso.PNG"
+        "mapImage": "story/assets/maps/area_meso.png"
       },
       {
         "id": "greece",
@@ -407,7 +407,7 @@
             }
           }
         ],
-        "mapImage": "story/assets/area_gre.jpg"
+        "mapImage": "story/assets/maps/area_gre.jpg"
       },
       {
         "id": "rome",
@@ -540,7 +540,7 @@
             }
           }
         ],
-        "mapImage": "story/assets/area_roma.PNG"
+        "mapImage": "story/assets/maps/area_roma.png"
       },
       {
         "id": "china",
@@ -741,7 +741,7 @@
             }
           }
         ],
-        "mapImage": "story/assets/area_china.PNG"
+        "mapImage": "story/assets/maps/area_china.png"
       },
       {
         "id": "japan",
@@ -871,7 +871,7 @@
         "name": "幣殿",
         "type": "hub-stage",
         "style": "sanctuary",
-        "mapImage": "story/assets/shinden.jpg",
+        "mapImage": "",
         "description": "全時代をつなぐ拠点",
         "stages": [
           {
@@ -900,16 +900,16 @@
       "name": "『唯我独尊』",
       "cpuProfileId": "yuigadokusonn",
       "role": "サポーター",
-      "chatIcon": "story/assets/yuiga_icon.PNG",
-      "portrait": "story/assets/yuiga_basic.png",
+      "chatIcon": "story/assets/portraits/yuiga_icon.png",
+      "portrait": "story/assets/portraits/yuiga_basic.png",
       "portraitExpressions": {
-        "happy": "story/assets/yuiga_mesugaki.png",
+        "happy": "story/assets/portraits/yuiga_mesugaki.png",
         "sad": "",
         "angry": "",
-        "surprised": "story/assets/yuiga_surprise.png",
-        "neutral": "story/assets/yuiga_basic.png",
-        "troubled": "story/assets/yuiga_trouble.png",
-        "smug": "story/assets/yuiga_niya.png"
+        "surprised": "story/assets/portraits/yuiga_surprise.png",
+        "neutral": "story/assets/portraits/yuiga_basic.png",
+        "troubled": "story/assets/portraits/yuiga_trouble.png",
+        "smug": "story/assets/portraits/yuiga_niya.png"
       },
       "defaultBackground": "",
       "eventTags": [],
@@ -960,9 +960,9 @@
       "cpuProfileId": "akutou_1",
       "role": "Lv.1",
       "chatIcon": "",
-      "portrait": "story/assets/kousei_m.png",
+      "portrait": "story/assets/portraits/kousei_m.png",
       "portraitExpressions": {
-        "happy": "story/assets/kousei_m.png",
+        "happy": "story/assets/portraits/kousei_m.png",
         "sad": "",
         "angry": "",
         "surprised": "",
@@ -999,7 +999,7 @@
       "cpuProfileId": "akutou_2",
       "role": "Lv.2",
       "chatIcon": "",
-      "portrait": "story/assets/kousei_w.png",
+      "portrait": "story/assets/portraits/kousei_w.png",
       "portraitExpressions": {
         "happy": "",
         "sad": "",
@@ -1040,7 +1040,7 @@
       "cpuProfileId": "akutou-3",
       "role": "Lv.3",
       "chatIcon": "",
-      "portrait": "story/assets/kousei_m.png",
+      "portrait": "story/assets/portraits/kousei_m.png",
       "portraitExpressions": {
         "happy": "",
         "sad": "",
@@ -1081,7 +1081,7 @@
       "cpuProfileId": "akutou-4",
       "role": "Lv.4",
       "chatIcon": "",
-      "portrait": "story/assets/kousei_w.png",
+      "portrait": "story/assets/portraits/kousei_w.png",
       "portraitExpressions": {
         "happy": "",
         "sad": "",
@@ -1128,7 +1128,7 @@
       "cpuProfileId": "old_man",
       "role": "ストーリーNPC",
       "chatIcon": "",
-      "portrait": "story/assets/old.png",
+      "portrait": "story/assets/portraits/old.png",
       "portraitExpressions": {
         "happy": "",
         "sad": "",
@@ -1137,7 +1137,7 @@
         "neutral": "",
         "troubled": "",
         "smug": "",
-        "恐怖": "story/assets/old_kowa.png"
+        "恐怖": "story/assets/portraits/old_kowa.png"
       },
       "defaultBackground": "",
       "eventTags": [],
@@ -1183,14 +1183,14 @@
       "cpuProfileId": "Kaihatsu",
       "role": "",
       "chatIcon": "",
-      "portrait": "story/assets/kaihatu_basic.PNG",
+      "portrait": "story/assets/portraits/kaihatu_basic.png",
       "portraitExpressions": {
-        "happy": "story/assets/kaihatu_ure.PNG",
-        "sad": "story/assets/kaihatu_kana.PNG",
-        "angry": "story/assets/kaihatu_ira.PNG",
-        "surprised": "story/assets/kaihatu_odo.PNG",
-        "neutral": "story/assets/kaihatu_basic.PNG",
-        "troubled": "story/assets/kaihatu_koma.PNG",
+        "happy": "story/assets/portraits/kaihatu_ure.png",
+        "sad": "story/assets/portraits/kaihatu_kana.png",
+        "angry": "story/assets/portraits/kaihatu_ira.png",
+        "surprised": "story/assets/portraits/kaihatu_odo.png",
+        "neutral": "story/assets/portraits/kaihatu_basic.png",
+        "troubled": "story/assets/portraits/kaihatu_koma.png",
         "smug": ""
       },
       "defaultBackground": "",
@@ -1221,14 +1221,14 @@
       "cpuProfileId": "new_cpu_2",
       "role": "ストーリーNPC",
       "chatIcon": "",
-      "portrait": "story/assets/saki_basic.png",
+      "portrait": "story/assets/portraits/saki_basic.png",
       "portraitExpressions": {
-        "happy": "story/assets/saki_ure.png",
+        "happy": "story/assets/portraits/saki_ure.png",
         "sad": "",
         "angry": "",
         "surprised": "",
-        "neutral": "story/assets/saki_basic.png",
-        "troubled": "story/assets/saki_koma.png",
+        "neutral": "story/assets/portraits/saki_basic.png",
+        "troubled": "story/assets/portraits/saki_koma.png",
         "smug": ""
       },
       "defaultBackground": "",
@@ -1260,13 +1260,13 @@
       "cpuProfileId": "",
       "role": "Mob",
       "chatIcon": "",
-      "portrait": "story/assets/syokuin-w.PNG",
+      "portrait": "story/assets/portraits/syokuin-w.png",
       "portraitExpressions": {
         "happy": "",
         "sad": "",
         "angry": "",
         "surprised": "",
-        "neutral": "story/assets/syokuin-w.PNG",
+        "neutral": "story/assets/portraits/syokuin-w.png",
         "troubled": "",
         "smug": ""
       },
@@ -1298,7 +1298,7 @@
       "cpuProfileId": "",
       "role": "ストーリーNPC",
       "chatIcon": "",
-      "portrait": "story/assets/kumomiti.png",
+      "portrait": "story/assets/portraits/kumomiti.png",
       "portraitExpressions": {
         "happy": "",
         "sad": "",
@@ -1336,16 +1336,16 @@
       "cpuProfileId": "old_man",
       "role": "ストーリーNPC",
       "chatIcon": "",
-      "portrait": "story/assets/hutatsu_basic.png",
+      "portrait": "story/assets/portraits/hutatsu_basic.png",
       "portraitExpressions": {
         "happy": "",
         "sad": "",
         "angry": "",
         "surprised": "",
-        "neutral": "story/assets/hutatsu_basic.png",
+        "neutral": "story/assets/portraits/hutatsu_basic.png",
         "troubled": "",
         "smug": "",
-        "不満": "story/assets/hutatsu_human.png"
+        "不満": "story/assets/portraits/hutatsu_human.png"
       },
       "defaultBackground": "",
       "eventTags": [],
@@ -1376,7 +1376,7 @@
       "cpuProfileId": "new_cpu_3",
       "role": "ストーリーNPC",
       "chatIcon": "",
-      "portrait": "story/assets/sogo1.png",
+      "portrait": "story/assets/portraits/sogo1.png",
       "portraitExpressions": {
         "happy": "",
         "sad": "",
@@ -1414,7 +1414,7 @@
       "cpuProfileId": "isahai",
       "role": "「大尾」代表。",
       "chatIcon": "",
-      "portrait": "story/assets/isahai.png",
+      "portrait": "story/assets/portraits/isahai.png",
       "portraitExpressions": {
         "happy": "",
         "sad": "",
@@ -1766,7 +1766,7 @@
           "title": "『没入』",
           "mode": "visual_novel",
           "required": true,
-          "backgroundPath": "story/assets/camp.png",
+          "backgroundPath": "story/assets/backgrounds/camp.png",
           "cast": [
             {
               "characterId": "story_npc_742d037a13",
@@ -2033,7 +2033,7 @@
           "title": "",
           "mode": "visual_novel",
           "required": true,
-          "backgroundPath": "story/assets/mesomeso.png",
+          "backgroundPath": "story/assets/backgrounds/mesomeso.png",
           "cast": [
             {
               "characterId": "story_npc_742d037a13",
@@ -2046,7 +2046,7 @@
             {
               "characterId": "story_npc_fd795e9d4c",
               "slot": "right",
-              "portraitPath": "story/assets/kousei_m.png",
+              "portraitPath": "story/assets/portraits/kousei_m.png",
               "entranceAnimation": "fade",
               "exitAnimation": "fade",
               "expression": ""
@@ -2212,7 +2212,7 @@
           "preInteractionEventId": "event_6fb2585f3029",
           "postInteractionEventId": "event_6128b0b7b4b1",
           "defeatEventId": "",
-          "battleBackgroundPath": "story/assets//mesomeso.png",
+          "battleBackgroundPath": "story/assets/backgrounds/mesomeso.png",
           "opponentLines": [],
           "requiredCharacterIds": [
             "story_npc_742d037a13"
@@ -2227,7 +2227,7 @@
           "title": "戦闘後の交流",
           "mode": "visual_novel",
           "required": true,
-          "backgroundPath": "story/assets//mesomeso.png",
+          "backgroundPath": "story/assets/backgrounds/mesomeso.png",
           "cast": [
             {
               "characterId": "story_npc_742d037a13",
@@ -2240,7 +2240,7 @@
             {
               "characterId": "story_npc_fd795e9d4c",
               "slot": "right",
-              "portraitPath": "story/assets/kousei_m.png",
+              "portraitPath": "story/assets/portraits/kousei_m.png",
               "entranceAnimation": "fade",
               "exitAnimation": "fade",
               "expression": ""
@@ -2477,7 +2477,7 @@
           "preInteractionEventId": "event_5d15b46fc540",
           "postInteractionEventId": "event_e9c37dbb8f17",
           "defeatEventId": "",
-          "battleBackgroundPath": "story/assets/mesomeso.png",
+          "battleBackgroundPath": "story/assets/backgrounds/mesomeso.png",
           "opponentLines": [],
           "requiredCharacterIds": [
             "story_npc_742d037a13"
@@ -2545,7 +2545,7 @@
           "title": "邂逅。",
           "mode": "visual_novel",
           "required": true,
-          "backgroundPath": "story/assets/mesomeso.png",
+          "backgroundPath": "story/assets/backgrounds/mesomeso.png",
           "cast": [
             {
               "characterId": "story_npc_87608b9c41",
@@ -2710,7 +2710,7 @@
           "preInteractionEventId": "event_100ada169f3a",
           "postInteractionEventId": "event_0878464f682d",
           "defeatEventId": "event_7feef96388a1",
-          "battleBackgroundPath": "story/assets/mesomeso.png",
+          "battleBackgroundPath": "story/assets/backgrounds/mesomeso.png",
           "opponentLines": [],
           "requiredCharacterIds": [
             "story_npc_6c66a0a833"
@@ -2725,7 +2725,7 @@
           "title": "勝利。",
           "mode": "visual_novel",
           "required": true,
-          "backgroundPath": "story/assets/mesomeso.png",
+          "backgroundPath": "story/assets/backgrounds/mesomeso.png",
           "cast": [
             {
               "characterId": "story_npc_6c66a0a833",
@@ -2783,7 +2783,7 @@
           "title": "敗走。",
           "mode": "visual_novel",
           "required": true,
-          "backgroundPath": "story/assets/mesomeso.png",
+          "backgroundPath": "story/assets/backgrounds/mesomeso.png",
           "cast": [
             {
               "characterId": "story_npc_6c66a0a833",
@@ -2942,7 +2942,7 @@
           "title": "治療。",
           "mode": "visual_novel",
           "required": true,
-          "backgroundPath": "story/assets/hospital-room.jpg",
+          "backgroundPath": "story/assets/backgrounds/hospital-room.jpg",
           "cast": [
             {
               "characterId": "story_npc_87608b9c41",
@@ -2955,7 +2955,7 @@
             {
               "characterId": "story_npc_dcf961c5e4",
               "slot": "right",
-              "portraitPath": "story/assets/syokuin-w.PNG",
+              "portraitPath": "story/assets/portraits/syokuin-w.png",
               "entranceAnimation": "fade",
               "exitAnimation": "fade",
               "expression": ""
@@ -3357,7 +3357,7 @@
           "postInteractionEventId": "event_77ffc1ccd075",
           "defeatEventId": "",
           "defeatContinues": false,
-          "battleBackgroundPath": "story/assets/hospital-room.jpg",
+          "battleBackgroundPath": "story/assets/backgrounds/hospital-room.jpg",
           "opponentLines": [],
           "requiredCharacterIds": [
             "story_npc_87608b9c41"
@@ -3371,7 +3371,7 @@
           "title": "戦闘後の交流",
           "mode": "visual_novel",
           "required": true,
-          "backgroundPath": "story/assets/hospital-room.jpg",
+          "backgroundPath": "story/assets/backgrounds/hospital-room.jpg",
           "cast": [
             {
               "characterId": "story_npc_87608b9c41",
@@ -3384,7 +3384,7 @@
             {
               "characterId": "story_npc_dcf961c5e4",
               "slot": "right",
-              "portraitPath": "story/assets/syokuin-w.PNG",
+              "portraitPath": "story/assets/portraits/syokuin-w.png",
               "entranceAnimation": "fade",
               "exitAnimation": "fade",
               "expression": ""
@@ -3535,7 +3535,7 @@
           "title": "説明。",
           "mode": "visual_novel",
           "required": true,
-          "backgroundPath": "story/assets/doom.png",
+          "backgroundPath": "story/assets/backgrounds/doom.png",
           "cast": [
             {
               "characterId": "story_npc_87608b9c41",
@@ -4043,7 +4043,7 @@
           "postInteractionEventId": "event_f7e8edc4b01c",
           "defeatEventId": "",
           "defeatContinues": false,
-          "battleBackgroundPath": "story/assets/doom.png",
+          "battleBackgroundPath": "story/assets/backgrounds/doom.png",
           "opponentLines": [],
           "requiredCharacterIds": [
             "story_npc_87608b9c41"
@@ -4057,7 +4057,7 @@
           "title": "戦闘後の交流",
           "mode": "visual_novel",
           "required": true,
-          "backgroundPath": "story/assets/doom.png",
+          "backgroundPath": "story/assets/backgrounds/doom.png",
           "cast": [
             {
               "characterId": "story_npc_87608b9c41",
@@ -4197,7 +4197,7 @@
           "title": "混乱。",
           "mode": "visual_novel",
           "required": true,
-          "backgroundPath": "story/assets/kaigi.png",
+          "backgroundPath": "story/assets/backgrounds/kaigi.png",
           "cast": [
             {
               "characterId": "story_npc_1c419c7cfd",
@@ -4500,7 +4500,7 @@
           "title": "陰謀。",
           "mode": "visual_novel",
           "required": true,
-          "backgroundPath": "story/assets/hospital_cor.jpg",
+          "backgroundPath": "story/assets/backgrounds/hospital_cor.jpg",
           "cast": [
             {
               "characterId": "story_npc_590202ffbe",
@@ -4663,7 +4663,7 @@
           "title": "脱出。",
           "mode": "visual_novel",
           "required": true,
-          "backgroundPath": "story/assets/hospital-room.jpg",
+          "backgroundPath": "story/assets/backgrounds/hospital-room.jpg",
           "cast": [
             {
               "characterId": "story_npc_87608b9c41",
@@ -4775,7 +4775,7 @@
           "title": "邂逅。",
           "mode": "visual_novel",
           "required": true,
-          "backgroundPath": "story/assets/hospital_cor.jpg",
+          "backgroundPath": "story/assets/backgrounds/hospital_cor.jpg",
           "cast": [
             {
               "characterId": "story_npc_590202ffbe",
@@ -4885,7 +4885,7 @@
           "postInteractionEventId": "event_c868d571f56f",
           "defeatEventId": "",
           "defeatContinues": false,
-          "battleBackgroundPath": "story/assets/hospital_cor.jpg",
+          "battleBackgroundPath": "story/assets/backgrounds/hospital_cor.jpg",
           "opponentLines": [],
           "requiredCharacterIds": [
             "story_npc_590202ffbe"
@@ -4897,7 +4897,7 @@
           "title": "戦闘後の交流",
           "mode": "visual_novel",
           "required": true,
-          "backgroundPath": "story/assets/hospital_cor.jpg",
+          "backgroundPath": "story/assets/backgrounds/hospital_cor.jpg",
           "cast": [
             {
               "characterId": "story_npc_590202ffbe",
@@ -5079,7 +5079,7 @@
           "title": "邂逅（２）。",
           "mode": "visual_novel",
           "required": true,
-          "backgroundPath": "story/assets/egypt.png",
+          "backgroundPath": "story/assets/backgrounds/egypt.png",
           "cast": [
             {
               "characterId": "story_npc_c7ffb278a6",
@@ -5284,7 +5284,7 @@
           "postInteractionEventId": "event_36b1e6ce00b4",
           "defeatEventId": "",
           "defeatContinues": false,
-          "battleBackgroundPath": "story/assets/egypt.png",
+          "battleBackgroundPath": "story/assets/backgrounds/egypt.png",
           "opponentLines": [],
           "requiredCharacterIds": [
             "story_npc_c7ffb278a6"
@@ -5296,7 +5296,7 @@
           "title": "戦闘後の交流",
           "mode": "visual_novel",
           "required": true,
-          "backgroundPath": "story/assets/egypt.png",
+          "backgroundPath": "story/assets/backgrounds/egypt.png",
           "cast": [
             {
               "characterId": "story_npc_c7ffb278a6",

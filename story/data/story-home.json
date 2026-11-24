@@ -257,11 +257,11 @@
   ],
   "stageRewards": {},
   "pageBackgrounds": {
-    "people": "story/assets/library.png",
-    "shop": "story/assets/store.png",
-    "achievements": "story/assets/palace.png",
-    "account": "story/assets/account.png",
-    "world": "story/assets/space.jpg"
+    "people": "story/assets/backgrounds/library.png",
+    "shop": "story/assets/backgrounds/store.png",
+    "achievements": "story/assets/backgrounds/palace.png",
+    "account": "story/assets/backgrounds/account.png",
+    "world": "story/assets/backgrounds/space.jpg"
   },
   "peopleComments": {},
   "shopkeeperLines": [
@@ -271,7 +271,7 @@
     "またきても来なくても良い。難易度選択は、決してゲームに与えられるだけではないぞ。"
   ],
   "shopkeeperCharacterId": "story_npc_742d037a13",
-  "homeCharacterPortrait": "story/assets/yuiga_icon.PNG",
+  "homeCharacterPortrait": "story/assets/portraits/yuiga_icon.png",
   "loadingScreen": {
     "durationSeconds": 3,
     "title": "記録を読み込んでいます",
@@ -282,7 +282,7 @@
   "phoneMessages": [],
   "phoneReadings": [],
   "synopses": [],
-  "shopkeeperPortrait": "story/assets/yuiga_icon.PNG",
+  "shopkeeperPortrait": "story/assets/portraits/yuiga_icon.png",
   "characterProfiles": {
     "story_npc_742d037a13": {
       "gender": "女",

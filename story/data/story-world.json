@@ -5,7 +5,7 @@
     "title": "CHRONOS Story World",
     "version": 1,
     "mapStyle": "ancient",
-    "worldMapImage": "story/assets/world-map.png",
+    "worldMapImage": "story/assets/maps/world-map.png",
     "eras": [
       "古代",
       "中世",
@@ -23,28 +23,28 @@
       {
         "id": "shinden",
         "name": "幣殿",
-        "asset": "story/assets/shinden.jpg",
+        "asset": "",
         "type": "hub-stage"
       }
     ],
     "eraMaps": {
       "古代": {
-        "image": "story/assets/world-map.png"
+        "image": "story/assets/maps/world-map.png"
       },
       "中世": {
-        "image": "story/assets/world-map.png"
+        "image": "story/assets/maps/world-map.png"
       },
       "近世": {
-        "image": "story/assets/world-map.png"
+        "image": "story/assets/maps/world-map.png"
       },
       "近代": {
-        "image": "story/assets/world-map.png"
+        "image": "story/assets/maps/world-map.png"
       },
       "最近世": {
-        "image": "story/assets/world-map.png"
+        "image": "story/assets/maps/world-map.png"
       },
       "現代": {
-        "image": "story/assets/world-map.png"
+        "image": "story/assets/maps/world-map.png"
       }
     },
     "specialAreas": [
@@ -62,7 +62,7 @@
         "name": "幣殿",
         "type": "hub-stage",
         "style": "sanctuary",
-        "mapImage": "story/assets/shinden.jpg",
+        "mapImage": "",
         "description": "全時代をつなぐ拠点",
         "stages": [
           {
@@ -228,7 +228,7 @@
           }
         }
       ],
-      "mapImage": "story/assets/area_egy.PNG"
+      "mapImage": "story/assets/maps/area_egy.png"
     },
     {
       "id": "mesopotamia",
@@ -387,7 +387,7 @@
           }
         }
       ],
-      "mapImage": "story/assets/area_meso.PNG"
+      "mapImage": "story/assets/maps/area_meso.png"
     },
     {
       "id": "greece",
@@ -484,7 +484,7 @@
           }
         }
       ],
-      "mapImage": "story/assets/area_gre.jpg"
+      "mapImage": "story/assets/maps/area_gre.jpg"
     },
     {
       "id": "rome",
@@ -617,7 +617,7 @@
           }
         }
       ],
-      "mapImage": "story/assets/area_roma.PNG"
+      "mapImage": "story/assets/maps/area_roma.png"
     },
     {
       "id": "china",
@@ -818,7 +818,7 @@
           }
         }
       ],
-      "mapImage": "story/assets/area_china.PNG"
+      "mapImage": "story/assets/maps/area_china.png"
     },
     {
       "id": "japan",
