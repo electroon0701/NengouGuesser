@@ -1,0 +1,564 @@
+{
+  "format": "chronos-story-home",
+  "schemaVersion": 1,
+  "metadata": {
+    "title": "幣殿ホーム設定",
+    "updatedAt": "2026-11-24T14:51:23.141Z"
+  },
+  "homeCharacterId": "story_npc_742d037a13",
+  "comments": {
+    "world": "...さて。仕事を始めようか。",
+    "shop": "金銭とは、全く素晴らしいものだ。どこともしらぬ馬の骨とも会話ができる。",
+    "people": "人の名前を覚えるのは苦手かい？私は得意な方だ。",
+    "achievements": "例えこの中が寒々しくとも、生きているだけで勲章ものというものだ。\nまぁ無論埋まってる方がいいのだがな。",
+    "account": "やってみるか？少なくともそうすると私は君の記憶を永遠にできるな。"
+  },
+  "shopProducts": [
+    {
+      "id": "item_radar",
+      "type": "item",
+      "targetId": "radar",
+      "title": "レーダー",
+      "price": 8,
+      "description": "戦闘中に使用できるアイテム。",
+      "enabled": true,
+      "phoneMessageIds": [],
+      "phoneReadingIds": [],
+      "synopsisIds": []
+    },
+    {
+      "id": "item_tailwind",
+      "type": "item",
+      "targetId": "tailwind",
+      "title": "追い風札",
+      "price": 10,
+      "description": "戦闘中に使用できるアイテム。",
+      "enabled": true,
+      "phoneMessageIds": [],
+      "phoneReadingIds": [],
+      "synopsisIds": []
+    },
+    {
+      "id": "item_oracle",
+      "type": "item",
+      "targetId": "oracle",
+      "title": "時の神託",
+      "price": 16,
+      "description": "戦闘中に使用できるアイテム。",
+      "enabled": true,
+      "phoneMessageIds": [],
+      "phoneReadingIds": [],
+      "synopsisIds": []
+    },
+    {
+      "id": "item_century",
+      "type": "item",
+      "targetId": "century",
+      "title": "世紀の灯",
+      "price": 8,
+      "description": "戦闘中に使用できるアイテム。",
+      "enabled": true,
+      "phoneMessageIds": [],
+      "phoneReadingIds": [],
+      "synopsisIds": []
+    },
+    {
+      "id": "item_goblin_blind",
+      "type": "item",
+      "targetId": "goblin_blind",
+      "title": "小鬼の目隠し",
+      "price": 10,
+      "description": "戦闘中に使用できるアイテム。",
+      "enabled": true,
+      "phoneMessageIds": [],
+      "phoneReadingIds": [],
+      "synopsisIds": []
+    },
+    {
+      "id": "item_demon_blind",
+      "type": "item",
+      "targetId": "demon_blind",
+      "title": "悪魔の目隠し",
+      "price": 18,
+      "description": "戦闘中に使用できるアイテム。",
+      "enabled": true,
+      "phoneMessageIds": [],
+      "phoneReadingIds": [],
+      "synopsisIds": []
+    },
+    {
+      "id": "item_oil_bottle",
+      "type": "item",
+      "targetId": "oil_bottle",
+      "title": "油瓶",
+      "price": 9,
+      "description": "戦闘中に使用できるアイテム。",
+      "enabled": true,
+      "phoneMessageIds": [],
+      "phoneReadingIds": [],
+      "synopsisIds": []
+    },
+    {
+      "id": "item_super_oil_bottle",
+      "type": "item",
+      "targetId": "super_oil_bottle",
+      "title": "超・油瓶",
+      "price": 18,
+      "description": "戦闘中に使用できるアイテム。",
+      "enabled": true,
+      "phoneMessageIds": [],
+      "phoneReadingIds": [],
+      "synopsisIds": []
+    },
+    {
+      "id": "item_grudge_charm",
+      "type": "item",
+      "targetId": "grudge_charm",
+      "title": "怨念の呪符",
+      "price": 11,
+      "description": "戦闘中に使用できるアイテム。",
+      "enabled": true,
+      "phoneMessageIds": [],
+      "phoneReadingIds": [],
+      "synopsisIds": []
+    },
+    {
+      "id": "item_malevolence_charm",
+      "type": "item",
+      "targetId": "malevolence_charm",
+      "title": "惡念の呪符",
+      "price": 18,
+      "description": "戦闘中に使用できるアイテム。",
+      "enabled": true,
+      "phoneMessageIds": [],
+      "phoneReadingIds": [],
+      "synopsisIds": []
+    },
+    {
+      "id": "item_onigiri",
+      "type": "item",
+      "targetId": "onigiri",
+      "title": "おにぎにぎ",
+      "price": 9,
+      "description": "戦闘中に使用できるアイテム。",
+      "enabled": true,
+      "phoneMessageIds": [],
+      "phoneReadingIds": [],
+      "synopsisIds": []
+    },
+    {
+      "id": "item_berserker_blind",
+      "type": "item",
+      "targetId": "berserker_blind",
+      "title": "狂戦士の目隠し",
+      "price": 14,
+      "description": "戦闘中に使用できるアイテム。",
+      "enabled": true,
+      "phoneMessageIds": [],
+      "phoneReadingIds": [],
+      "synopsisIds": []
+    },
+    {
+      "id": "item_egoma_oil",
+      "type": "item",
+      "targetId": "egoma_oil",
+      "title": "えごま油瓶",
+      "price": 11,
+      "description": "戦闘中に使用できるアイテム。",
+      "enabled": true,
+      "phoneMessageIds": [],
+      "phoneReadingIds": [],
+      "synopsisIds": []
+    },
+    {
+      "id": "item_self_binding",
+      "type": "item",
+      "targetId": "self_binding",
+      "title": "自縄自縛",
+      "price": 14,
+      "description": "戦闘中に使用できるアイテム。",
+      "enabled": true,
+      "phoneMessageIds": [],
+      "phoneReadingIds": [],
+      "synopsisIds": []
+    },
+    {
+      "id": "item_insight",
+      "type": "item",
+      "targetId": "insight",
+      "title": "鑑識眼",
+      "price": 12,
+      "description": "戦闘中に使用できるアイテム。",
+      "enabled": true,
+      "phoneMessageIds": [],
+      "phoneReadingIds": [],
+      "synopsisIds": []
+    },
+    {
+      "id": "item_omniscience",
+      "type": "item",
+      "targetId": "omniscience",
+      "title": "千里眼",
+      "price": 18,
+      "description": "戦闘中に使用できるアイテム。",
+      "enabled": true,
+      "phoneMessageIds": [],
+      "phoneReadingIds": [],
+      "synopsisIds": []
+    },
+    {
+      "id": "item_edict",
+      "type": "item",
+      "targetId": "edict",
+      "title": "文明の利器",
+      "price": 16,
+      "description": "戦闘中に使用できるアイテム。",
+      "enabled": true,
+      "phoneMessageIds": [],
+      "phoneReadingIds": [],
+      "synopsisIds": []
+    },
+    {
+      "id": "item_disguise",
+      "type": "item",
+      "targetId": "disguise",
+      "title": "隠れ蓑",
+      "price": 10,
+      "description": "戦闘中に使用できるアイテム。",
+      "enabled": true,
+      "phoneMessageIds": [],
+      "phoneReadingIds": [],
+      "synopsisIds": []
+    },
+    {
+      "id": "item_time_leap",
+      "type": "item",
+      "targetId": "time_leap",
+      "title": "タイムリープ",
+      "price": 14,
+      "description": "戦闘中に使用できるアイテム。",
+      "enabled": true,
+      "phoneMessageIds": [],
+      "phoneReadingIds": [],
+      "synopsisIds": []
+    },
+    {
+      "id": "unlock_egypt",
+      "type": "region",
+      "targetId": "",
+      "title": "エジプト地域の解放",
+      "price": 18,
+      "description": "古代エジプトの地域地図とステージを解放します。",
+      "enabled": true,
+      "phoneMessageIds": [],
+      "phoneReadingIds": [],
+      "synopsisIds": []
+    }
+  ],
+  "stageRewards": {},
+  "pageBackgrounds": {
+    "people": "story/assets/backgrounds/library.png",
+    "shop": "story/assets/backgrounds/store.png",
+    "achievements": "story/assets/backgrounds/palace.png",
+    "account": "story/assets/backgrounds/account.png",
+    "world": "story/assets/backgrounds/space.jpg"
+  },
+  "peopleComments": {
+    "story_npc_742d037a13": "私だな。...私ってこんな顔してるのか？",
+    "story_npc_6c66a0a833": "...ふむ。",
+    "story_npc_e388e457aa": "きゃんきゃん喚いて犬みたいだな。...猫の側面もあるだろうが。",
+    "story_npc_87608b9c41": "真面目でなかなか愛いやつだな。",
+    "story_npc_11a141be8a": "バリキャリって言ったところか。「必殺！仕事人」だな。",
+    "story_npc_590202ffbe": "なかなか悪そうな立ち絵だな。中身もしっかりあくどいぞ。",
+    "story_npc_1c419c7cfd": "...パス。",
+    "story_npc_41c6bf6850": "「実はいいやつ」ヤンキー属性だ。単純だな。"
+  },
+  "shopkeeperLines": [
+    "いらっしゃい。ゆっくり見ていっていくといい。"
+  ],
+  "purchaseLines": [
+    "またきても来なくても良い。難易度選択は、決してゲームに与えられるだけではないぞ。"
+  ],
+  "shopkeeperCharacterId": "story_npc_742d037a13",
+  "homeCharacterPortrait": "story/assets/portraits/yuiga_icon.png",
+  "loadingScreen": {
+    "durationSeconds": 3,
+    "title": "記録を読み込んでいます",
+    "subtitle": "時の流れを整えています…",
+    "tips": [],
+    "trivia": []
+  },
+  "phoneMessages": [],
+  "phoneReadings": [],
+  "synopses": [],
+  "shopkeeperPortrait": "story/assets/portraits/yuiga_icon.png",
+  "characterProfiles": {
+    "story_npc_742d037a13": {
+      "gender": "女",
+      "age": "???",
+      "heightCm": "157.7",
+      "weightKg": "0",
+      "birthday": "なし",
+      "likes": [
+        "焼きそばパン"
+      ],
+      "dislikes": [
+        "「神」"
+      ],
+      "dream": "美味しいフォカッチャを焼く。",
+      "details": [
+        {
+          "id": "detail_01",
+          "title": "新しい詳細",
+          "text": "謎の少女。いつも何かのアルコールを摂取していて酒臭い。\n本人の供述によれば、一応成人しているらしい。",
+          "unlock": {
+            "type": "event_completed",
+            "targetId": "event_635fc391c657"
+          }
+        }
+      ]
+    },
+    "story_npc_fd795e9d4c": {
+      "gender": "",
+      "age": "",
+      "heightCm": "",
+      "weightKg": "",
+      "birthday": "",
+      "likes": [],
+      "dislikes": [],
+      "dream": "",
+      "details": []
+    },
+    "story_npc_c7ffb278a6": {
+      "gender": "",
+      "age": "",
+      "heightCm": "",
+      "weightKg": "",
+      "birthday": "",
+      "likes": [],
+      "dislikes": [],
+      "dream": "",
+      "details": []
+    },
+    "story_npc_260255b08f": {
+      "gender": "",
+      "age": "",
+      "heightCm": "",
+      "weightKg": "",
+      "birthday": "",
+      "likes": [],
+      "dislikes": [],
+      "dream": "",
+      "details": []
+    },
+    "story_npc_133d22e3f8": {
+      "gender": "",
+      "age": "",
+      "heightCm": "",
+      "weightKg": "",
+      "birthday": "",
+      "likes": [],
+      "dislikes": [],
+      "dream": "",
+      "details": []
+    },
+    "story_npc_6c66a0a833": {
+      "gender": "男",
+      "age": "80代後半",
+      "heightCm": "189.3",
+      "weightKg": "65",
+      "birthday": "不明",
+      "likes": [
+        "スイートブール"
+      ],
+      "dislikes": [
+        "豆大福"
+      ],
+      "dream": "???",
+      "details": []
+    },
+    "story_npc_e388e457aa": {
+      "gender": "女",
+      "age": "18",
+      "heightCm": "159.8",
+      "weightKg": "53.5",
+      "birthday": "7/7",
+      "likes": [
+        "人類みんな！！"
+      ],
+      "dislikes": [
+        "好きじゃないもの！！"
+      ],
+      "dream": "160cmまで身長を伸ばすこと！！",
+      "details": [
+        {
+          "id": "detail_01",
+          "title": "新しい詳細",
+          "text": "元気一杯の少女。NeoR所属。\nいつもキャピキャピしていてちょうどいいくらいくらいにうざったいが、しかし時々異常に押し黙るのは怖いからやめて欲しい。",
+          "unlock": {
+            "type": "event_completed",
+            "targetId": "event_907ddfeaa6af"
+          }
+        }
+      ]
+    },
+    "story_npc_87608b9c41": {
+      "gender": "男",
+      "age": "17",
+      "heightCm": "170",
+      "weightKg": "51",
+      "birthday": "11/15",
+      "likes": [
+        "美味しい紅茶"
+      ],
+      "dislikes": [
+        "不味い紅茶"
+      ],
+      "dream": "父のような立派な人になること。",
+      "details": [
+        {
+          "id": "detail_01",
+          "title": "新しい詳細",
+          "text": "冷静沈着、寡黙な男の子。「大尾」所属。\n口下手なので異常なる沈黙が最初は襲いかかるが、しかしかなりハートフルな優しい男の子。",
+          "unlock": {
+            "type": "event_completed",
+            "targetId": "event_4044db39e049"
+          }
+        }
+      ]
+    },
+    "story_npc_dcf961c5e4": {
+      "gender": "",
+      "age": "",
+      "heightCm": "",
+      "weightKg": "",
+      "birthday": "",
+      "likes": [],
+      "dislikes": [],
+      "dream": "",
+      "details": []
+    },
+    "story_npc_11a141be8a": {
+      "gender": "女",
+      "age": "28",
+      "heightCm": "189.3",
+      "weightKg": "65.2",
+      "birthday": "2/23",
+      "likes": [
+        "NeoR"
+      ],
+      "dislikes": [
+        "「大尾」――引いては飯酒盃"
+      ],
+      "dream": "「大尾」の打倒。",
+      "details": [
+        {
+          "id": "detail_01",
+          "title": "新しい詳細",
+          "text": "NeoR参謀総長、実質的なNo.2。\n合理的、冷徹な人物であり、生来の凜とした顔と高身長により威圧感がすごい。\nでも連盟長によれば結構可愛い趣味を持ってるとのこと。",
+          "unlock": {
+            "type": "event_completed",
+            "targetId": "event_c7d200dd0b48"
+          }
+        }
+      ]
+    },
+    "story_npc_590202ffbe": {
+      "gender": "男",
+      "age": "32",
+      "heightCm": "181.1",
+      "weightKg": "69.9",
+      "birthday": "4/12",
+      "likes": [
+        "合理性に従うもの。"
+      ],
+      "dislikes": [
+        "合理性に従わないもの。"
+      ],
+      "dream": "天下を手中に収める。",
+      "details": [
+        {
+          "id": "detail_01",
+          "title": "新しい詳細",
+          "text": "高級事務官長。「大尾」の実質的No.2。\nなかなかあくどいやつ。",
+          "unlock": {
+            "type": "event_completed",
+            "targetId": "event_30cadb69ec38"
+          }
+        }
+      ]
+    },
+    "story_npc_0b5cb8e8b7": {
+      "gender": "",
+      "age": "",
+      "heightCm": "",
+      "weightKg": "",
+      "birthday": "",
+      "likes": [],
+      "dislikes": [],
+      "dream": "",
+      "details": []
+    },
+    "story_npc_1c419c7cfd": {
+      "gender": "女",
+      "age": "???",
+      "heightCm": "166.6",
+      "weightKg": "54.5",
+      "birthday": "6/10",
+      "likes": [
+        "全部"
+      ],
+      "dislikes": [
+        "∅"
+      ],
+      "dream": "世界平和",
+      "details": [
+        {
+          "id": "detail_01",
+          "title": "新しい詳細",
+          "text": "「大尾」代表、最高権力者。\n全てが規格外のわけわからんマイペースな人物。",
+          "unlock": {
+            "type": "event_completed",
+            "targetId": "event_c7d200dd0b48"
+          }
+        }
+      ]
+    },
+    "story_npc_41c6bf6850": {
+      "gender": "男",
+      "age": "25",
+      "heightCm": "187.5",
+      "weightKg": "76",
+      "birthday": "5/29",
+      "likes": [
+        "人"
+      ],
+      "dislikes": [
+        "無機質な人"
+      ],
+      "dream": "自由な世界",
+      "details": [
+        {
+          "id": "detail_01",
+          "title": "新しい詳細",
+          "text": "「NeoR」の最高権力者。\nチャラそうだが実際飯酒盃より真面目。",
+          "unlock": {
+            "type": "event_completed",
+            "targetId": "event_574d284031e8"
+          }
+        }
+      ]
+    },
+    "story_npc_2fc7944736": {
+      "gender": "",
+      "age": "",
+      "heightCm": "",
+      "weightKg": "",
+      "birthday": "",
+      "likes": [],
+      "dislikes": [],
+      "dream": "",
+      "details": []
+    }
+  }
+}
