@@ -422,9 +422,6 @@
             },
             "amount": {
               ".validate": "newData.isNumber() && newData.val() >= 0 && newData.val() <= 6"
-            },
-            "seed": {
-              ".validate": "newData.isNumber() && newData.val() >= 1 && newData.val() <= 2147483647"
             }
           },
           ".write": "auth != null && auth.uid === root.child('rooms').child($room).child('meta').child('hostUid').val() && root.child('rooms').child($room).child('meta').child('status').val() === 'resetting' && !newData.exists()"
