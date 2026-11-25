@@ -219,6 +219,9 @@
                 ".validate": "$index.matches(/^[0-4]$/) && newData.isNumber() && newData.val() >= 0 && newData.val() <= 0.98"
               }
             }
+          },
+          "perfectVideoEnabled": {
+            ".validate": "newData.isBoolean()"
           }
         },
         "players": {
@@ -236,7 +239,7 @@
         },
         "answers": {
           "$round": {
-            ".read": "auth != null && (auth.uid === root.child('rooms').child($room).child('meta').child('hostUid').val() || root.child('rooms').child($room).child('meta').child('status').val() !== 'answering')",
+            ".read": "auth != null && (auth.uid === root.child('rooms').child($room).child('meta').child('hostUid').val() || root.child('rooms').child($room).child('meta').child('status').val() !== 'answering' || root.child('rooms').child($room).child('spectators').child(auth.uid).exists())",
             "$uid": {
               ".write": "(auth != null && auth.uid === $uid && !data.exists() && $round === root.child('rooms').child($room).child('meta').child('roundKey').val() && root.child('rooms').child($room).child('meta').child('status').val() === 'answering' && now < root.child('rooms').child($room).child('meta').child('deadline').val() + 6000 && (root.child('rooms').child($room).child('players').child($uid).exists() || root.child('rooms').child($room).child('meta').child('participantRoster').child($uid).exists())) || (auth != null && auth.uid === root.child('rooms').child($room).child('meta').child('hostUid').val() && $uid.matches(/^cpu_.*/) && root.child('rooms').child($room).child('meta').child('participantRoster').child($uid).exists() && root.child('rooms').child($room).child('meta').child('status').val() === 'answering' && $round === root.child('rooms').child($room).child('meta').child('roundKey').val())",
               ".validate": "newData.hasChildren(['year']) && (newData.hasChild('month') === newData.hasChild('day'))",
@@ -407,6 +410,9 @@
             },
             "mode": {
               ".validate": "newData.isString() && (newData.val() === 'standard' || newData.val() === 'survival' || newData.val() === 'senjin' || newData.val() === 'half_individual' || newData.val() === 'half_team' || newData.val() === 'poker')"
+            },
+            "seed": {
+              ".validate": "newData.isNumber() && newData.val() >= 0 && newData.val() <= 2147483647"
             },
             "targets": {
               ".validate": "newData.hasChildren()",
@@ -730,6 +736,55 @@
         "cpuProfiles": {
           ".read": "auth != null && auth.uid === root.child('rooms').child($room).child('meta').child('hostUid').val()",
           ".write": "auth != null && auth.uid === root.child('rooms').child($room).child('meta').child('hostUid').val()"
+        },
+        "spectators": {
+          ".read": "auth != null",
+          "$uid": {
+            ".read": "auth != null && auth.uid === $uid",
+            ".write": "auth != null && auth.uid === $uid && root.child('rooms').child($room).child('meta').exists() && root.child('rooms').child($room).child('meta').child('status').val() !== 'lobby'",
+            ".validate": "newData.hasChildren(['name','joinedAt'])",
+            "name": {
+              ".validate": "newData.isString() && newData.val().length >= 1 && newData.val().length <= 12"
+            },
+            "joinedAt": {
+              ".validate": "newData.isNumber() && newData.val() >= 0"
+            },
+            "$other": {
+              ".validate": false
+            }
+          }
+        },
+        "spectatorLive": {
+          ".read": "auth != null && root.child('rooms').child($room).child('spectators').child(auth.uid).exists()",
+          "$uid": {
+            ".read": "auth != null && root.child('rooms').child($room).child('spectators').child(auth.uid).exists()",
+            ".write": "auth != null && auth.uid === $uid && root.child('rooms').child($room).child('meta').child('participantRoster').child($uid).exists()",
+            ".validate": "newData.hasChildren(['year','updatedAt']) && (!newData.hasChild('month') || newData.hasChild('day'))",
+            "year": {
+              ".validate": "newData.isNumber() && newData.val() >= -1999 && newData.val() <= 9999"
+            },
+            "updatedAt": {
+              ".validate": "newData.isNumber() && newData.val() >= 0"
+            },
+            "$other": {
+              ".validate": false
+            },
+            "month": {
+              ".validate": "newData.isNumber() && newData.val() >= 1 && newData.val() <= 12"
+            },
+            "day": {
+              ".validate": "newData.isNumber() && newData.val() >= 1 && newData.val() <= 31"
+            },
+            "dateIndex": {
+              ".validate": "newData.isNumber() && newData.val() >= 1 && newData.val() <= 366"
+            },
+            "round": {
+              ".validate": "newData.isNumber() && newData.val() >= 0 && newData.val() <= 999999"
+            },
+            "locked": {
+              ".validate": "newData.isBoolean()"
+            }
+          }
         }
       }
     },
