@@ -1,0 +1,435 @@
+/* Badge catalog. Edit with online-badge-admin.html, then replace this file. */
+window.CHRONOS_ONLINE_BADGE_DEFINITIONS = Object.freeze([
+  {
+    "id": "rank-a-1",
+    "title": "Aランク 初回",
+    "description": "ランクAを1回獲得する",
+    "icon": "./assets/badges/dou.PNG",
+    "metric": "aFinishes",
+    "threshold": 1
+  },
+  {
+    "id": "rank-a-10",
+    "title": "Aランク 十回",
+    "description": "ランクAを10回獲得する",
+    "icon": "./assets/badges/gin.PNG",
+    "metric": "aFinishes",
+    "threshold": 10
+  },
+  {
+    "id": "rank-a-100",
+    "title": "Aランク 百回",
+    "description": "ランクAを100回獲得する",
+    "icon": "./assets/badges/kin.PNG",
+    "metric": "aFinishes",
+    "threshold": 100
+  },
+  {
+    "id": "rank-s-1",
+    "title": "Sランク 初回",
+    "description": "ランクSを1回獲得する",
+    "icon": "./assets/badges/eme.PNG",
+    "metric": "sFinishes",
+    "threshold": 1
+  },
+  {
+    "id": "rank-s-5",
+    "title": "Sランク 五回",
+    "description": "ランクSを5回獲得する",
+    "icon": "./assets/badges/daiya.PNG",
+    "metric": "sFinishes",
+    "threshold": 5
+  },
+  {
+    "id": "rank-s-50",
+    "title": "Sランク 五十回",
+    "description": "ランクSを50回獲得する",
+    "icon": "./assets/badges/ame.PNG",
+    "metric": "sFinishes",
+    "threshold": 50
+  },
+  {
+    "id": "rank-ss-1",
+    "title": "SSランク 初回",
+    "description": "ランクSSを1回獲得する",
+    "icon": "./assets/badges/suta.PNG",
+    "metric": "ssFinishes",
+    "threshold": 1
+  },
+  {
+    "id": "rank-ss-5",
+    "title": "SSランク 五回",
+    "description": "ランクSSを5回獲得する",
+    "icon": "./assets/badges/ao.PNG",
+    "metric": "ssFinishes",
+    "threshold": 5
+  },
+  {
+    "id": "rank-ss-50",
+    "title": "SSランク 五十回",
+    "description": "ランクSSを50回獲得する",
+    "icon": "./assets/badges/tensi.PNG",
+    "metric": "ssFinishes",
+    "threshold": 50
+  },
+  {
+    "id": "rank-incredible-1",
+    "title": "INCREDIBLE 初回",
+    "description": "INCREDIBLEを1回獲得する",
+    "icon": "./assets/badges/oukan.PNG",
+    "metric": "incredibleFinishes",
+    "threshold": 1
+  },
+  {
+    "id": "rank-incredible-3",
+    "title": "INCREDIBLE 三回",
+    "description": "INCREDIBLEを3回獲得する",
+    "icon": "./assets/badges/jyaa.PNG",
+    "metric": "incredibleFinishes",
+    "threshold": 3
+  },
+  {
+    "id": "rank-incredible-10",
+    "title": "INCREDIBLE 十回",
+    "description": "INCREDIBLEを10回獲得する",
+    "icon": "./assets/badges/kami.PNG",
+    "metric": "incredibleFinishes",
+    "threshold": 10
+  },
+  {
+    "id": "matches-10",
+    "title": "対戦 10回",
+    "description": "対戦を合計10回完了する（1人での対戦を含む）",
+    "icon": "./assets/badges/medal-star.jpeg",
+    "metric": "matchesCompleted",
+    "threshold": 10
+  },
+  {
+    "id": "matches-50",
+    "title": "対戦 50回",
+    "description": "対戦を合計50回完了する（1人での対戦を含む）",
+    "icon": "./assets/badges/medal-star.jpeg",
+    "metric": "matchesCompleted",
+    "threshold": 50
+  },
+  {
+    "id": "matches-100",
+    "title": "対戦 100回",
+    "description": "対戦を合計100回完了する（1人での対戦を含む）",
+    "icon": "./assets/badges/medal-star.jpeg",
+    "metric": "matchesCompleted",
+    "threshold": 100
+  },
+  {
+    "id": "matches-1000",
+    "title": "対戦 1000回",
+    "description": "対戦を合計1000回完了する（1人での対戦を含む）",
+    "icon": "./assets/badges/medal-star.jpeg",
+    "metric": "matchesCompleted",
+    "threshold": 1000
+  },
+  {
+    "id": "multiplayer-first-10",
+    "title": "マルチプレイ1位 10回",
+    "description": "他の人間プレイヤーが参加する対戦で1位を10回獲得する",
+    "icon": "./assets/badges/medal-star.jpeg",
+    "metric": "multiplayerFirstPlaces",
+    "threshold": 10
+  },
+  {
+    "id": "multiplayer-first-50",
+    "title": "マルチプレイ1位 50回",
+    "description": "他の人間プレイヤーが参加する対戦で1位を50回獲得する",
+    "icon": "./assets/badges/medal-star.jpeg",
+    "metric": "multiplayerFirstPlaces",
+    "threshold": 50
+  },
+  {
+    "id": "multiplayer-first-100",
+    "title": "マルチプレイ1位 100回",
+    "description": "他の人間プレイヤーが参加する対戦で1位を100回獲得する",
+    "icon": "./assets/badges/medal-star.jpeg",
+    "metric": "multiplayerFirstPlaces",
+    "threshold": 100
+  },
+  {
+    "id": "multiplayer-first-1000",
+    "title": "マルチプレイ1位 1000回",
+    "description": "他の人間プレイヤーが参加する対戦で1位を1000回獲得する",
+    "icon": "./assets/badges/medal-star.jpeg",
+    "metric": "multiplayerFirstPlaces",
+    "threshold": 1000
+  },
+  {
+    "id": "cpu-win-beginner",
+    "title": "初学者CPU撃破",
+    "description": "ネームドではない初学者CPUに勝利する",
+    "icon": "./assets/badges/medal-star.jpeg",
+    "metric": "cpuWins_beginner",
+    "threshold": 1
+  },
+  {
+    "id": "cpu-win-exam_candidate",
+    "title": "受験生CPU撃破",
+    "description": "ネームドではない受験生CPUに勝利する",
+    "icon": "./assets/badges/medal-star.jpeg",
+    "metric": "cpuWins_exam_candidate",
+    "threshold": 1
+  },
+  {
+    "id": "cpu-win-major",
+    "title": "専攻生CPU撃破",
+    "description": "ネームドではない専攻生CPUに勝利する",
+    "icon": "./assets/badges/medal-star.jpeg",
+    "metric": "cpuWins_major",
+    "threshold": 1
+  },
+  {
+    "id": "cpu-win-historian",
+    "title": "歴史学者CPU撃破",
+    "description": "ネームドではない歴史学者CPUに勝利する",
+    "icon": "./assets/badges/medal-star.jpeg",
+    "metric": "cpuWins_historian",
+    "threshold": 1
+  },
+  {
+    "id": "cpu-win-god",
+    "title": "現人神CPU撃破",
+    "description": "ネームドではない現人神CPUに勝利する",
+    "icon": "./assets/badges/medal-star.jpeg",
+    "metric": "cpuWins_god",
+    "threshold": 1
+  },
+  {
+    "id": "multiplayer-tie",
+    "title": "好敵手",
+    "description": "マルチプレイで他の人間プレイヤーと同じ最終スコアになる",
+    "icon": "./assets/badges/medal-star.jpeg",
+    "metric": "multiplayerTies",
+    "threshold": 1
+  },
+  {
+    "id": "perfect-basic-1",
+    "title": "基礎 ズバリ！ 初回",
+    "description": "基礎の問題で「ズバリ！」を初めて達成する",
+    "icon": "./assets/badges/medal-star.jpeg",
+    "metric": "perfectHits_basic",
+    "threshold": 1
+  },
+  {
+    "id": "perfect-basic-5",
+    "title": "基礎 ズバリ！ 5回",
+    "description": "基礎の問題で「ズバリ！」を5回達成する",
+    "icon": "./assets/badges/medal-star.jpeg",
+    "metric": "perfectHits_basic",
+    "threshold": 5
+  },
+  {
+    "id": "perfect-basic-10",
+    "title": "基礎 ズバリ！ 10回",
+    "description": "基礎の問題で「ズバリ！」を10回達成する",
+    "icon": "./assets/badges/medal-star.jpeg",
+    "metric": "perfectHits_basic",
+    "threshold": 10
+  },
+  {
+    "id": "perfect-basic-50",
+    "title": "基礎 ズバリ！ 50回",
+    "description": "基礎の問題で「ズバリ！」を50回達成する",
+    "icon": "./assets/badges/medal-star.jpeg",
+    "metric": "perfectHits_basic",
+    "threshold": 50
+  },
+  {
+    "id": "perfect-standard-1",
+    "title": "標準 ズバリ！ 初回",
+    "description": "標準の問題で「ズバリ！」を初めて達成する",
+    "icon": "./assets/badges/medal-star.jpeg",
+    "metric": "perfectHits_standard",
+    "threshold": 1
+  },
+  {
+    "id": "perfect-standard-5",
+    "title": "標準 ズバリ！ 5回",
+    "description": "標準の問題で「ズバリ！」を5回達成する",
+    "icon": "./assets/badges/medal-star.jpeg",
+    "metric": "perfectHits_standard",
+    "threshold": 5
+  },
+  {
+    "id": "perfect-standard-10",
+    "title": "標準 ズバリ！ 10回",
+    "description": "標準の問題で「ズバリ！」を10回達成する",
+    "icon": "./assets/badges/medal-star.jpeg",
+    "metric": "perfectHits_standard",
+    "threshold": 10
+  },
+  {
+    "id": "perfect-standard-50",
+    "title": "標準 ズバリ！ 50回",
+    "description": "標準の問題で「ズバリ！」を50回達成する",
+    "icon": "./assets/badges/medal-star.jpeg",
+    "metric": "perfectHits_standard",
+    "threshold": 50
+  },
+  {
+    "id": "perfect-advanced-1",
+    "title": "発展 ズバリ！ 初回",
+    "description": "発展の問題で「ズバリ！」を初めて達成する",
+    "icon": "./assets/badges/medal-star.jpeg",
+    "metric": "perfectHits_advanced",
+    "threshold": 1
+  },
+  {
+    "id": "perfect-advanced-5",
+    "title": "発展 ズバリ！ 5回",
+    "description": "発展の問題で「ズバリ！」を5回達成する",
+    "icon": "./assets/badges/medal-star.jpeg",
+    "metric": "perfectHits_advanced",
+    "threshold": 5
+  },
+  {
+    "id": "perfect-advanced-10",
+    "title": "発展 ズバリ！ 10回",
+    "description": "発展の問題で「ズバリ！」を10回達成する",
+    "icon": "./assets/badges/medal-star.jpeg",
+    "metric": "perfectHits_advanced",
+    "threshold": 10
+  },
+  {
+    "id": "perfect-advanced-50",
+    "title": "発展 ズバリ！ 50回",
+    "description": "発展の問題で「ズバリ！」を50回達成する",
+    "icon": "./assets/badges/medal-star.jpeg",
+    "metric": "perfectHits_advanced",
+    "threshold": 50
+  },
+  {
+    "id": "perfect-super_advanced-1",
+    "title": "超発展 ズバリ！ 初回",
+    "description": "超発展の問題で「ズバリ！」を初めて達成する",
+    "icon": "./assets/badges/medal-star.jpeg",
+    "metric": "perfectHits_super_advanced",
+    "threshold": 1
+  },
+  {
+    "id": "perfect-super_advanced-5",
+    "title": "超発展 ズバリ！ 5回",
+    "description": "超発展の問題で「ズバリ！」を5回達成する",
+    "icon": "./assets/badges/medal-star.jpeg",
+    "metric": "perfectHits_super_advanced",
+    "threshold": 5
+  },
+  {
+    "id": "perfect-super_advanced-10",
+    "title": "超発展 ズバリ！ 10回",
+    "description": "超発展の問題で「ズバリ！」を10回達成する",
+    "icon": "./assets/badges/medal-star.jpeg",
+    "metric": "perfectHits_super_advanced",
+    "threshold": 10
+  },
+  {
+    "id": "perfect-super_advanced-50",
+    "title": "超発展 ズバリ！ 50回",
+    "description": "超発展の問題で「ズバリ！」を50回達成する",
+    "icon": "./assets/badges/medal-star.jpeg",
+    "metric": "perfectHits_super_advanced",
+    "threshold": 50
+  },
+  {
+    "id": "perfect-hell-1",
+    "title": "ヘル ズバリ！ 初回",
+    "description": "ヘルの問題で「ズバリ！」を初めて達成する",
+    "icon": "./assets/badges/medal-star.jpeg",
+    "metric": "perfectHits_hell",
+    "threshold": 1
+  },
+  {
+    "id": "perfect-hell-5",
+    "title": "ヘル ズバリ！ 5回",
+    "description": "ヘルの問題で「ズバリ！」を5回達成する",
+    "icon": "./assets/badges/medal-star.jpeg",
+    "metric": "perfectHits_hell",
+    "threshold": 5
+  },
+  {
+    "id": "perfect-hell-10",
+    "title": "ヘル ズバリ！ 10回",
+    "description": "ヘルの問題で「ズバリ！」を10回達成する",
+    "icon": "./assets/badges/medal-star.jpeg",
+    "metric": "perfectHits_hell",
+    "threshold": 10
+  },
+  {
+    "id": "perfect-hell-50",
+    "title": "ヘル ズバリ！ 50回",
+    "description": "ヘルの問題で「ズバリ！」を50回達成する",
+    "icon": "./assets/badges/medal-star.jpeg",
+    "metric": "perfectHits_hell",
+    "threshold": 50
+  },
+  {
+    "id": "perfect-year-only-1",
+    "title": "年まで登録されている問題 ズバリ！ 初回",
+    "description": "年まで登録されている問題で「ズバリ！」を初めて達成する",
+    "icon": "./assets/badges/medal-star.jpeg",
+    "metric": "perfectYearOnlyHits",
+    "threshold": 1
+  },
+  {
+    "id": "perfect-year-only-10",
+    "title": "年まで登録されている問題 ズバリ！ 10回",
+    "description": "年まで登録されている問題で「ズバリ！」を10回達成する",
+    "icon": "./assets/badges/medal-star.jpeg",
+    "metric": "perfectYearOnlyHits",
+    "threshold": 10
+  },
+  {
+    "id": "perfect-year-only-100",
+    "title": "年まで登録されている問題 ズバリ！ 100回",
+    "description": "年まで登録されている問題で「ズバリ！」を100回達成する",
+    "icon": "./assets/badges/medal-star.jpeg",
+    "metric": "perfectYearOnlyHits",
+    "threshold": 100
+  },
+  {
+    "id": "perfect-year-only-500",
+    "title": "年まで登録されている問題 ズバリ！ 500回",
+    "description": "年まで登録されている問題で「ズバリ！」を500回達成する",
+    "icon": "./assets/badges/medal-star.jpeg",
+    "metric": "perfectYearOnlyHits",
+    "threshold": 500
+  },
+  {
+    "id": "perfect-month-day-1",
+    "title": "月日まで登録されている問題 ズバリ！ 初回",
+    "description": "月日まで登録されている問題で「ズバリ！」を初めて達成する",
+    "icon": "./assets/badges/medal-star.jpeg",
+    "metric": "perfectMonthDayHits",
+    "threshold": 1
+  },
+  {
+    "id": "perfect-month-day-5",
+    "title": "月日まで登録されている問題 ズバリ！ 5回",
+    "description": "月日まで登録されている問題で「ズバリ！」を5回達成する",
+    "icon": "./assets/badges/medal-star.jpeg",
+    "metric": "perfectMonthDayHits",
+    "threshold": 5
+  },
+  {
+    "id": "perfect-month-day-50",
+    "title": "月日まで登録されている問題 ズバリ！ 50回",
+    "description": "月日まで登録されている問題で「ズバリ！」を50回達成する",
+    "icon": "./assets/badges/medal-star.jpeg",
+    "metric": "perfectMonthDayHits",
+    "threshold": 50
+  },
+  {
+    "id": "perfect-month-day-100",
+    "title": "月日まで登録されている問題 ズバリ！ 100回",
+    "description": "月日まで登録されている問題で「ズバリ！」を100回達成する",
+    "icon": "./assets/badges/medal-star.jpeg",
+    "metric": "perfectMonthDayHits",
+    "threshold": 100
+  }
+].map(definition => Object.freeze(definition)));
