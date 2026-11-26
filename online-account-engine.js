@@ -13,15 +13,15 @@
     let binary=""; for(const byte of bytes) binary+=String.fromCharCode(byte);
     return btoa(binary).replace(/\+/g,"-").replace(/\//g,"_").replace(/=+$/g,"");
   }
-  function buildAttempt(question, answer, mode, at=Date.now()){
+  function buildAttempt(question, answer, mode, at=Date.now(), officialScore=null){
     if(!question||!answer||!Number.isFinite(Number(answer.year))) return null;
     const correctYear=question.era==="BCE" ? 1-Number(question.year) : Number(question.year);
-    const year=Number(answer.year),yearGap=Math.abs(year-correctYear),hasDate=question.month!=null&&question.day!=null&&Number.isInteger(Number(question.month))&&Number.isInteger(Number(question.day));
+    const year=Number(answer.year),yearGap=Math.abs(year-correctYear),toleranceYears=correctYear<=0?125:correctYear<=1000?60:correctYear<=1800?25:6,normalizedYearGap=yearGap/toleranceYears,normalizedScore=Math.max(0,Math.min(1000,Math.round(1000/(1+normalizedYearGap)))), officialScoreValue=officialScore!==null&&officialScore!==undefined&&Number.isFinite(Number(officialScore))?Math.max(0,Math.min(1000,Number(officialScore))):null,hasDate=question.month!=null&&question.day!=null&&Number.isInteger(Number(question.month))&&Number.isInteger(Number(question.day));
     const yearHit=year===correctYear;
     const exactDateHit=Boolean(hasDate&&yearHit&&Number(answer.month)===Number(question.month)&&Number(answer.day)===Number(question.day));
     return {
       questionId:String(question.id), mode:String(mode||"unknown"), at:Number(at)||Date.now(),
-      guessedYear:year, correctYear, yearGap, yearHit,
+      guessedYear:year, correctYear, yearGap, normalizedYearGap, normalizedScore:officialScoreValue??normalizedScore, officialScore:officialScoreValue, toleranceYears, yearHit,
       hasDate, guessedMonth:answer.month!=null&&Number.isInteger(Number(answer.month))?Number(answer.month):null,
       guessedDay:answer.day!=null&&Number.isInteger(Number(answer.day))?Number(answer.day):null,
       correctMonth:hasDate?Number(question.month):null, correctDay:hasDate?Number(question.day):null,
@@ -37,14 +37,21 @@
     for(const item of [...(Array.isArray(old.recentAttempts)?old.recentAttempts:[]),...(Array.isArray(incoming.recentAttempts)?incoming.recentAttempts:[])]){
       if(item&&item.eventId) recentMap.set(item.eventId,item);
     }
+    const levelMetrics={...(old.levelMetrics||{})};for(const [level,value] of Object.entries(incoming.levelMetrics||{})){const prev=levelMetrics[level]||{};levelMetrics[level]={attempts:(Number(prev.attempts)||0)+(Number(value.attempts)||0),totalScore:(Number(prev.totalScore)||0)+(Number(value.totalScore)||0),totalNormalizedYearGap:(Number(prev.totalNormalizedYearGap)||0)+(Number(value.totalNormalizedYearGap)||0),totalYearGap:(Number(prev.totalYearGap)||0)+(Number(value.totalYearGap)||0),yearHits:(Number(prev.yearHits)||0)+(Number(value.yearHits)||0)}}
     const out={
-      schemaVersion:1,
+      schemaVersion:2,
       questionId:String(old.questionId||incoming.questionId||""),
       attempts:(Number(old.attempts)||0)+(Number(incoming.attempts)||0),
       yearHits:(Number(old.yearHits)||0)+(Number(incoming.yearHits)||0),
       exactDateHits:(Number(old.exactDateHits)||0)+(Number(incoming.exactDateHits)||0),
       dateAttempts:(Number(old.dateAttempts)||0)+(Number(incoming.dateAttempts)||0),
       totalYearGap:(Number(old.totalYearGap)||0)+(Number(incoming.totalYearGap)||0),
+      normalizedAttempts:(Number(old.normalizedAttempts)||0)+(Number(incoming.normalizedAttempts)||0),
+      totalNormalizedYearGap:(Number(old.totalNormalizedYearGap)||0)+(Number(incoming.totalNormalizedYearGap)||0),
+      totalNormalizedScore:(Number(old.totalNormalizedScore)||0)+(Number(incoming.totalNormalizedScore)||0),
+      totalOfficialScore:(Number(old.totalOfficialScore)||0)+(Number(incoming.totalOfficialScore)||0),
+      officialScoreAttempts:(Number(old.officialScoreAttempts)||0)+(Number(incoming.officialScoreAttempts)||0),
+      levelMetrics,
       bestYearGap:Math.min(Number.isFinite(Number(old.bestYearGap))?Number(old.bestYearGap):Infinity,Number.isFinite(Number(incoming.bestYearGap))?Number(incoming.bestYearGap):Infinity),
       lastAttemptAt:Math.max(Number(old.lastAttemptAt)||0,Number(incoming.lastAttemptAt)||0),
       modeCounts:{...(old.modeCounts||{})},

@@ -4,97 +4,121 @@ window.CHRONOS_ONLINE_BADGE_DEFINITIONS = Object.freeze([
     "id": "rank-a-1",
     "title": "Aランク 初回",
     "description": "ランクAを1回獲得する",
-    "icon": "./assets/badges/dou.PNG",
+    "icon": "./assets/badges/medal-star.jpeg",
     "metric": "aFinishes",
-    "threshold": 1
+    "threshold": 1,
+    "rank": 1,
+    "weight": 1
   },
   {
     "id": "rank-a-10",
     "title": "Aランク 十回",
     "description": "ランクAを10回獲得する",
-    "icon": "./assets/badges/gin.PNG",
+    "icon": "./assets/badges/medal-star.jpeg",
     "metric": "aFinishes",
-    "threshold": 10
+    "threshold": 10,
+    "rank": 1,
+    "weight": 1
   },
   {
     "id": "rank-a-100",
     "title": "Aランク 百回",
     "description": "ランクAを100回獲得する",
-    "icon": "./assets/badges/kin.PNG",
+    "icon": "./assets/badges/medal-star.jpeg",
     "metric": "aFinishes",
-    "threshold": 100
+    "threshold": 100,
+    "rank": 1,
+    "weight": 1
   },
   {
     "id": "rank-s-1",
     "title": "Sランク 初回",
     "description": "ランクSを1回獲得する",
-    "icon": "./assets/badges/eme.PNG",
+    "icon": "./assets/badges/medal-star.jpeg",
     "metric": "sFinishes",
-    "threshold": 1
+    "threshold": 1,
+    "rank": 3,
+    "weight": 4
   },
   {
     "id": "rank-s-5",
     "title": "Sランク 五回",
     "description": "ランクSを5回獲得する",
-    "icon": "./assets/badges/daiya.PNG",
+    "icon": "./assets/badges/medal-star.jpeg",
     "metric": "sFinishes",
-    "threshold": 5
+    "threshold": 5,
+    "rank": 3,
+    "weight": 4
   },
   {
     "id": "rank-s-50",
     "title": "Sランク 五十回",
     "description": "ランクSを50回獲得する",
-    "icon": "./assets/badges/ame.PNG",
+    "icon": "./assets/badges/medal-star.jpeg",
     "metric": "sFinishes",
-    "threshold": 50
+    "threshold": 50,
+    "rank": 3,
+    "weight": 4
   },
   {
     "id": "rank-ss-1",
     "title": "SSランク 初回",
     "description": "ランクSSを1回獲得する",
-    "icon": "./assets/badges/suta.PNG",
+    "icon": "./assets/badges/medal-star.jpeg",
     "metric": "ssFinishes",
-    "threshold": 1
+    "threshold": 1,
+    "rank": 4,
+    "weight": 7
   },
   {
     "id": "rank-ss-5",
     "title": "SSランク 五回",
     "description": "ランクSSを5回獲得する",
-    "icon": "./assets/badges/ao.PNG",
+    "icon": "./assets/badges/medal-star.jpeg",
     "metric": "ssFinishes",
-    "threshold": 5
+    "threshold": 5,
+    "rank": 4,
+    "weight": 7
   },
   {
     "id": "rank-ss-50",
     "title": "SSランク 五十回",
     "description": "ランクSSを50回獲得する",
-    "icon": "./assets/badges/tensi.PNG",
+    "icon": "./assets/badges/medal-star.jpeg",
     "metric": "ssFinishes",
-    "threshold": 50
+    "threshold": 50,
+    "rank": 4,
+    "weight": 7
   },
   {
     "id": "rank-incredible-1",
     "title": "INCREDIBLE 初回",
     "description": "INCREDIBLEを1回獲得する",
-    "icon": "./assets/badges/oukan.PNG",
+    "icon": "./assets/badges/medal-star.jpeg",
     "metric": "incredibleFinishes",
-    "threshold": 1
+    "threshold": 1,
+    "rank": 5,
+    "weight": 10
   },
   {
     "id": "rank-incredible-3",
     "title": "INCREDIBLE 三回",
     "description": "INCREDIBLEを3回獲得する",
-    "icon": "./assets/badges/jyaa.PNG",
+    "icon": "./assets/badges/medal-star.jpeg",
     "metric": "incredibleFinishes",
-    "threshold": 3
+    "threshold": 3,
+    "rank": 5,
+    "weight": 10
   },
   {
     "id": "rank-incredible-10",
     "title": "INCREDIBLE 十回",
     "description": "INCREDIBLEを10回獲得する",
-    "icon": "./assets/badges/kami.PNG",
+    "icon": "./assets/badges/medal-star.jpeg",
     "metric": "incredibleFinishes",
-    "threshold": 10
+    "threshold": 10,
+    "rank": 5,
+    "weight": 10
   },
   {
     "id": "matches-10",
@@ -102,7 +126,9 @@ window.CHRONOS_ONLINE_BADGE_DEFINITIONS = Object.freeze([
     "description": "対戦を合計10回完了する（1人での対戦を含む）",
     "icon": "./assets/badges/medal-star.jpeg",
     "metric": "matchesCompleted",
-    "threshold": 10
+    "threshold": 10,
+    "rank": 1,
+    "weight": 1
   },
   {
     "id": "matches-50",
@@ -110,7 +136,9 @@ window.CHRONOS_ONLINE_BADGE_DEFINITIONS = Object.freeze([
     "description": "対戦を合計50回完了する（1人での対戦を含む）",
     "icon": "./assets/badges/medal-star.jpeg",
     "metric": "matchesCompleted",
-    "threshold": 50
+    "threshold": 50,
+    "rank": 1,
+    "weight": 1
   },
   {
     "id": "matches-100",
@@ -118,7 +146,9 @@ window.CHRONOS_ONLINE_BADGE_DEFINITIONS = Object.freeze([
     "description": "対戦を合計100回完了する（1人での対戦を含む）",
     "icon": "./assets/badges/medal-star.jpeg",
     "metric": "matchesCompleted",
-    "threshold": 100
+    "threshold": 100,
+    "rank": 2,
+    "weight": 2
   },
   {
     "id": "matches-1000",
@@ -126,7 +156,9 @@ window.CHRONOS_ONLINE_BADGE_DEFINITIONS = Object.freeze([
     "description": "対戦を合計1000回完了する（1人での対戦を含む）",
     "icon": "./assets/badges/medal-star.jpeg",
     "metric": "matchesCompleted",
-    "threshold": 1000
+    "threshold": 1000,
+    "rank": 2,
+    "weight": 2
   },
   {
     "id": "multiplayer-first-10",
@@ -134,7 +166,9 @@ window.CHRONOS_ONLINE_BADGE_DEFINITIONS = Object.freeze([
     "description": "他の人間プレイヤーが参加する対戦で1位を10回獲得する",
     "icon": "./assets/badges/medal-star.jpeg",
     "metric": "multiplayerFirstPlaces",
-    "threshold": 10
+    "threshold": 10,
+    "rank": 2,
+    "weight": 2
   },
   {
     "id": "multiplayer-first-50",
@@ -142,7 +176,9 @@ window.CHRONOS_ONLINE_BADGE_DEFINITIONS = Object.freeze([
     "description": "他の人間プレイヤーが参加する対戦で1位を50回獲得する",
     "icon": "./assets/badges/medal-star.jpeg",
     "metric": "multiplayerFirstPlaces",
-    "threshold": 50
+    "threshold": 50,
+    "rank": 3,
+    "weight": 4
   },
   {
     "id": "multiplayer-first-100",
@@ -150,7 +186,9 @@ window.CHRONOS_ONLINE_BADGE_DEFINITIONS = Object.freeze([
     "description": "他の人間プレイヤーが参加する対戦で1位を100回獲得する",
     "icon": "./assets/badges/medal-star.jpeg",
     "metric": "multiplayerFirstPlaces",
-    "threshold": 100
+    "threshold": 100,
+    "rank": 4,
+    "weight": 7
   },
   {
     "id": "multiplayer-first-1000",
@@ -158,7 +196,9 @@ window.CHRONOS_ONLINE_BADGE_DEFINITIONS = Object.freeze([
     "description": "他の人間プレイヤーが参加する対戦で1位を1000回獲得する",
     "icon": "./assets/badges/medal-star.jpeg",
     "metric": "multiplayerFirstPlaces",
-    "threshold": 1000
+    "threshold": 1000,
+    "rank": 4,
+    "weight": 7
   },
   {
     "id": "cpu-win-beginner",
@@ -166,7 +206,9 @@ window.CHRONOS_ONLINE_BADGE_DEFINITIONS = Object.freeze([
     "description": "ネームドではない初学者CPUに勝利する",
     "icon": "./assets/badges/medal-star.jpeg",
     "metric": "cpuWins_beginner",
-    "threshold": 1
+    "threshold": 1,
+    "rank": 2,
+    "weight": 2
   },
   {
     "id": "cpu-win-exam_candidate",
@@ -174,7 +216,9 @@ window.CHRONOS_ONLINE_BADGE_DEFINITIONS = Object.freeze([
     "description": "ネームドではない受験生CPUに勝利する",
     "icon": "./assets/badges/medal-star.jpeg",
     "metric": "cpuWins_exam_candidate",
-    "threshold": 1
+    "threshold": 1,
+    "rank": 2,
+    "weight": 2
   },
   {
     "id": "cpu-win-major",
@@ -182,7 +226,9 @@ window.CHRONOS_ONLINE_BADGE_DEFINITIONS = Object.freeze([
     "description": "ネームドではない専攻生CPUに勝利する",
     "icon": "./assets/badges/medal-star.jpeg",
     "metric": "cpuWins_major",
-    "threshold": 1
+    "threshold": 1,
+    "rank": 2,
+    "weight": 2
   },
   {
     "id": "cpu-win-historian",
@@ -190,7 +236,9 @@ window.CHRONOS_ONLINE_BADGE_DEFINITIONS = Object.freeze([
     "description": "ネームドではない歴史学者CPUに勝利する",
     "icon": "./assets/badges/medal-star.jpeg",
     "metric": "cpuWins_historian",
-    "threshold": 1
+    "threshold": 1,
+    "rank": 2,
+    "weight": 2
   },
   {
     "id": "cpu-win-god",
@@ -198,7 +246,9 @@ window.CHRONOS_ONLINE_BADGE_DEFINITIONS = Object.freeze([
     "description": "ネームドではない現人神CPUに勝利する",
     "icon": "./assets/badges/medal-star.jpeg",
     "metric": "cpuWins_god",
-    "threshold": 1
+    "threshold": 1,
+    "rank": 3,
+    "weight": 4
   },
   {
     "id": "multiplayer-tie",
@@ -206,7 +256,9 @@ window.CHRONOS_ONLINE_BADGE_DEFINITIONS = Object.freeze([
     "description": "マルチプレイで他の人間プレイヤーと同じ最終スコアになる",
     "icon": "./assets/badges/medal-star.jpeg",
     "metric": "multiplayerTies",
-    "threshold": 1
+    "threshold": 1,
+    "rank": 2,
+    "weight": 2
   },
   {
     "id": "perfect-basic-1",
@@ -214,7 +266,9 @@ window.CHRONOS_ONLINE_BADGE_DEFINITIONS = Object.freeze([
     "description": "基礎の問題で「ズバリ！」を初めて達成する",
     "icon": "./assets/badges/medal-star.jpeg",
     "metric": "perfectHits_basic",
-    "threshold": 1
+    "threshold": 1,
+    "rank": 1,
+    "weight": 1
   },
   {
     "id": "perfect-basic-5",
@@ -222,7 +276,9 @@ window.CHRONOS_ONLINE_BADGE_DEFINITIONS = Object.freeze([
     "description": "基礎の問題で「ズバリ！」を5回達成する",
     "icon": "./assets/badges/medal-star.jpeg",
     "metric": "perfectHits_basic",
-    "threshold": 5
+    "threshold": 5,
+    "rank": 2,
+    "weight": 2
   },
   {
     "id": "perfect-basic-10",
@@ -230,7 +286,9 @@ window.CHRONOS_ONLINE_BADGE_DEFINITIONS = Object.freeze([
     "description": "基礎の問題で「ズバリ！」を10回達成する",
     "icon": "./assets/badges/medal-star.jpeg",
     "metric": "perfectHits_basic",
-    "threshold": 10
+    "threshold": 10,
+    "rank": 3,
+    "weight": 4
   },
   {
     "id": "perfect-basic-50",
@@ -238,7 +296,9 @@ window.CHRONOS_ONLINE_BADGE_DEFINITIONS = Object.freeze([
     "description": "基礎の問題で「ズバリ！」を50回達成する",
     "icon": "./assets/badges/medal-star.jpeg",
     "metric": "perfectHits_basic",
-    "threshold": 50
+    "threshold": 50,
+    "rank": 5,
+    "weight": 10
   },
   {
     "id": "perfect-standard-1",
@@ -246,7 +306,9 @@ window.CHRONOS_ONLINE_BADGE_DEFINITIONS = Object.freeze([
     "description": "標準の問題で「ズバリ！」を初めて達成する",
     "icon": "./assets/badges/medal-star.jpeg",
     "metric": "perfectHits_standard",
-    "threshold": 1
+    "threshold": 1,
+    "rank": 1,
+    "weight": 1
   },
   {
     "id": "perfect-standard-5",
@@ -254,7 +316,9 @@ window.CHRONOS_ONLINE_BADGE_DEFINITIONS = Object.freeze([
     "description": "標準の問題で「ズバリ！」を5回達成する",
     "icon": "./assets/badges/medal-star.jpeg",
     "metric": "perfectHits_standard",
-    "threshold": 5
+    "threshold": 5,
+    "rank": 2,
+    "weight": 2
   },
   {
     "id": "perfect-standard-10",
@@ -262,7 +326,9 @@ window.CHRONOS_ONLINE_BADGE_DEFINITIONS = Object.freeze([
     "description": "標準の問題で「ズバリ！」を10回達成する",
     "icon": "./assets/badges/medal-star.jpeg",
     "metric": "perfectHits_standard",
-    "threshold": 10
+    "threshold": 10,
+    "rank": 3,
+    "weight": 4
   },
   {
     "id": "perfect-standard-50",
@@ -270,7 +336,9 @@ window.CHRONOS_ONLINE_BADGE_DEFINITIONS = Object.freeze([
     "description": "標準の問題で「ズバリ！」を50回達成する",
     "icon": "./assets/badges/medal-star.jpeg",
     "metric": "perfectHits_standard",
-    "threshold": 50
+    "threshold": 50,
+    "rank": 5,
+    "weight": 10
   },
   {
     "id": "perfect-advanced-1",
@@ -278,7 +346,9 @@ window.CHRONOS_ONLINE_BADGE_DEFINITIONS = Object.freeze([
     "description": "発展の問題で「ズバリ！」を初めて達成する",
     "icon": "./assets/badges/medal-star.jpeg",
     "metric": "perfectHits_advanced",
-    "threshold": 1
+    "threshold": 1,
+    "rank": 1,
+    "weight": 1
   },
   {
     "id": "perfect-advanced-5",
@@ -286,7 +356,9 @@ window.CHRONOS_ONLINE_BADGE_DEFINITIONS = Object.freeze([
     "description": "発展の問題で「ズバリ！」を5回達成する",
     "icon": "./assets/badges/medal-star.jpeg",
     "metric": "perfectHits_advanced",
-    "threshold": 5
+    "threshold": 5,
+    "rank": 2,
+    "weight": 2
   },
   {
     "id": "perfect-advanced-10",
@@ -294,7 +366,9 @@ window.CHRONOS_ONLINE_BADGE_DEFINITIONS = Object.freeze([
     "description": "発展の問題で「ズバリ！」を10回達成する",
     "icon": "./assets/badges/medal-star.jpeg",
     "metric": "perfectHits_advanced",
-    "threshold": 10
+    "threshold": 10,
+    "rank": 3,
+    "weight": 4
   },
   {
     "id": "perfect-advanced-50",
@@ -302,7 +376,9 @@ window.CHRONOS_ONLINE_BADGE_DEFINITIONS = Object.freeze([
     "description": "発展の問題で「ズバリ！」を50回達成する",
     "icon": "./assets/badges/medal-star.jpeg",
     "metric": "perfectHits_advanced",
-    "threshold": 50
+    "threshold": 50,
+    "rank": 5,
+    "weight": 10
   },
   {
     "id": "perfect-super_advanced-1",
@@ -310,7 +386,9 @@ window.CHRONOS_ONLINE_BADGE_DEFINITIONS = Object.freeze([
     "description": "超発展の問題で「ズバリ！」を初めて達成する",
     "icon": "./assets/badges/medal-star.jpeg",
     "metric": "perfectHits_super_advanced",
-    "threshold": 1
+    "threshold": 1,
+    "rank": 1,
+    "weight": 1
   },
   {
     "id": "perfect-super_advanced-5",
@@ -318,7 +396,9 @@ window.CHRONOS_ONLINE_BADGE_DEFINITIONS = Object.freeze([
     "description": "超発展の問題で「ズバリ！」を5回達成する",
     "icon": "./assets/badges/medal-star.jpeg",
     "metric": "perfectHits_super_advanced",
-    "threshold": 5
+    "threshold": 5,
+    "rank": 2,
+    "weight": 2
   },
   {
     "id": "perfect-super_advanced-10",
@@ -326,7 +406,9 @@ window.CHRONOS_ONLINE_BADGE_DEFINITIONS = Object.freeze([
     "description": "超発展の問題で「ズバリ！」を10回達成する",
     "icon": "./assets/badges/medal-star.jpeg",
     "metric": "perfectHits_super_advanced",
-    "threshold": 10
+    "threshold": 10,
+    "rank": 3,
+    "weight": 4
   },
   {
     "id": "perfect-super_advanced-50",
@@ -334,7 +416,9 @@ window.CHRONOS_ONLINE_BADGE_DEFINITIONS = Object.freeze([
     "description": "超発展の問題で「ズバリ！」を50回達成する",
     "icon": "./assets/badges/medal-star.jpeg",
     "metric": "perfectHits_super_advanced",
-    "threshold": 50
+    "threshold": 50,
+    "rank": 5,
+    "weight": 10
   },
   {
     "id": "perfect-hell-1",
@@ -342,7 +426,9 @@ window.CHRONOS_ONLINE_BADGE_DEFINITIONS = Object.freeze([
     "description": "ヘルの問題で「ズバリ！」を初めて達成する",
     "icon": "./assets/badges/medal-star.jpeg",
     "metric": "perfectHits_hell",
-    "threshold": 1
+    "threshold": 1,
+    "rank": 5,
+    "weight": 10
   },
   {
     "id": "perfect-hell-5",
@@ -350,7 +436,9 @@ window.CHRONOS_ONLINE_BADGE_DEFINITIONS = Object.freeze([
     "description": "ヘルの問題で「ズバリ！」を5回達成する",
     "icon": "./assets/badges/medal-star.jpeg",
     "metric": "perfectHits_hell",
-    "threshold": 5
+    "threshold": 5,
+    "rank": 5,
+    "weight": 10
   },
   {
     "id": "perfect-hell-10",
@@ -358,7 +446,9 @@ window.CHRONOS_ONLINE_BADGE_DEFINITIONS = Object.freeze([
     "description": "ヘルの問題で「ズバリ！」を10回達成する",
     "icon": "./assets/badges/medal-star.jpeg",
     "metric": "perfectHits_hell",
-    "threshold": 10
+    "threshold": 10,
+    "rank": 5,
+    "weight": 10
   },
   {
     "id": "perfect-hell-50",
@@ -366,7 +456,9 @@ window.CHRONOS_ONLINE_BADGE_DEFINITIONS = Object.freeze([
     "description": "ヘルの問題で「ズバリ！」を50回達成する",
     "icon": "./assets/badges/medal-star.jpeg",
     "metric": "perfectHits_hell",
-    "threshold": 50
+    "threshold": 50,
+    "rank": 5,
+    "weight": 10
   },
   {
     "id": "perfect-year-only-1",
@@ -374,7 +466,9 @@ window.CHRONOS_ONLINE_BADGE_DEFINITIONS = Object.freeze([
     "description": "年まで登録されている問題で「ズバリ！」を初めて達成する",
     "icon": "./assets/badges/medal-star.jpeg",
     "metric": "perfectYearOnlyHits",
-    "threshold": 1
+    "threshold": 1,
+    "rank": 1,
+    "weight": 1
   },
   {
     "id": "perfect-year-only-10",
@@ -382,7 +476,9 @@ window.CHRONOS_ONLINE_BADGE_DEFINITIONS = Object.freeze([
     "description": "年まで登録されている問題で「ズバリ！」を10回達成する",
     "icon": "./assets/badges/medal-star.jpeg",
     "metric": "perfectYearOnlyHits",
-    "threshold": 10
+    "threshold": 10,
+    "rank": 3,
+    "weight": 4
   },
   {
     "id": "perfect-year-only-100",
@@ -390,7 +486,9 @@ window.CHRONOS_ONLINE_BADGE_DEFINITIONS = Object.freeze([
     "description": "年まで登録されている問題で「ズバリ！」を100回達成する",
     "icon": "./assets/badges/medal-star.jpeg",
     "metric": "perfectYearOnlyHits",
-    "threshold": 100
+    "threshold": 100,
+    "rank": 5,
+    "weight": 10
   },
   {
     "id": "perfect-year-only-500",
@@ -398,7 +496,9 @@ window.CHRONOS_ONLINE_BADGE_DEFINITIONS = Object.freeze([
     "description": "年まで登録されている問題で「ズバリ！」を500回達成する",
     "icon": "./assets/badges/medal-star.jpeg",
     "metric": "perfectYearOnlyHits",
-    "threshold": 500
+    "threshold": 500,
+    "rank": 5,
+    "weight": 10
   },
   {
     "id": "perfect-month-day-1",
@@ -406,7 +506,9 @@ window.CHRONOS_ONLINE_BADGE_DEFINITIONS = Object.freeze([
     "description": "月日まで登録されている問題で「ズバリ！」を初めて達成する",
     "icon": "./assets/badges/medal-star.jpeg",
     "metric": "perfectMonthDayHits",
-    "threshold": 1
+    "threshold": 1,
+    "rank": 1,
+    "weight": 1
   },
   {
     "id": "perfect-month-day-5",
@@ -414,7 +516,9 @@ window.CHRONOS_ONLINE_BADGE_DEFINITIONS = Object.freeze([
     "description": "月日まで登録されている問題で「ズバリ！」を5回達成する",
     "icon": "./assets/badges/medal-star.jpeg",
     "metric": "perfectMonthDayHits",
-    "threshold": 5
+    "threshold": 5,
+    "rank": 3,
+    "weight": 4
   },
   {
     "id": "perfect-month-day-50",
@@ -422,7 +526,9 @@ window.CHRONOS_ONLINE_BADGE_DEFINITIONS = Object.freeze([
     "description": "月日まで登録されている問題で「ズバリ！」を50回達成する",
     "icon": "./assets/badges/medal-star.jpeg",
     "metric": "perfectMonthDayHits",
-    "threshold": 50
+    "threshold": 50,
+    "rank": 5,
+    "weight": 10
   },
   {
     "id": "perfect-month-day-100",
@@ -430,6 +536,8 @@ window.CHRONOS_ONLINE_BADGE_DEFINITIONS = Object.freeze([
     "description": "月日まで登録されている問題で「ズバリ！」を100回達成する",
     "icon": "./assets/badges/medal-star.jpeg",
     "metric": "perfectMonthDayHits",
-    "threshold": 100
+    "threshold": 100,
+    "rank": 5,
+    "weight": 10
   }
 ].map(definition => Object.freeze(definition)));
